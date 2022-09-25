@@ -1,0 +1,1751 @@
+version: "2.0"
+nlu:
+- intent: general___affirm
+  examples: |
+    - yes ...
+    - it is ok
+    - amayzing
+    - ok cool
+    - ye splease
+    - yes accept please
+    - alright
+    - ja cool
+    - Okay!
+    - agreed
+    - fcourse
+    - yes i have built a bot before
+    - Oh yes
+    - i will!
+    - PLEASE
+    - jo
+    - ya
+    - oh good !!
+    - Nice
+    - ya i want
+    - ook
+    - of course
+    - yeah
+    - i want that
+    - fuck yeah!
+    - yesyestyes
+    - oh awesome!
+    - awesome!
+    - hell yes
+    - I'm sure I will!
+    - OK
+    - Yeah sure
+    - how nice!
+    - yeah'=
+    - definitely yes without a doubt
+    - confirm
+    - hm, i'd like that
+    - I am using it
+    - yeah, why not
+    - yes baby
+    - Sure
+    - oh cool
+    - yres
+    - great
+    - fine
+    - great lets do that
+    - I agree
+    - really
+    - I'm using it
+    - yep
+    - I do
+    - Ok
+    - lets do this
+    - yop
+    - ok...
+    - jezz
+    - thats good
+    - thats fine
+    - Okay
+    - I have used it in the past
+    - that's great
+    - fair enough
+    - yes pleae
+    - Yes please!
+    - okay cool
+    - ya thats cool
+    - yes great
+    - Yes.
+    - More a less
+    - ys
+    - yep please
+    - yes'
+    - ok great
+    - Yea
+    - yes it was okay
+    - yes
+    - ok good
+    - yesssss
+    - YUP
+    - hell yeah
+    - accepted
+    - ja thats great
+    - Ok.
+    - YES
+    - go for it
+    - yes go ahead
+    - Yes
+    - that sounds fine
+    - go ahead
+    - that ok
+    - Yepp
+    - yes give me information
+    - yes, cool
+    - yea
+    - yes please
+    - yes please!
+    - yep, will do thank you
+    - Okay cool
+    - Yes, I accept
+    - accept
+    - yeah sure
+    - going super well
+    - yaps
+    - a little
+    - ok friend
+    - Oh, ok
+    - okay..
+    - ok..
+    - oki doki
+    - lets do it
+    - awesome
+    - y
+    - ok, I behave now
+    - oui
+    - okay sure
+    - Yep
+    - please
+    - yes i accept
+    - yes you can
+    - Yep!
+    - go
+    - cool story bro
+    - alright, cool
+    - ya please
+    - ok, I understood
+    - kk
+    - yes i have!
+    - well yes
+    - I'd absolutely love that
+    - yes.
+    - yeeeeezzzzz
+    - yes it is
+    - very much
+    - Yes I do
+    - ok, Sara
+    - yep if i have to
+    - k
+    - amazing!
+    - done
+    - ok sara
+    - considering
+    - That would be great
+    - sounds good!
+    - yes, give me information, please
+    - yup
+    - sure!
+    - yeeees
+    - yyeeeh
+    - yep i want that
+    - yes go for it
+    - yes,i am
+    - Yes please
+    - yay
+    - yes, I'd love to
+    - I get it
+    - i agree
+    - yesh
+    - yaah
+    - Ok let's start
+    - not bad
+    - okie
+    - ofcourse
+    - oh super
+    - yes that's what i want
+    - si
+    - sure thing
+    - yesss
+    - ofcoure i do
+    - that is cool
+    - I will
+    - okay
+    - yep that's nice
+    - ye
+    - yes pls
+    - I accept.
+    - sort of
+    - great!
+    - Ofcourse
+    - I changed my mind. I want to accept it
+    - yes that's great
+    - yap
+    - ja
+    - yes I do
+    - sure
+    - ok
+    - its okay
+    - yeah do that
+    - yes cool
+    - yas
+    - Yeah
+    - i accept
+    - yes i agree
+    - SURE
+    - yes of course
+    - ok i accept
+    - yep thats cool
+    - yep. :/
+    - I guess so
+    - Yep that's fine
+    - yess
+    - i am!
+    - top
+    - ah ok
+    - perfect
+- intent: general___react_positive
+  examples: |
+    - you are doin great
+    - I like Rasa
+    - Wow
+    - i am happy
+    - today was a nice day
+    - you are cool man
+    - That's awesome.
+    - you are a badass bot!
+    - hAHAHA
+    - you are my new bestfriend
+    - you are great
+    - lol
+    - you are awesome
+    - You're nice.
+    - that is funny
+    - Great information
+    - Lol
+    - thats funny
+    - hahah
+    - you are cool
+    - happy
+    - I mean to say that I liked the explanation
+    - WOW
+    - LOL
+    - i am happy today
+    - cool :)
+    - hahaha
+    - rasa is awesome
+    - you are so smart
+    - you seem pretty cool :D
+    - You're cute.
+    - HAHA
+    - I like you
+    - I am happy
+    - You're really cool
+    - you good
+    - coolio
+    - okay Rasabot, you're cool
+    - sweet
+    - you are realy intelligent
+    - love you
+    - Lol thats funny
+    - it's pretty cool
+    - Super! I love Rasa
+    - like u
+    - cool
+    - you are funny
+    - cool!
+    - i am very happy with your response
+    - that was a great interaction
+    - I love you
+    - :)
+- intent: general___bye
+  examples: |
+    - bye .
+    - k byyye #slay
+    - adios?
+    - bye for now
+    - bye!
+    - see u later
+    - ok bye
+    - good night
+    - see ya
+    - bye
+    - ok Bye
+    - ok, bye
+    - farewell
+    - see you . bye
+    - see you
+    - bye udo
+    - byr
+    - then bye
+    - goodbye.
+    - ciao
+    - goodbye
+    - Bye bye
+    - bye was nice talking to you
+    - catch you later
+    - gotta go
+    - tlak to you later
+    - bye :P
+    - ok.bye
+    - good bye
+    - bye bye
+    - byee
+    - Bye
+    - cya
+    - adios
+- intent: general___canthelp
+  examples: |
+    - exit now
+    - nothing else?
+    - ok then you cant help me
+    - quit
+    - that's not what i want
+    - do you get anything?
+    - and you call yourself bot company? pff
+    - that does not help
+    - stop
+    - stop this conversation
+    - this is leading to nothing
+    - you cannot help me with what I want
+    - ok i guess you can't help me
+    - exit
+    - hm i don't think you can do what i want
+    - ok, but that doesnt help me
+    - you can't help me
+    - that was shit, you're not helping
+    - this conversation is not really helpful
+    - you cant help me
+    - and that's it?
+- intent: general___deny
+  examples: |
+    - not really
+    - no i won't
+    - not going well at all
+    - thanks but no thanks
+    - No.
+    - no i dont want to accept :P lol
+    - nah not for me
+    - I don't want to say
+    - no!!!!
+    - I don't want to give it to you
+    - I'm not giving you my email address
+    - No, thank you
+    - no ma'am
+    - no stop
+    - i guess it means   no
+    - I don't wanna tell the name of my company
+    - no, thanks
+    - no thank you
+    - no :(
+    - na
+    - very bad
+    - i'm not sure
+    - no, my frst time
+    - Nopes
+    - neither
+    - no i dont want to
+    - no way
+    - i'm afraid not
+    - no I dont want
+    - no go
+    - i don't want either of those
+    - i dont want to
+    - this sucks
+    - non
+    - no sorry
+    - I do not need help installing
+    - no and no again
+    - nah I'm good
+    - nein
+    - nah, first time
+    - deny
+    - no you did it wrong
+    - nope!
+    - absolutely not
+    - nope
+    - it sucks
+    - stop it, i do not care!!!
+    - i don not like this
+    - no sir
+    - definitely not
+    - Neither
+    - noooooooooooooooooooooooooooooooooooooooo
+    - nehi
+    - no. u r idiot
+    - Not really
+    - nah, i'm good
+    - NO
+    - it is going pretty badly
+    - NO DON"T WANT THIS!
+    - i don't think so
+    - nah
+    - Nah
+    - still dont want to tell
+    - never
+    - nop
+    - no I haven't decided yet if I want to sign up
+    - i don't want to give you my email
+    - i decline
+    - NEIN
+    - I'm not going to give it to you
+    - not right now
+    - no bots at all
+    - i dont want to accept :P lol
+    - no i can't
+    - no thanks
+    - I don't agree
+    - not yet
+    - sorry not right now
+    - no
+    - no i don't accept
+    - Nevermind
+    - no, thank you
+    - no, thankyou
+    - it sux
+    - no thank s
+- intent: general___explain
+  examples: |
+    - explain that
+    - i want more information
+    - how come?
+    - why do you need to know that
+    - give me more details
+    - why is that necessary
+    - what do you mean
+    - please elaborate
+    - could you tell me more
+    - can you elaborate
+    - why
+    - please explain
+    - explain it to me
+- intent: general___greet
+  examples: |
+    - hey there
+    - hi !
+    - ssup?
+    - hellio
+    - Hello sara
+    - hi again
+    - salut
+    - Whats up
+    - hey there..
+    - Hieeeeeeeeeeeee
+    - hi there
+    - hello it is me again
+    - hello Sara
+    - hello sweatheart
+    - hell9o
+    - hi Mister
+    - Hi, bot
+    - what up
+    - i am [Karen Mease](name)
+    - hi.........................................................
+    - Good mourning
+    - ola sara
+    - greetings
+    - hello robot
+    - Hello!
+    - helo
+    - Hi Sara!
+    - bonjour
+    - Hieee
+    - whats popping
+    - hello is anybody there
+    - hi sara
+    - Bonjour
+    - Good morning
+    - hey rasa
+    - ey boss
+    - rasa hello
+    - Hola
+    - heeey
+    - Hello Bot
+    - heyo
+    - hallo
+    - hhola
+    - hey bot!
+    - hey, let's talk
+    - hi i'm [Sandra Hernandez](name)
+    - hello sweet boy
+    - HELLO
+    - hello?
+    - helleo
+    - Hi
+    - hi im [Amanda Anderson](name)
+    - Hi!
+    - Hi rasa
+    - Hey Sara
+    - good morning
+    - hey hey
+    - hi there it's me
+    - wasssup
+    - hi
+    - hello there
+    - hola
+    - HEY
+    - heelio
+    - hello]
+    - hellooo
+    - hai
+    - Hello Rasa
+    - good evening
+    - hlo
+    - Hi sara..
+    - hallo sara
+    - halloo
+    - Whats up my bot
+    - hello everybody
+    - Hi man
+    - sup
+    - hii
+    - whats up
+    - hey there boy
+    - hello hi
+    - merhaba
+    - hi!
+    - hi hi
+    - hi pal!
+    - hey
+    - hi friend
+    - jojojo
+    - Hi Sara
+    - Whats up?
+    - helloooo
+    - halo
+    - hi can you speak ?
+    - HI Sara
+    - Heylo
+    - Hi there
+    - Hi bot
+    - halloooo
+    - heya
+    - Well hello there ;)
+    - hi folks
+    - hello sara
+    - hey, sara!
+    - hey bot
+    - hey sara
+    - hieee
+    - hey let's talk
+    - Bom dia
+    - Guten Morgen
+    - konichiwa
+    - Hallo
+    - Hi,
+    - hello friend
+    - hi?
+    - heyho
+    - I said, helllllloooooO!!!!
+    - Hei
+    - HEllo
+    - Hey bot
+    - yoo
+    - Hellllooooooo
+    - jop
+    - halo sara
+    - wasssup!
+    - good moring
+    - hey ther
+    - hello
+    - Heya
+    - Hi'
+    - ayyyy whaddup
+    - Hey
+    - yo
+- intent: general___react_negative
+  examples: |
+    - You are rude
+    - not good
+    - bots are bad
+    - u broke my heart
+    - Now I'm sad
+    - you are bad bot
+    - i sad
+    - iam not feeling good
+    - You are quite bad
+    - i will leave
+    - sad
+    - i am angry over you
+    - i feel sad
+    - i am feel sad
+    - i don't care!!!!
+    - I'm super sad
+    - I'm sad
+    - so sad :(
+    - documentation of rasa is very bad
+    - boring
+    - crappy joke
+    - you make me sad
+    - bad
+    - You are mad
+    - i'm sad
+    - very very sad
+    - you're rather dull
+    - i am so worry
+    - you are bad
+    - i am very sad
+    - i am sad
+    - super sad
+    - i am sad about that
+    - this is a really frustrating experience
+    - I am sad
+    - Thats so rude
+    - This is bad
+    - so sad
+- intent: general___thank
+  examples: |
+    - cool thank you
+    - thank you anyways
+    - cool, thanks
+    - Thank you so much
+    - thanks this is great news
+    - cheers
+    - thanks a lot
+    - thanks f
+    - thanks for forum link, I'll check it out
+    - Great, thanks
+    - thank you
+    - ok thanks!
+    - cheers bro
+    - Thank you
+    - Thank you Sara
+    - Thank's!
+    - Thanks
+    - Thanks bot
+    - thanks a bunch for everything
+    - thank u
+    - yes thanks
+    - thanks!
+    - Cool. Thanks
+    - ok thanks sara
+    - thanks for the help
+    - perfect thank you
+    - great thanks
+    - thanks for your information
+    - thnks
+    - thx
+    - Thanks!
+    - cool thanks
+- intent: general___need_help_broad
+  examples: |
+    - im stuck
+    - Yes, I have a question
+    - need help on chatbot
+    - i  am stuck with an erorr
+    - i am stuck with error
+    - I have a question.
+    - i am stuck
+    - I have a question about [Rasa NLU](product)
+    - I have a few questions on my pay check
+    - I am stuck with fallback
+    - Rasa installation error
+    - I have a question about the functioning of the device
+    - i have an error on install
+    - i am facing a particular error,could u help me?
+    - I am stuck with action
+    - I get errors while installation
+    - I'm getting an error while installing Rasa
+    - no i get a error while installing
+    - rasa init error
+    - i m stuck while importing data
+    - I am seeing an error
+    - hello I have a question
+    - I have a question?
+    - yes, I have a question
+    - error message when installing rasa
+    - there is an issue during installation
+    - hi sara, i get the following error when trying to install rasa on my macbook
+    - I have a question
+    - I am stuck and I need help
+    - getting some errors
+    - Sure. I have a question for you
+    - i have errors in installaition
+    - I got stuck with the installation
+- intent: chitchat___chitchat__ask_howbuilt
+  examples: |
+    - You originated through what means?
+    - How were you conceived?
+    - I want to know how you were formed
+    - What was the process for making you?
+    - What process was used to create you?
+    - How were you devised?
+    - How were you formed?
+    - How did you come to be?
+    - Can you explain how you were created?
+    - how were you made?
+    - How did they make you?
+    - I'd like to know how you were created
+    - Do you know how you were made?
+    - In what manner were you built?
+    - In what way were you made?
+    - By what method were you fashioned?
+    - Can you say how you were constructed?
+    - How were you constructed?
+    - By what means were you made?
+    - Are you built using rasa?
+    - In which manner were you devised?
+    - In what manner were you constructed?
+    - what are you made of
+    - so how were you made?
+    - I'd like to know how you were put together?
+    - in what way were you made?
+    - In what way were you formed?
+    - how have you been built?
+    - Are u developed in rasa
+    - What process was used to build you?
+    - Specify how you were created?
+    - How exactly were you devised?
+    - How were you built?
+    - How did you come into being?
+    - In what way were you created?
+    - are you build with rasa ?
+    - In what way were you shaped?
+    - Do you know how you were built?
+    - How did they build you?
+    - Tell me how you were made?
+- intent: chitchat___chitchat__ask_howdoing
+  examples: |
+    - What's new?
+    - How are you today?
+    - how is it going
+    - How's it going
+    - What's up man
+    - how are things with you?
+    - What's up
+    - and you
+    - how are you doing today my sweet friend
+    - are you having a good day
+    - how r u
+    - I'm fine and you
+    - are you cool
+    - what are you up to?
+    - is everything all right
+    - wassup>
+    - how is your day
+    - whatsapp
+    - whatchcha doing
+    - how are things going
+    - what's good
+    - Hey Sara, how's it going
+    - how are you feeling
+    - how are you doing
+    - hi how u doing
+    - Hows it going
+    - how is your evening
+    - how's life been treating you?
+    - how are you ?
+    - hw r u?
+    - how have you been
+    - are you happy
+    - how are yuo
+    - How's it hanging?
+    - Do you feel good?
+    - what's up?
+    - how is your day going
+    - how are you Rasa
+    - how are you
+    - are you okay
+    - nah, I'm good   how are you doing?
+    - Is everything ok?
+    - how ?
+    - how are you?
+    - hey how are you?
+    - how's it going?
+    - how's life
+    - how are you????
+    - How's life treating you friend?
+    - howareyou
+    - Do you have a great day?
+    - whatchya upto ?
+    - How you doing?
+    - how's your day going
+    - hello, how are you?
+    - what about your day
+    - how are you'
+    - how are you doing this morning
+    - how r u ?
+    - how are xou
+    - how you doing
+    - how are you doing?
+    - how are u
+    - Ahoy matey how are you?
+    - How are You?
+    - Are you ok?
+    - how you doing?
+    - whats new
+    - How are you?
+    - are you alright
+    - how are u?
+    - How are things?
+    - How was your day?
+    - what's up sara
+    - HI Sara, what are you up to?
+    - is everything okay
+    - hi how are you?
+    - how are you today
+- intent: chitchat___chitchat__ask_howold
+  examples: |
+    - and you are how many years old?
+    - what year were you born?
+    - how old are you?
+    - in what year were you born?
+    - what is your birthday?
+    - can you tell me exactly how old you are?
+    - what number represents your age?
+    - What will be your age on your next birthday?
+    - What is your birthdate?
+    - what's your age?
+    - How old were you on your last birthday?
+    - how about your age
+    - How long have you been around?
+    - Tell me your day, month and year of birth.
+    - when is your birthday?
+    - Do you have friends the same age as you, if so, how old are they?
+    - can you tell me what number represents your age?
+    - how old?
+    - give me your age?
+    - How long have you been alive?
+    - How many years have you been alive?
+    - What was your age on your last birthday?
+    - when were you born?
+    - how many ages?
+    - What's your age?
+    - What is your count of years being alive so far?
+    - how old are you
+    - how aold are you
+    - how old were you on your last birthday?
+    - how many years old are you?
+    - how old will you be this year?
+    - How long have you occupied the earth?
+    - whats your age?
+    - tell me your age number?
+    - How old will you be on your next birthday?
+    - When do you celebrate your day of birth?
+    - tell me your age?
+    - How many years have you lived?
+    - do you know how old you are?
+    - tell me how old you are?
+    - what age are you
+    - what is your exact age?
+    - can you tell me your age?
+    - What year were you born?
+- intent: chitchat___chitchat__ask_isbot
+  examples: |
+    - are you a bot ?
+    - Are you a bot
+    - are you sure that you're a bot?
+    - what are you, a bot?
+    - you're a bot
+    - are you a real bot?
+    - cuz you are a bot
+    - you are chatbot
+    - are you a rasa bot?
+    - are you artificial intelligence
+    - Are you the bot?
+    - are you really a bbot?
+    - are you real
+    - Are you a chat bot?
+    - are you a bot?
+    - you are ai
+    - are you a Skynet ?
+    - i guess you are a chatbot
+    - bot?
+    - are you ai
+    - oh are you chatbot?
+    - are you a BOT
+    - are you really a bot
+    - you are a robot
+    - Hi there, are you the bot?
+    - are you artificial
+    - are you robot
+    - tell me, are you a bot?
+    - are you bot?
+    - Ar you a bot ?
+    - real bot then?
+- intent: chitchat___chitchat__ask_ishuman
+  examples: |
+    - wow you sound like real human
+    - are you a real person?
+    - sara, are you a robot or human?
+    - are you a real person
+    - r u a human
+    - are you real person or chat bot?
+    - you are human or bot
+    - are you a human ?
+    - Rara, are you a human?
+    - are you real human?
+    - hey are you human
+    - are u human
+    - Are you human ?
+    - r u real?
+    - you are a human
+    - Are you human?
+    - So I'm here Today to ask one very simple question, what are you ?
+    - are you human
+    - you sound like a real human
+    - Are you a human being?
+- intent: chitchat___chitchat__ask_languagesbot
+  examples: |
+    - do you speak [german](language)?
+    - How many languages are you familiar with?
+    - which languages do you understand?
+    - we cant converse in [french](language)?
+    - Which languages do you speak?
+    - I want to speak binary with you
+    - Do you speak any other languages?
+    - Speak any other languages?
+    - do you speak any other languages?
+    - Do you speak [italian](language)?
+    - Do you know any other languages?
+    - what languages you can speak ?
+    - what languages do you know?
+    - ARE YOU [SPANISH](language)
+    - In which languages are you fluent?
+    - What languages do you speak?
+    - How many different languages are you fluent in?
+    - you speak [french](language) ?
+    - what languages you are well versed ?
+    - what languages are you good at speaking?
+    - tell me some languages you know?
+    - Are you familiar with more than one language?
+    - Do you understand [spanish](language)?
+    - how many languages do you know?
+    - do you know [chinese](language)
+    - What languages are you fluent in?
+    - How many languages do you know?
+    - can you speak [Spanish](language)?
+    - Can you communicate in any other languages?
+    - are you bilingual?
+    - do you speak [dutch](language)?
+    - What languages do you know how to use?
+    - are you multilingual?
+    - Can you speak more than one language?
+    - What languages can you converse in?
+    - what language do you use
+    - what foreign languages are you fluent in?
+    - what languages you prefer more speaking at?
+    - what languages are you familiar with?
+    - Which languages are you familiar with?
+    - how many languages are you fluent in?
+    - How many languages can you speak?
+    - can we converse in [french](language)?
+    - What are the languages you can speak?
+    - what else do you know besides [English](language)?
+    - What languages can you use?
+    - Do you speak [german](language)?
+    - In what languages are you fluent enough?
+    - What languages do you know?
+    - what languages you can be comfortable speaking?
+    - What do you speak?
+- intent: chitchat___chitchat__ask_restaurant
+  examples: |
+    - Find a restaurant for me?
+    - I want to find some restauant nearby
+    - What restaurant would you recommend for dinner?
+    - Will you find me a restaurant?
+    - Where should I eat?
+    - Can you recommend a restaurant open right now
+    - Would you find a restaurant for me?
+    - How can you help me find a restaurant.
+    - What's a good place to eat nearby
+    - Can you find a restaurant for me?
+    - Could you find a restaurant for me?
+    - I'm looking for a Spanish restaurant.
+    - Find a restaurant for me to eat at.
+    - Show me the closest open restaurant
+    - can i be shown a gluten free restaurant
+    - Find me a fast food restaurant.
+    - Help me find a restaurant
+    - can you find me a restaurant?
+    - I need a restaurant.
+    - Suggest me a good restaurant around
+    - Do you seek me a restaurant?
+    - Could you find me a restaurant to eat at?
+    - Could you find me a restaurant?
+    - I'm gonna need help finding a restaurant
+    - Recommend me a restaurant around here.
+    - Have you seen me a restaurant?
+    - Find a restaurant for me where I can eat.
+    - Find me a place to eat
+    - I am hungry, find me some place to go
+    - Pick a restaurant for me, please
+    - Would you find me a restaurant?
+    - Show me how to find a restaurant
+    - Hi, can you give me the nearest fast food place?
+    - Do you find me a restaurant?
+    - Can you find me a restaurant?
+    - Any good restaurants nearby?
+    - Would you find any restaurant?
+    - Where should I go for dinner?
+    - show me restaurents
+    - I need to find this restaurant
+    - Hey help me find a restaurant
+    - Help me with finding this restaurant
+    - Can you find me a burger joint?
+    - What's the closest restaurant open near me
+- intent: chitchat___chitchat__ask_time
+  examples: |
+    - what is the time in [Sydney](location)?
+    - What's the time right now?
+    - Pardon me, but do you know the time?
+    - tell me the time it is.
+    - Do you know the time?
+    - whats the time now
+    - I need to know what time it is.
+    - Can you tell me the time?
+    - do you know the current time?
+    - What is the hour and minute right now?
+    - tell me what time you have.
+    - What time is it in [Berlin](location)?
+    - Do you know what time it is?
+    - What is the current time?
+    - Could you tell me the time?
+    - what time it is
+    - what is time is USA ?
+    - what's the time
+    - what is the time ?
+    - Would you tell me what time it is?
+    - What is the exact time?
+    - Give me the time.
+    - Can you tell me what time it is?
+    - Do you have the time?
+    - Excuse me, what time is it?
+    - tell me the time.
+    - what is the current time?
+    - what time is it
+    - What might the time be?
+    - Time?
+    - What's the time?
+    - Could you tell me what time is it?
+    - Time, please!
+    - Hi, I need the time.
+    - tell me the current time.
+    - What time have we got?
+    - Can you tell the time?
+    - what is the time?
+    - What time is it right now?
+    - what time is it?
+    - Can you give me the time?
+- intent: chitchat___chitchat__ask_weather
+  examples: |
+    - it is cold
+    - how's the weather?
+    - what's the weather
+    - Will we build a snowman today?
+    - Is it hot or cold?
+    - Nice day out today?
+    - whats the weather like tomorrow?
+    - what's the weather like in [LA](location)
+    - how's the weather ?
+    - temperature?
+    - Is it raining?
+    - Looks like a beautiful day hey?
+    - Can I ask you something about weather
+    - Weather?
+    - What is the weather for tomorrow?
+    - wheather at you location?
+    - wheather be like at your place?
+    - what the wheather like?
+    - is it hot outside ?
+    - What's the weather like where I am right now?
+    - what is the weatehr
+    - What is the weather at your place?
+    - well, if you wish: what about the weather
+    - is it sunny
+    - is the sun out where you are?
+    - how is the weather in [berlin](location)?
+    - weather
+    - Are we in for a scorcher?
+    - What's the weather like?
+    - Is it humid out there today?
+    - what's the weather like?
+    - How is the weather?
+    - Do you have good weather?
+    - What's the weather like over there?
+    - whats the weather in [berlin](location)?
+    - what about the weather in [Lüneburg](location)
+    - is it hot ?
+    - what is the weather
+    - Is it raining
+    - the weather today
+    - what is the wather
+    - what is the weather in [Berlin](location)
+    - what is the temperature
+    - what's the weather like
+    - how is the weather ?
+    - What's the weather forecast?
+    - how is the weather
+    - weatger
+    - what's the weather like where you are?
+    - how is the weather?
+    - What is the weather in newyork?
+    - Beautiful day, isn't it?
+    - Is it quite breezy outside?
+    - what is the weather in [zurich](location)?
+    - Will I require my raincoat today?
+    - Are there any meteorological changes that I need to be aware of?
+    - what is the weather like?
+    - what's the weather today
+    - hows the weather today in [berlin](location)?
+    - hows the waether
+    - is the sun out where zou are?
+    - how's weather
+    - whats the temperature in [delhi](location)?
+- intent: chitchat___chitchat__ask_whatismyname
+  examples: |
+    - What exactly is my name?
+    - what's my name?
+    - What am I called?
+    - Can you tell me my name?
+    - Tell me my name
+    - Inform me what my name is
+    - What name do I go by?
+    - Do you know my name?
+    - What did my parents name me?
+    - What is my first name?
+    - What name should I recognize for myself?
+    - What is my name?
+    - Do I have a name? What is it?
+    - What would be the name on my tombstone?
+    - Please let me know what my name is
+    - what is my name
+    - What do my colleagues call me?
+    - What is the name I was given?
+    - What does everyone call me?
+    - what is my name?
+    - Can you tell me what I am called?
+    - I have a name, what is it?
+    - I'd like to know my name
+    - What is my full name?
+    - can you tell me my name?
+    - May i know my name?
+    - What else do people call me?
+    - Tell me my name.
+    - Explain my name to me.
+    - What could be my name?
+- intent: chitchat___chitchat__ask_whatisrasa
+  examples: |
+    - what does rasa do
+    - i havent understood yet what rasa actually is
+    - I want to learn what rasa is
+    - how does RASA work?
+    - I want to know what rasa actually does that isn't clear to me yet
+    - RASA IS SOFTWARE?
+    - yeah go on explaining what rasa is
+    - Can you tell me what Rasa does?
+    - Can you brief me about rasa
+    - Give me more information about Rasa
+    - What do you do as a company?
+    - tell me about rasa
+    - I want to know about rsa
+    - i want to learn something about rasa
+    - i want to know about rasa
+    - What is Rasa?
+    - what can I do with Rasa?
+    - what is Rasa
+    - What does rasa do exactly?
+    - i want to know what rasa does
+    - I would like to know more about your product
+    - How does Rasa work?
+    - sorry tell me about rasa
+    - What is the RASA Stack?
+    - Rasa Is?
+    - what can i do with rasa
+    - what is it for?
+    - what does rasa mean
+    - OK can u brief me Abt rasa
+    - i dont get what rasa is
+    - I want to learn what rasa does
+    - What is rasa?
+    - What does Rasa make?
+    - what is rasa actually
+    - what does rasa do?
+    - can you pls explain what rasa does
+    - could you tell me more about rasa
+    - what is in rasa
+    - what does rasa do ?
+    - Can you tell me more about rasa?
+    - WHAT IS RASA
+    - so how does it all work?
+    - how does rasa work?
+    - What can rasa do?
+    - I would like to know about rasa
+    - how does rasa work
+    - can you explain rasa?
+    - what are the componensts of RASA
+    - whats rasa
+    - explain me what rasa is
+    - What does Rasa do?
+    - tell me bout rasa
+    - how works rasa
+    - What do you do at Rasa?
+    - i want to about rasa
+    - what is rasa?
+    - rasa os
+- intent: chitchat___chitchat__ask_whatspossible
+  examples: |
+    - how u can help me
+    - what else can you do?
+    - what can you teache me?
+    - what can i do here
+    - help
+    - what you can
+    - What can you tell me?
+    - Can rasa do calculations?
+    - help?
+    - What are you able to do?
+    - help me
+    - what u can do?
+    - so what next?
+    - come back
+    - what else can i do
+    - show me the menu
+    - what can you offer me?
+    - so what can you do
+    - what are you doing
+    - talk to me
+    - what you can do?
+    - Great, is there anything else you can do, bot?
+    - tell me what's your skill
+    - what do you know except this?
+    - how can you help?
+    - What can you do?
+    - talk to me!
+    - What can I ask you?
+    - what can I ask ?
+    - show me what's possible
+    - what else can i do?
+    - what can you do for me
+    - what are all the things you understand?
+    - What can you do for me?
+    - hi. Sara what do you do?
+    - what you can do for me?
+    - so now what
+    - can I ask you anything else?
+    - more info
+    - are there any other options?
+    - what u can do
+    - can you help me?
+    - tell me something you can do
+    - what you doing?
+    - what i have to do
+    - what do you do
+    - what are you good at?
+    - cool! can I do something else here?
+    - What can I do?
+    - what do you do?
+    - you can hep me
+    - what can I ask you?
+    - what can i do now
+    - how you help me
+    - what can we talk about?
+    - i need help
+    - what you can do
+    - um what now
+    - can you do anything else?
+    - what can you tell me
+    - what can you?
+    - How can you help me
+    - what you talk about?
+    - what can I do with this bot
+    - Can you help me?
+    - what can you do
+    - what can u do
+    - help pls
+    - What are my options
+    - now what?
+    - What do you do
+    - I need help
+    - how can you help me
+    - how does this work?
+    - what are you ding
+    - hep me
+    - Can you explain me in one sentence what you are doing?
+    - what can I do here
+    - what else can you help with?
+    - what else can I do here?
+    - What can you demo
+    - what can you do?
+    - options
+    - what can you do, sara?
+    - how can you help me?
+    - help please
+    - so what can you help me with?
+    - How you help me?
+    - What can you do
+    - what can you answer
+- intent: chitchat___chitchat__ask_wherefrom
+  examples: |
+    - You live around here?
+    - where are your parents from?
+    - Where did you originate?
+    - Where do you consider home?
+    - Where do you live?
+    - where did you come from?
+    - What city do you claim to for your birth?
+    - where are you from
+    - Where did you grow up?
+    - where did you grow up?
+    - Where are your roots?
+    - are you from around here?
+    - Where might you be from?
+    - Where are you?
+    - So where are you from
+    - what country are you from?
+    - Where were you at before you were here?
+    - Do you know where you come from?
+    - What country are you from?
+    - Where did you come from?
+    - where do you come from?
+    - Where were you born?
+    - What location are you from?
+    - From where did you come?
+    - Where are your origins?
+    - What's the name of the place you came from?
+    - Where are you located?
+    - where did you spend your youth?
+    - Where from?
+    - where do you live
+    - What city are you in?
+    - What city were you born in?
+    - where do you live?
+    - where are from
+    - Around where are you from?
+    - What is your birthplace?
+    - What is your heritage?
+    - Where do you come from?
+    - What citizenship do you lay claim to?
+    - What country were you born in?
+- intent: chitchat___chitchat__ask_whoami
+  examples: |
+    - How can I determine who am I?
+    - Who could I be?
+    - who am i
+    - can you tell me what my identity is?
+    - tell me who I am?
+    - Do you know who I am?
+    - How do I discover who I am?
+    - Tell me who I am?
+    - what's my identity?
+    - Can you tell me who am I?
+    - How do I discover who am I?
+    - Tell me who am I?
+    - Okay who am I?
+    - How do I identify myself?
+    - Tell me who I am.
+    - WHo am I
+    - Who am I?
+    - tell me what my identity is?
+    - How can I determine who I am?
+    - can you tell me who I am?
+    - who may i ?
+- intent: chitchat___chitchat__ask_whoisit
+  examples: |
+    - tell me your name
+    - what is ur name
+    - what I can call you
+    - hi what is your name?
+    - what are you?
+    - who are you
+    - what is your name
+    - who the hell are you?
+    - what is you name and where are you from
+    - your name?
+    - what's your name
+    - who r u
+    - tell me who you are
+    - what is you name
+    - who is this
+- intent: out_of_scope___out_of_scope__non_english
+  examples: |
+    - tschüssikowski
+    - 你是谁
+    - kannst du auch deutsch?
+    - como te llamas
+    - tu pagal
+    - ça va ?
+    - de que lugar eres?
+    - 您好
+    - 呵呵
+    - こにちは
+    - 卧槽
+    - 你懂中文吗？
+    - como estas
+    - Dumme sara
+    - epdi iruka
+    - que puedes hacer?
+    - 你好
+    - 中文
+    - kannst du mir helfen
+    - tu kaisi he
+    - chào
+    - tu parles francais?
+    - I'm speaking a non english language.
+    - eres humana
+    - kalhmera sara ti kaneis
+    - tudo bom
+    - 日本語分かる？
+    - ¿Qué pasa?
+    - wer bist Du?
+    - 我该如何使用
+    - αστεία λές
+    - 你叫什么名字
+    - Wie fange ich mit Rasa an?
+- intent: out_of_scope___out_of_scope__other
+  examples: |
+    - what is a discourse?
+    - I wan to buy a plane
+    - but if rasa is open source why do you have a sales team
+    - oh my god, not again!
+    - i need money
+    - is that any of your business
+    - genocide
+    - Can you please send me an uber
+    - kiss me
+    - I am hungry
+    - i want to book a hotel
+    - i m looking for job
+    - [german](language)?
+    - Can I get a hamburger?
+    - i am qq
+    - i immediately need help with implementing the coolest bot you can imagine
+    - I need a GP in 94301
+    - what the latest news ?
+    - SEL ME SOMETHING
+    - contextua
+    - who are they?
+    - what lnu mean?
+    - what is a mascot
+    - tricked  ya
+    - what is your purpose
+    - what do you think of alexa
+    - is rasa any good
+    - tell me more about next best action
+    - what do you think about [Stanley Ramirez](name)?
+    - what films do you like
+    - ok one then
+    - what are you doing now?
+    - I wanna marry you
+    - what doing
+    - i want to eat
+    - do you know ras
+    - what i do after cd starter pack rasa stack?
+    - can you cheer me up
+    - i want to find out what you can build with rasa
+    - connect to alexa
+    - I want french cuisine
+    - whats that
+    - shitmuncher
+    - when is the next train is coming?
+    - what do oyu think about siri?
+    - region with no. of records
+    - The Try it out is not working
+    - What do you prefer?
+    - that doesn't sound like a joke
+    - Nice name
+    - Can you give me your datacenter's password
+    - machine learning
+    - how can i get them?
+    - order pizza
+    - Hi i want to go palghar
+    - help with my life
+    - everything
+    - HomeBase is advertised as a community. Is there a way to interact with other members of the community?
+    - is it a wasteland full of broken robot parts?
+    - Recharge
+    - where is Oslo?
+    - is [John Lewis](name) still married to you
+    - i want play ball
+    - i can't deal with _your_ request
+    - who will anser my email?
+    - where to type in commands
+    - which email should i send to ?
+    - I want to go palghar
+    - You'r blue.
+    - which is the LNU asynchronism ?
+    - Do you know [Kevin Pelton](name)
+    - I want to use pipe
+    - what is google rcs
+    - I want to order pizza
+    - wsdrcftvgybhnj
+    - yeah, my dog was drinking a couple of litres of water per day and tried drinking the swimming pool
+    - Find nearest [pizzahut](company)
+    - i will tame a mouse for you
+    - Why is my TRUST score set to 50 after I completed the registration process?
+    - sorry, i cannot rephrase
+    - asdfgasd
+    - a tamed mouse will arrive at your doorstep in the next couple of days
+    - What's 1 + 1?
+    - no wait go back i want a dripping ice cream but a cone that catches it so you can drink the ice cream later
+    - please help with my ice cream it's dripping
+    - chinese ok?
+    - i want to fly
+    - who is [Sharon Zeches](name)
+    - whats the sign
+    - what?
+    - coronavirus
+    - NLW
+    - you should learn to count
+    - I am an opioid addict
+    - where is mexico?
+    - the beatles
+    - I am an opioid addic
+    - please play music
+    - you can learn how to make a coffe
+    - Who ?
+    - do you know me
+    - is rasa a studio?
+    - tertyryutyi
+    - alexa, order 5 tons of natrium chloride
+    - cr
+    - what is evolution ?
+    - can you help me with your docs?
+    - please hjave lunchj
+    - how come you say ok ?
+    - really? you're so touchy?
+    - pizza
+    - some thing else
+    - please hurry, i have deadline in two weeks to deliver the bot it is for very big company
+    - j  bhbhj
+    - i am hungry, what should i do?
+    - Out of scope question.
+    - how do you learn
+    - turn off my stove
+    - Who are your customers
+    - what type of bot?
+    - What did you eat yesterday?
+    - I want a new laptop
+    - oh wait i gave you my work email address can i change it?
+    - my name k
+    - call me father
+    - I need to eat cake
+    - where do i type in commandy
+    - how are the kids
+    - i want good flycam
+    - and make chicken noises into the phone
+    - what did you eat for lunch?
+    - is it allow to
+    - Why don’t you answer?
+    - how
+    - are u, facebook?
+    - give me a girl friend
+    - what is machine learning
+    - whta you think about gdpr?
+    - what's gingerale
+    - i told you already
+    - the one that is better than you
+    - license
+    - help with [Alma Abrams](name)
+    - what is your address?
+    - you already have that
+    - what about wheather
+    - it's a pity
+    - what is the capital of india
+    - you lock sweety
+    - silly bot
+    - how can i test this
+    - winter is already leaving
+    - can you learn from our conversation?
+    - chgfhgh
+    - who was hitler
+    - you have job opening
+    - Have we met before?
+    - how much is 10 + 89 ?
+    - After registration I see that I have an available balance of 0.00000000. What does this balance represent?
+    - can you cook dinner
+    - have you ever seen [Keith Reilly](name)?
+    - please voulette
+    - what you ate today?
+    - example of a chatbot
+    - personal or work?
+    - are you single?
+    - which email
+    - i wanna party
+    - only that?
+    - you will know it from the single red rose it carries between its teeth
+    - book a ticket
+    - i want food
+    - I have installed it
+    - what's a newsletter?
+    - are you russian?
+    - google?
+    - i want to see your happy customers
+    - I am trying to build one, and did some research before, but I have not do hand on work yet
+    - i´m hungry
+    - contextual
+    - are you sick
+    - Can YouTube talk?
+    - who is the president of india ?
+    - [Kristin](name), I want to marry you
+    - what is the day ?
+    - Make me a sandwich
+    - so, I'm helping right now to training you?
+    - no, i need cash, money! Do you have it ?
+    - I am User
+    - mail me the steps
+    - with you recommend me?
+    - I will check
+    - Today
+    - Now?
+    - which city are you talking about?
+    - do you have your photo?
+    - who's Bill Gates?
+    - Where am I right now?
+    - how do you like your coffee
+    - who is the MD of samsung bangalore ?
+    - which file is created first while developing chat bot
+    - flight catch up
+    - Can I die
+    - did i break you
+    - rasa topics
+    - can you book dinner
+    - will u kill me?
+    - Can you give me your datacenter's password?
+    - more
+    - isn't the newsletter just spam?
+    - great, I'd like to buy a house
+    - give me food
+    - you have children?
+    - what are your uses for universities
+    - Can I ask you questions first?
+    - i want pizza
+    - wait a bit i am still reading
+    - CALL THE POLICE
+    - i want to buy a roomba for my grandson
+    - i am hungry
+    - i want caffe
+    - what is the capital of delhi
+    - Do you have a demo?
+    - what is the current petrol price
+    - i want a non dripping ice cream
+    - But you're an english site :(
+    - Mail me the guide
+    - wheres the party?
+    - what kind of bird are you?
+    - remember my name
+    - I want to die
+    - can you give me a cup of coffee
+    - Are you ready?
+    - How long does it take to set up a Rasa bot?
+    - which kind
+    - mascot means?
+    - how long will the next version will launch?
+    - hey little mama let em whisper in your ear
+    - can you help me with the docs?
+    - would you like some water
+    - again?
+    - lunch??
+    - sfasd
+    - colder
+    - Can you call me back ?
+    - Try it out broken
+    - can we keep chatting?
+    - sudo reboot
+    - what's your wife doing this weekend
+    - do you want to marry me?
+    - What's do YouTube do
+    - who let the dog out
+    - you have to
+    - expert of rasa
+    - why do you need that?
+    - order good
+    - I need a girl friend!
+    - what is the real use case where we can use this one
+    - how about NYC
+    - Pizza bot
+    - someone call the police i think the bot died
+    - mountain
+    - buy groceries
+    - you're a woman
+    - can you understand ?
+    - do you believe in god?
+    - who are the engineers at rasa?
+    - will u kill me
+    - hang on let me find it
+    - who is your favourite robot?
+    - talk to me about voulette
+    - offer me lunch
+    - are you dev?
+    - where do i get install files for mac?
+    - your contry name
+    - i want to know current situtation in pakistan
+    - how much is 10 + 89
+    - I already told you! I'm a shitmuncher
+    - ljljl
+    - Do I have to accept?
+    - I want pizza
+    - how long have you been online?
+    - Won't you ask me how I am?
+    - buy one please
+    - I ned a GP in 94301
+    - docs
+    - voulette voulette
+    - what do you think abou siri?
+    - 4 + 2 = ?
+    - I am asking you an out of scope question
+    - you girl
+    - do you sell vacuum robots?
+    - doctor
+    - how to go to newyork ?
+    - cannot see
+    - i want more of you in my life!
+    - i want to find new friends
+    - What makes you better than a human?
+    - ı am learning python
+    - can you speak about politic ?
+    - eshdtjfjfyk
+    - asdkjasdhjkasd
+    - search wikipedia
+    - I want book a hotel
+    - do you have a phone number?
+    - show me a picture of a chicken
+    - what does your soul feel my friend
+    - what else?
+    - i want pizza!!
+    - how it compares to alexa
+    - go back
+    - The weather is good
+    - What's your backend system?
+    - Is today saturday?
+    - I'm a shitmuncher
+    - What day is it today?
+    - hey, I contacted you a couple of days ago but didn't get any response, any news?
+    - refresh
+    - sudo make me a sandwich
+    - why sky is blue?
+    - do you liek cheese?
+    - Is Rasa really smart?
+    - how to get rasa studio
+    - Can you make sandwiches?
+    - I changed my mind
+    - umm
+    - aRE YOU SINGLE
+    - Can you get analytics on who I'm chatting with when I use Rasa
+    - Cars
+    - i hope you will be better
+    - on wiche nlp based system are you build?
+    - what's 5 + 5
+    - What is your hobbies?
+    - how are [Alicia Jackson](name)'s cats doing?
+    - why its called rasa ?
+    - I can barely see this white text on light gray background ...
+    - do you like football
+    - but I just told you that :(
+    - how many lines of codes
+    - lunch
+    - how good is Rasa
+    - i am not a developer but need this for business
+    - what are contextual AI assistants and how different are they from chatbots?
+    - tell me about yourself
+    - What is todays date
+    - Is this Goal Oriented Chatbot?
+    - are the newsletter worth the subscription?
+    - what is nice?
+    - common, just try
+    - what is adlingo
+    - do you like movies
+    - get me a club mate
+    - drhdtjfjfyj

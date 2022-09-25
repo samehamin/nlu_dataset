@@ -1,0 +1,324 @@
+version: "2.0"
+nlu:
+- intent: general___affirm
+  examples: |
+    - yessoo
+    - uh huh
+    - yesyesyes
+    - you asked me a yes or no question, which i answered with yes
+    - ya cool
+    - good.
+    - thats great
+    - ok fine
+    - Sweet
+    - Yup
+    - yes sirfr
+    - absolutely
+    - ya go for it
+    - yez
+    - you got me, I accept, if you want me to
+- intent: general___react_positive
+  examples: |
+    - Looks nice
+    - :D
+    - wow
+    - such a great demo
+    - hèhè
+    - You are great
+    - Cool
+    - ha ha
+    - cool beans
+    - i love you
+    - haha
+    - i am feeling happy
+    - Got it
+- intent: general___bye
+  examples: |
+    - good bye rasa bot!
+    - bye bye bot
+    - bye bot
+    - Close this talk
+    - goodnight
+    - toodle oo
+    - take care
+    - Exit
+- intent: general___canthelp
+  examples: |
+    - you can't help me with what i need
+    - hey, you promised to contact me, but nobody did, I really need to finish that car insurance bot!!!!
+    - I think you cant help me
+    - stop go back
+    - i guess you can't help me then
+- intent: general___deny
+  examples: |
+    - No thank you
+    - never mind
+    - n
+    - no, i hate it
+    - No, not really.
+    - nö
+    - I don't want to
+    - nope. i am good
+    - i don't want to
+    - decline
+    - I dont want to tell
+    - No
+    - none of them
+    - noooooooooo
+    - Never
+- intent: general___explain
+  examples: |
+    - could you explain why you need that
+    - i would like to know why you need that
+    - what does that mean
+- intent: general___greet
+  examples: |
+    - Good Morning
+    - hiii
+    - hello, my name is [Charles Pfeffer](name)
+    - hey dude
+    - howdy
+    - greet
+    - Hi sara
+    - hi mrs rasa
+    - hi friends
+    - hiihihi
+    - HI
+    - Hello Sara
+    - hello world
+    - What is up?
+    - Hello
+- intent: general___react_negative
+  examples: |
+    - Surely you're not so smart lik i thought
+    - I am feeling bad
+    - I am super sad
+    - bad boy
+    - Although I understand your still in development, I feel a little bit disappointed.
+    - i dont like bots
+    - sadly
+    - That tool here isnt good
+    - rasa is bad
+- intent: general___thank
+  examples: |
+    - amazing, thanks
+    - thanks you
+    - ok thanks
+    - danke
+    - Thanks for that
+    - thankyou
+    - thanks
+- intent: general___need_help_broad
+  examples: |
+    - I have a few questions
+    - I have a question for you
+    - lots of errors
+    - it is showing error while installing
+    - i got error while installing rasa
+    - i got some error during installation
+    - I have error during the installation
+    - i get error when initializing a project
+- intent: chitchat___chitchat__ask_howbuilt
+  examples: |
+    - How were you materialized?
+    - How were you made?
+    - How were you set up?
+    - Let me know how you were made exactly
+    - Can you give me an idea as to how you were created?
+    - In what manner were you formed?
+    - How did they create you?
+    - How were you made into who you are?
+    - How exactly were you made?
+- intent: chitchat___chitchat__ask_howdoing
+  examples: |
+    - how r u>
+    - what's up
+    - What's going on?
+    - how do you do?
+    - How are you
+    - okay hi how are you?
+    - How are you men?
+    - How've you been?
+    - how are you doing today?
+    - Hi Sara! How are you?
+    - hi sara, how are you?
+    - whats goin on
+    - h r u ?
+    - yow are you
+    - are you ok
+- intent: chitchat___chitchat__ask_howold
+  examples: |
+    - How old are you?
+    - how old were you when you celebrated your last birthday?
+    - What is your age?
+    - how old are u
+    - when you were bon
+    - what age were you when you celebrated your last birthday?
+    - whats your birth year?
+    - Whats your age?
+    - How many candles were on your last birthday cake?
+    - what is your age?
+- intent: chitchat___chitchat__ask_isbot
+  examples: |
+    - are you real lol
+    - you robo
+    - are you a chatbot
+    - are you bot
+    - are you a bot
+    - are you rasa bot?
+    - are you a robot
+- intent: chitchat___chitchat__ask_ishuman
+  examples: |
+    - are u a real person?
+    - ok, i know i confused you there being a human! :)
+    - you are bot or human?
+    - Are you a real person?
+    - are you human ?
+- intent: chitchat___chitchat__ask_languagesbot
+  examples: |
+    - what languages you know?
+    - what languages do you speak
+    - what foreign languages do you know?
+    - what languages you can handle well?
+    - Do you know other languages?
+    - you know [French](language)
+    - What languages can you communicate in?
+    - In which languages can you speak?
+    - What are all of the different languages you can speak?
+    - How many languages do you have knowledge of?
+    - what languages are you comfortable speaking at?
+    - can you speak in [italian](language)?
+- intent: chitchat___chitchat__ask_restaurant
+  examples: |
+    - Is there any restaurant?
+    - I need a new restaurant
+    - Find me a restaurant where I can eat.
+    - Where is the restaurant
+    - Hey, can you help me with locating this restaurant.
+    - i want a french restaurant
+    - will you see any restaurant for me?
+    - restaurants
+    - help me find restaurant
+    - IS there any near by restaurant?
+    - i'm looking for a Chinese restaurant
+- intent: chitchat___chitchat__ask_time
+  examples: |
+    - What time do we have?
+    - do you have the time?
+    - Could you tell me the time, please?
+    - what time do you have?
+    - what is time in US ?
+    - Tell me the time.
+    - What's the current time?
+    - what is time is US ?
+    - What is the time?
+    - that's true. do you know what time it is?
+- intent: chitchat___chitchat__ask_weather
+  examples: |
+    - hows the weather in bot world
+    - whats the temperature
+    - what is the whether today
+    - Will the skies be clear today?
+    - excellent   is it hot in [Berlin](location)?
+    - Can we expect any thunderstorms?
+    - what's the weather today?
+    - What is the temperature today?
+    - What's it like out there?
+    - what is the weather like where you are?
+    - what"s the weather
+    - How is the weather today?
+    - how's the weather in [berlin](location)
+    - How is weather today
+    - weather?
+- intent: chitchat___chitchat__ask_whatismyname
+  examples: |
+    - I'd like to know what my name is
+    - Say my name.
+    - Do I have a name?
+    - Do you know what my name is?
+    - What do I call myself?
+    - What do people call me?
+    - What was I named?
+- intent: chitchat___chitchat__ask_whatisrasa
+  examples: |
+    - how rasa works ?
+    - RASA?
+    - What is rasa doing exactly?
+    - Could you tell me more about Rasa?
+    - explain me what rasa does
+    - What exactly is Rasa?
+    - what do you guys do at rasa
+    - WHAT IS IT
+    - What Is rasa?
+    - tell me more about rasa
+    - what is rasa
+    - What does Rasa build?
+    - tell me more about your company
+    - What's rasa?
+- intent: chitchat___chitchat__ask_whatspossible
+  examples: |
+    - anything els
+    - can you help me
+    - hm that doesnt quite help me is there anything else you can do?
+    - what can I do with Sara?
+    - hello what can you do for me
+    - what you do
+    - what is this bot for
+    - I need some help
+    - so what can you do?
+    - i asked you if you can do anything else
+    - Could you please show me what you can
+    - i don't know what i want
+    - what are the options?
+    - what cn u do for me ?
+    - how can i use you
+- intent: chitchat___chitchat__ask_wherefrom
+  examples: |
+    - where are you from?
+    - What is your root?
+    - where's your home town?
+    - What is your origin?
+    - What state were you born in?
+    - You were conceived in what location?
+    - What area are you from?
+    - Are you from around here?
+    - What is your original location?
+- intent: chitchat___chitchat__ask_whoami
+  examples: |
+    - who are I ?
+    - can you tell me what I am?
+    - Shall i know who am i?
+    - Can you tell me who I am?
+    - Do you know who am I?
+- intent: chitchat___chitchat__ask_whoisit
+  examples: |
+    - what is your name?
+    - who are you?
+    - who are u
+- intent: out_of_scope___out_of_scope__non_english
+  examples: |
+    - come stai?
+    - hilf mir beim start
+    - como inicio en rasa
+    - oui je besoine de l'aide
+    - kya hindi me bat kar sakate ho
+    - de donde eres
+    - kannst du dies auch auf deutsch?
+    - rasa codigo abierto
+- intent: out_of_scope___out_of_scope__other
+  examples: |
+    - better than you
+    - Where am I?
+    - what is differance between bot and mascot?
+    - dinner
+    - that link doesn't work!
+    - are you vegan
+    - i want to order a pizza
+    - gsaf
+    - sing me a song
+    - can you help me with your docs
+    - are u facebook
+    - i do not care how are you
+    - have you heard of corona?
+    - i want to grab lunch
+    - custom service

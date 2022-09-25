@@ -1,0 +1,422 @@
+version: "2.0"
+nlu:
+- intent: general___affirm
+  examples: |
+    - yez
+    - yup
+    - Ok.
+    - yes i have!
+    - جا هذا رائع
+    - sort of
+    - its okay
+    - أنا موافق
+    - موافق..
+    - Nice
+    - yeah do that
+    - فعله
+    - ايضا
+    - نعم أعطني معلومات
+    - ذلك رائع
+- intent: general___react_positive
+  examples: |
+    - cool
+    - you are funny
+    - rasa is awesome
+    - you are cool
+    - أعني أن أقول إنني أحب الشرح
+    - انت صديقي المفضل الجديد
+    - رائع
+    - هذا مضحك
+    - هذا رائع.
+    - it's pretty cool
+    - Great information
+    - انت لطيف.
+    - Cool
+    - نجاح باهر
+    - i am feeling happy
+- intent: general___bye
+  examples: |
+    - bye bye bot
+    - catch you later
+    - ok bye
+    - byee
+    - وداعا يشعر القارب!
+    - سيا
+    - see you
+    - وداعا كان من الجيد التحدث معك
+    - وداعا: ص
+    - cya
+    - bye
+    - إلى اللقاء
+    - adios
+    - أرك لاحقًا
+- intent: general___canthelp
+  examples: |
+    - هذه المحادثة ليست مفيدة حقًا
+    - quit
+    - exit now
+    - كان هذا هراء ، أنت لا تساعد
+    - and that's it?
+    - قف
+    - أعتقد أنك لا تستطيع مساعدتي
+    - هل حصلت على شيء
+    - توقف ارجع
+    - that does not help
+- intent: general___deny
+  examples: |
+    - لا لم أقرر بعد ما إذا كنت أرغب في التسجيل
+    - still dont want to tell
+    - ن
+    - لست واثق
+    - no, thank you
+    - رقم. يا أحمق
+    - it sux
+    - لا تهتم
+    - no i won't
+    - لا لن أفعل
+    - عدم
+    - I don't want to say
+    - no sir
+    - أعتقد أن هذا يعني لا
+    - ناه
+- intent: general___explain
+  examples: |
+    - could you explain why you need that
+    - لماذا تريد معرفة ذلك
+    - i want more information
+    - give me more details
+    - explain it to me
+    - what do you mean
+- intent: general___greet
+  examples: |
+    - مهلا تخمين
+    - hello sweatheart
+    - مرحبا سيد
+    - أهلاً!
+    - Hi Sara
+    - يا سارة
+    - Hello
+    - i am [Karen Mease](name)
+    - Hi man
+    - hey dude
+    - مرحبا الروبوت
+    - hi pal!
+    - helo
+    - يا هناك
+    - أهلا؟
+- intent: general___react_negative
+  examples: |
+    - Surely you're not so smart lik i thought
+    - you make me sad
+    - crappy joke
+    - i'm sad
+    - أنت روبوت سيء
+    - أنا حزين جدا
+    - أنت ممل إلى حد ما
+    - أنت وقح
+    - للأسف
+    - i sad
+    - not good
+    - هذا وقح جدا
+    - ش حطم قلبي
+    - you are bad
+    - i am angry over you
+- intent: general___thank
+  examples: |
+    - thanks you
+    - cheers bro
+    - perfect thank you
+    - في صحتك
+    - amazing, thanks
+    - thanks a bunch for everything
+    - شكرا ف
+    - Thank you so much
+    - danke
+    - شكرا لرابط المنتدى ، وسوف تحقق من ذلك
+    - yes thanks
+    - حسنا، شكرا!
+    - thanks f
+    - طيب شكرا سارة
+- intent: general___need_help_broad
+  examples: |
+    - I have a few questions on my pay check
+    - i have errors in installaition
+    - getting some errors
+    - أنا عالق مع خطأ
+    - i am facing a particular error,could u help me?
+    - لقد علقت في التثبيت
+    - مرحبًا سارة ، تلقيت الخطأ التالي عند محاولة تثبيت rasa على جهاز macbook الخاص بي
+    - I am stuck with fallback
+    - i am stuck
+    - i get error when initializing a project
+    - عندي سؤال
+    - أنا أواجه خطأ معين ، هل يمكنك مساعدتي؟
+    - I am stuck and I need help
+    - there is an issue during installation
+    - أنا عالق وأحتاج إلى المساعدة
+- intent: chitchat___chitchat__ask_howbuilt
+  examples: |
+    - كيف جئت لتكون؟
+    - أنت نشأت من خلال أي وسيلة؟
+    - In what way were you created?
+    - كيف صنعت
+    - how were you made?
+    - What process was used to create you?
+    - how have you been built?
+    - بأي طريقة بنيت؟
+    - How were you formed?
+    - How did you come into being?
+    - كيف تحققت؟
+    - Are you built using rasa?
+    - كيف بنيت؟
+    - In what way were you shaped?
+    - هل تبني مع راسا؟
+- intent: chitchat___chitchat__ask_howdoing
+  examples: |
+    - how r u>
+    - ما أخبارك
+    - how you doing?
+    - hi how are you?
+    - كيف حالك'
+    - كيف ؟
+    - هل أنت بخير؟
+    - How's it going
+    - is everything okay
+    - how have you been
+    - how are you feeling
+    - how ?
+    - whatchya تصل؟
+    - what's good
+    - كيف الحال أو كيف تسير الأمور
+- intent: chitchat___chitchat__ask_howold
+  examples: |
+    - اخبرني كم عمرك
+    - Do you have friends the same age as you, if so, how old are they?
+    - What was your age on your last birthday?
+    - عندما كنت سعيدا
+    - كم عدد الشموع على كعكة عيد ميلادك الأخيرة؟
+    - give me your age?
+    - ما هو عمرك؟
+    - متى تحتفل بيوم ميلادك؟
+    - how old?
+    - When do you celebrate your day of birth?
+    - What is your count of years being alive so far?
+    - how old are you?
+    - whats your age?
+    - what is your birthday?
+    - what is your age?
+- intent: chitchat___chitchat__ask_isbot
+  examples: |
+    - you're a bot
+    - are you robot
+    - are you real
+    - you robo
+    - are you bot
+    - أنت BOT
+    - هل انت روبوت
+    - هل انت عاي
+    - انت روبوت
+    - هل انت راسا بوت؟
+    - are you a Skynet ?
+    - Are you a bot
+    - are you really a bbot?
+    - هل أنت مصطنع
+- intent: chitchat___chitchat__ask_ishuman
+  examples: |
+    - Are you a human being?
+    - حسنًا ، أعلم أنني أربكتك بوجود إنسان! :)
+    - are you human ?
+    - you sound like a real human
+    - هل انت انسان حقيقي
+    - رارا هل انت انسان؟
+    - ok, i know i confused you there being a human! :)
+    - Are you human ?
+    - wow you sound like real human
+- intent: chitchat___chitchat__ask_languagesbot
+  examples: |
+    - هل يمكننا التحدث بـ [الفرنسية] (اللغة)؟
+    - what languages you know?
+    - Are you familiar with more than one language?
+    - what languages you can handle well?
+    - are you multilingual?
+    - كم عدد اللغات التي تعرفها؟
+    - Do you speak [italian](language)?
+    - Do you speak [german](language)?
+    - what languages you prefer more speaking at?
+    - ماذا تعرف أيضًا إلى جانب [اللغة الإنجليزية] (اللغة)؟
+    - In which languages can you speak?
+    - كم عدد اللغات التي لديك معرفة بها؟
+    - What languages can you use?
+    - هل تتكلم اللغة الالمانية؟
+    - What do you speak?
+- intent: chitchat___chitchat__ask_restaurant
+  examples: |
+    - restaurants
+    - أنا جائع ، ابحث عن مكان أذهب إليه
+    - Hey help me find a restaurant
+    - Can you find me a restaurant?
+    - هل رأيت لي مطعم؟
+    - أي مطاعم جيدة قريبة؟
+    - مرحباً ، هل يمكنك أن تعطيني أقرب مطعم للوجبات السريعة؟
+    - Where should I eat?
+    - Would you find a restaurant for me?
+    - Find a restaurant for me?
+    - i'm looking for a Chinese restaurant
+    - I need to find this restaurant
+    - Find me a fast food restaurant.
+    - ساعدني في العثور على مطعم
+    - اريد مطعم فرنسي
+- intent: chitchat___chitchat__ask_time
+  examples: |
+    - Do you have the time?
+    - What is the time?
+    - Hi, I need the time.
+    - Give me the time.
+    - What might the time be?
+    - what is time is US ?
+    - كم الساعة في امريكا
+    - What time is it in [Berlin](location)?
+    - what time it is
+    - هل يمكنك إخباري كم الساعة الآن؟
+    - هلا أخبرتني ما الوقت؟
+    - ما هو الوقت الحالي
+    - كم الساعة الآن؟
+    - what is the time in [Sydney](location)?
+    - Could you tell me what time is it?
+- intent: chitchat___chitchat__ask_weather
+  examples: |
+    - هل سأطلب معطف واق من المطر اليوم؟
+    - What is the weather in newyork?
+    - طقس
+    - كيف هو الطقس اين انت
+    - What's the weather forecast?
+    - is the sun out where zou are?
+    - wheather be like at your place?
+    - Nice day out today?
+    - the weather today
+    - ما هو الطقس في [برلين] (الموقع)
+    - ما هو حال الطقس
+    - كيف الجو؟
+    - ما هو الطقس اليوم
+    - كيف هو الطقس في [برلين] (الموقع)
+    - ما هي درجة الحرارة
+- intent: chitchat___chitchat__ask_whatismyname
+  examples: |
+    - ماذا يناديني الجميع؟
+    - What name should I recognize for myself?
+    - What do people call me?
+    - Do I have a name? What is it?
+    - قل اسمي.
+    - هل لدي اسم؟
+    - ما هو اسمي
+    - هل لي أن أعرف اسمي؟
+    - What did my parents name me?
+    - What is my name?
+    - لدي اسم ما هو؟
+    - What else do people call me?
+    - Inform me what my name is
+    - ممكن تخبرني اسمي
+- intent: chitchat___chitchat__ask_whatisrasa
+  examples: |
+    - أخبرني المزيد عن شركتك
+    - yeah go on explaining what rasa is
+    - ماذا افعل مع راسا؟
+    - can you explain rasa?
+    - What do you do as a company?
+    - Can you tell me what Rasa does?
+    - كيف يعمل راسا
+    - what does rasa do?
+    - راسا؟
+    - i want to know about rasa
+    - sorry tell me about rasa
+    - هل يمكن أن تخبرني ماذا تفعل رسا؟
+    - ماذا تبني راسا؟
+    - آسف أخبرني عن rasa
+    - ضحل
+- intent: chitchat___chitchat__ask_whatspossible
+  examples: |
+    - how can i use you
+    - إذاً ما الذي يمكنك مساعدتي به؟
+    - so what can you help me with?
+    - options
+    - What can you do
+    - show me what's possible
+    - what else can I do here?
+    - what can you do, sara?
+    - what can you do?
+    - what can you answer
+    - يمكنك مساعدتي
+    - what i have to do
+    - الرجاء المساعدة
+    - ماذا يمكنك ان تقول لي؟
+    - ماذا استطيع ان اسالك
+- intent: chitchat___chitchat__ask_wherefrom
+  examples: |
+    - ما هو أصلك؟
+    - ما هي الجنسية التي تطالب بها؟
+    - أين تعتبر المنزل؟
+    - What is your heritage?
+    - where do you live?
+    - ما هو تراثك
+    - What city do you claim to for your birth?
+    - من أي موقع أنت؟
+    - Where are you?
+    - You were conceived in what location?
+    - Are you from around here?
+    - أين نشأت؟
+    - اذا من اين انت
+    - من أين نشأت؟
+    - where are your parents from?
+- intent: chitchat___chitchat__ask_whoami
+  examples: |
+    - How can I determine who I am?
+    - كيف اعرف نفسي؟
+    - هل أعرف من أنا؟
+    - How do I discover who am I?
+    - tell me what my identity is?
+    - قل لي من أنا.
+    - من أنا
+    - ممكن تخبرني من انا
+    - ما هي هويتي
+- intent: chitchat___chitchat__ask_whoisit
+  examples: |
+    - ماهو اسمك
+    - من هذا؟
+    - قل لي من انت
+    - ما اسمك
+    - tell me your name
+    - من أنت؟
+- intent: out_of_scope___out_of_scope__non_english
+  examples: |
+    - oui je besoine de l'aide
+    - كيف حالكم؟
+    - que puedes hacer?
+    - ¿Qué pasa?
+    - epdi iruka
+    - تو كايسي هو
+    - راسا المصدر المفتوح
+    - tu pagal
+    - هل تعرف الصينية؟
+    - 我该如何使用
+    - تتكلم الفرنسية؟
+    - ما الذي تستطيع القيام به؟
+    - ها ها
+    - سخيف سارة
+    - 你懂中文吗？
+- intent: out_of_scope___out_of_scope__other
+  examples: |
+    - what are contextual AI assistants and how different are they from chatbots?
+    - هل تستطيع الفهم ؟
+    - and make chicken noises into the phone
+    - Make me a sandwich
+    - I ned a GP in 94301
+    - جبل
+    - القرف
+    - i want to book a hotel
+    - some thing else
+    - غداء
+    - Can you call me back ?
+    - wait a bit i am still reading
+    - وإصدار أصوات الدجاج في الهاتف
+    - How long does it take to set up a Rasa bot?
+    - خدعت يا

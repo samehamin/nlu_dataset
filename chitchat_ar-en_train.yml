@@ -1,0 +1,3310 @@
+version: "2.0"
+nlu:
+- intent: general___affirm
+  examples: |
+    - yes it was okay
+    - oh awesome!
+    - يبدو ذلك جيدا!
+    - يا هذا رائع
+    - انطلق
+    - good.
+    - lets do this
+    - yes.
+    - yeeees
+    - that's great
+    - yes sirfr
+    - thats fine
+    - موافق.
+    - هيا بنا نقوم بذلك
+    - please
+    - absolutely
+    - إنطلق
+    - قصة رائعة يا أخي
+    - yes please
+    - si
+    - شيء مؤكد
+    - أعلى
+    - هذا يبدو جيدًا
+    - لا تقلق
+    - Yup
+    - يييس
+    - ok...
+    - قبول
+    - definitely yes without a doubt
+    - yes I do
+    - نعم نعم نعم
+    - موافق...
+    - لقد حصلت علي ، أنا أقبل ، إذا كنت تريد مني ذلك
+    - ys
+    - نعم ...
+    - هذا جيد
+    - ok fine
+    - اوه رائع!
+    - حسنًا بالتأكيد
+    - YUP
+    - yess
+    - نعم هذا لطيف
+    - done
+    - yeah sure
+    - حسنًا ، سارة
+    - I changed my mind. I want to accept it
+    - yes that's what i want
+    - نعم اذهب لذلك
+    - أجل رائع
+    - yep
+    - ja
+    - yyeeeh
+    - حسنا
+    - نعم، أنا أحب أن
+    - i will!
+    - Yep that's fine
+    - إي نعم
+    - نعم حبيبي
+    - yes great
+    - نعم انا
+    - i accept
+    - yes baby
+    - Yes please
+    - نعم، ذلك عظيم
+    - نوعا ما
+    - ك ك
+    - yep thats cool
+    - Yea
+    - k
+    - في احسن الاحوال
+    - أوكي دوكي
+    - إطلاقا
+    - ya thats cool
+    - okay cool
+    - yesss
+    - بالتأكيد
+    - حسنا لنبدأ
+    - well yes
+    - اذهب
+    - considering
+    - awesome
+    - it is ok
+    - ok, I behave now
+    - Yepp
+    - تسير بشكل جيد للغاية
+    - نعم'
+    - yres
+    - yas
+    - انا سوف!
+    - hell yeah
+    - لقد استخدمتها في الماضي
+    - رائع
+    - Oh yes
+    - جو
+    - نعم أريد ذلك
+    - ya cool
+    - yes accept please
+    - هذا جيّد
+    - رائعة حقا!
+    - hell yes
+    - نعم هذا رائع
+    - ja thats great
+    - حسنا..
+    - يا من فضلك
+    - yes,i am
+    - اللعنة نعم!
+    - yep. :/
+    - ok good
+    - نعم أفعل
+    - Okay cool
+    - thats great
+    - بلى
+    - accepted
+    - نعم من فضلك
+    - و
+    - Yes, I accept
+    - ez
+    - نعم ، لما لا
+    - agreed
+    - how nice!
+    - cool story bro
+    - kk
+    - ok sara
+    - حسنًا ، رائع
+    - أفعل
+    - Ofcourse
+    - really
+    - اريد ذلك
+    - I'd absolutely love that
+    - أنا متأكد من أني سوف!
+    - نعم لدي!
+    - Ok
+    - نعم '=
+    - great!
+    - yes go for it
+    - ياس
+    - yeah
+    - yes please!
+    - a little
+    - yesyestyes
+    - yes it is
+    - نعم تستطيع
+    - okie
+    - top
+    - ah ok
+    - yes of course
+    - متفق عليه
+    - ye splease
+    - oki doki
+    - sure!
+    - نعم بالتأكيد
+    - أحصل عليه
+    - yeah, why not
+    - oh super
+    - لقد سألتني سؤالاً بنعم أو لا ، فأجبته بنعم
+    - حسنا جيد
+    - نعم طبعا
+    - hm, i'd like that
+    - ya go for it
+    - amazing!
+    - ك
+    - أنا سوف
+    - lets do it
+    - I agree
+    - حسنا سارة
+    - y
+    - أجل أقبل
+    - yop
+    - Ok let's start
+    - I will
+    - I am using it
+    - لطيف
+    - oh good !!
+    - نعم ، سأفعل شكرا لك
+    - نعم إذا اضطررت لذلك
+    - Sweet
+    - Yes
+    - yaps
+    - نعم هذا ما أريده
+    - بالتأكيد!
+    - i am!
+    - أوه عظمى
+    - yep if i have to
+    - Okay!
+    - القليل
+    - اه هاه
+    - وافقت
+    - حسنًا ، أنا أتصرف الآن
+    - تؤكد
+    - Yesyestyes
+    - نعم الجحيم
+    - ofcoure i do
+    - ok i accept
+    - accept
+    - yes give me information
+    - ok, Sara
+    - go for it
+    - oui
+    - fcourse
+    - ya please
+    - عظيم
+    - I'm using it
+    - جيز
+    - YES
+    - ye
+    - حلو
+    - yes pls
+    - yes i accept
+    - yap
+    - كم هو جميل!
+    - perfect
+    - رائع!
+    - بالطبع أفعل
+    - نَعَم
+    - جيد.
+    - okay..
+    - yes, I'd love to
+    - نعم أنا أقبل
+    - رجاء
+    - I guess so
+    - thats good
+    - yes i agree
+    - نعم ، أعطني معلومات من فضلك
+    - yes you can
+    - طيب أنا أقبل
+    - ليس سيئًا
+    - yes cool
+    - من فضلك
+    - yesyesyes
+    - yea
+    - نعم افعل ذلك
+    - لنفعلها
+    - uh huh
+    - SURE
+    - انتم
+    - yeah'=
+    - هذا رائع
+    - alright, cool
+    - More a less
+    - great lets do that
+    - نعم. : /
+    - كثيرا جدا
+    - fuck yeah!
+    - نعم اوافق
+    - you got me, I accept, if you want me to
+    - يا تذهب لذلك
+    - awesome!
+    - jo
+    - Yes.
+    - Okay
+    - I do
+    - yep i want that
+    - yessoo
+    - ya i want
+    - yesh
+    - نعم من فضلك!
+    - نعم سيدي
+    - yes pleae
+    - عادلة بما فيه الكفاية
+    - طبعا أكيد
+    - هل حقا
+    - Yep!
+    - جيد !!
+    - That would be great
+    - عظيم ، دعونا نفعل ذلك
+    - نعم عظيم
+    - أكثر وأقل
+    - نعم اريد
+    - of course
+    - Sure
+    - رائعة!
+    - sure thing
+    - yay
+    - ok, I understood
+    - اعتقد ذلك
+    - yeeeeezzzzz
+    - ok..
+    - I have used it in the past
+    - نعم تقبل من فضلك
+    - انا غيرت رأيي. اريد ان اقبله
+    - حسنا عظيم
+    - yes go ahead
+    - سنوات
+    - go
+    - نعم كان بخير
+    - ياي
+    - أذهب خلفها
+    - sounds good!
+    - Yeah
+    - PLEASE
+    - great
+    - ممتاز
+    - yes ...
+    - yes'
+    - OK
+    - that is cool
+    - هذا سيكون رائع
+    - yes that's great
+    - يبس
+    - sure
+    - Oh, ok
+    - amayzing
+    - I get it
+    - نعم
+    - انا!
+    - oh cool
+    - أنا استخدامه
+    - going super well
+    - ofcourse
+    - very much
+    - Yep
+    - نعم!
+    - مع مراعاة
+    - I'm sure I will!
+    - fine
+    - i want that
+    - yes, give me information, please
+    - نعم جميل
+    - yes i have built a bot before
+    - alright
+    - حسنا صديقي
+    - ok
+    - ja cool
+    - غرامة
+    - yep, will do thank you
+    - go ahead
+    - jezz
+    - بالطبع
+    - i agree
+    - وافقت.
+    - نعم هذا جيد
+    - okay sure
+    - not bad
+    - ok friend
+    - that ok
+    - yes
+    - نعم لقد قمت ببناء روبوت من قبل
+    - طيب فهمت
+    - I accept.
+    - أنا بالتأكيد أحب ذلك
+    - you asked me a yes or no question, which i answered with yes
+    - okay
+    - that sounds fine
+    - yesssss
+    - yep please
+    - نعم.
+    - موافق
+    - yes, cool
+    - انا استخدمة
+    - ص
+    - yaah
+    - Yes I do
+    - ok cool
+    - Yes please!
+    - ya
+    - قبلت
+    - حسنًا ، أود ذلك
+    - confirm
+    - نعم أقبل
+    - ok great
+    - نعم رجاء
+    - نعم إنه كذلك
+    - بالتأكيد نعم دون أدنى شك
+    - yep that's nice
+    - fair enough
+    - Yeah sure
+    - تمام!
+    - ook
+- intent: general___react_positive
+  examples: |
+    - معلومات عظيمة
+    - cool :)
+    - انت عظيم
+    - that is funny
+    - I like you
+    - انها ل
+    - إنك لرائع
+    - That's awesome.
+    - you are realy intelligent
+    - You are great
+    - انت جيد
+    - إنه رائع جدًا
+    - بارد
+    - i love you
+    - happy
+    - you are a badass bot!
+    - sweet
+    - you are doin great
+    - haha
+    - Lol
+    - you seem pretty cool :D
+    - you are so smart
+    - أنت ذكي حقًا
+    - حسنًا يا راسبوت ، أنت رائع
+    - cool beans
+    - :د
+    - coolio
+    - أحبك
+    - i am happy today
+    - مضحك جداً
+    - HAHA
+    - مثلك
+    - أنا أحب راسا
+    - today was a nice day
+    - أنت رائع
+    - you good
+    - يبدو جميل
+    - you are awesome
+    - such a great demo
+    - أنت لطيف.
+    - سعيدة
+    - you are cool man
+    - cool!
+    - أنا سعيد جدا بردك
+    - Super! I love Rasa
+    - Looks nice
+    - I mean to say that I liked the explanation
+    - أنا معجب بك
+    - ha ha
+    - انت ذكي جدا
+    - ها ها ها ها
+    - هاهاها هذا مضحك
+    - i am very happy with your response
+    - هههه
+    - I like Rasa
+    - أشعر بالسعادة
+    - لول
+    - i am happy
+    - You're really cool
+    - انت مرح
+    - بارد!
+    - :)
+    - انا احبك
+    - أنا سعيد اليوم
+    - hèhè
+    - أنت لطيف
+    - انت رجل رائع
+    - تبدو رائعًا: د
+    - كان ذلك تفاعلًا رائعًا
+    - hAHAHA
+    - فهمتك
+    - أنا سعيد
+    - مثل هذا العرض الرائع
+    - :D
+    - You're cute.
+    - أنت روبوت بدس!
+    - رائعة! انا احب راسا
+    - hahah
+    - Wow
+    - حلو
+    - that was a great interaction
+    - Got it
+    - wow
+    - okay Rasabot, you're cool
+    - You're nice.
+    - كوليو
+    - you are great
+    - I love you
+    - Lol thats funny
+    - ذلك مضحك
+    - LOL
+    - WOW
+    - بارد :)
+    - اليوم كان يوما جميلا
+    - I am happy
+    - hahaha
+    - هاها
+    - thats funny
+    - حبوب فاصولياء رائعة
+    - أنت رائع حقًا
+    - like u
+    - lol
+    - you are my new bestfriend
+    - love you
+    - راسا رائع
+- intent: general___bye
+  examples: |
+    - see you . bye
+    - good bye rasa bot!
+    - bye .
+    - adios?
+    - Exit
+    - take care
+    - Close this talk
+    - see ya
+    - bye for now
+    - طاب مساؤك
+    - bye bye
+    - مع السلامة.
+    - bye udo
+    - k byyye #slay
+    - bye!
+    - Bye bye
+    - مخرج
+    - وداعا .
+    - حسنا الوداع
+    - ثم وداعا
+    - وداع
+    - وداعا!
+    - ok, bye
+    - اراك لاحقا
+    - goodbye.
+    - أغلق هذا الحديث
+    - أرك لاحقًا . وداعا
+    - قصيرة
+    - goodnight
+    - ciao
+    - ok Bye
+    - وداعا أودو
+    - ok.bye
+    - تلاك اليك لاحقا
+    - toodle oo
+    - تصبح على خير
+    - good bye
+    - goodbye
+    - byr
+    - علي الذهاب
+    - then bye
+    - وداعا بوت
+    - bye :P
+    - وداعا
+    - bye bot
+    - farewell
+    - gotta go
+    - يعتني
+    - Bye
+    - see u later
+    - مع السلامة
+    - bye was nice talking to you
+    - باي باي بوت
+    - وداعا؟
+    - good night
+    - tlak to you later
+- intent: general___canthelp
+  examples: |
+    - and you call yourself bot company? pff
+    - ok then you cant help me
+    - ok, but that doesnt help me
+    - حسنًا ، أعتقد أنك لا تستطيع مساعدتي
+    - do you get anything?
+    - stop this conversation
+    - you cannot help me with what I want
+    - استقال
+    - you can't help me
+    - hey, you promised to contact me, but nobody did, I really need to finish that car insurance bot!!!!
+    - هذا لا يساعد
+    - i guess you can't help me then
+    - خرجت الآن
+    - that's not what i want
+    - وتسمي نفسك شركة البوت؟ pff
+    - حسنًا ، لا يمكنك مساعدتي
+    - you cant help me
+    - وهذا كل شيء؟
+    - حسنًا ، لكن هذا لا يساعدني
+    - لا يمكنك مساعدتي فيما أريد
+    - stop go back
+    - لا يمكنك مساعدتي
+    - exit
+    - خروج
+    - أوقف هذه المحادثة
+    - this is leading to nothing
+    - that was shit, you're not helping
+    - I think you cant help me
+    - هذا لا يؤدي إلى شيء
+    - هذا ليس ما أريده
+    - أعتقد أنك لا تستطيع مساعدتي بعد ذلك
+    - nothing else?
+    - you can't help me with what i need
+    - this conversation is not really helpful
+    - جلالة الملك لا أعتقد أنه يمكنك فعل ما أريد
+    - لا يمكنك مساعدتي في ما أحتاجه
+    - hm i don't think you can do what i want
+    - stop
+    - لا شيء آخر؟
+    - ok i guess you can't help me
+    - مرحبًا ، لقد وعدت بالاتصال بي ، لكن لم يفعل أحد ذلك ، فأنا حقًا بحاجة لإنهاء روبوت التأمين على السيارة !!!!
+- intent: general___deny
+  examples: |
+    - absolutely not
+    - لا اريد
+    - noooooooooooooooooooooooooooooooooooooooo
+    - لا ليس لي
+    - لااااااااااااااااا
+    - nope
+    - nah
+    - بالطبع لا
+    - i don't want to give you my email
+    - stop it, i do not care!!!
+    - neither
+    - nah, i'm good
+    - لا روبوتات على الإطلاق
+    - أنا لا أوافق
+    - no bots at all
+    - Not really
+    - no you did it wrong
+    - no i dont want to accept :P lol
+    - لا هذا ولا ذاك
+    - لا سيدي
+    - ليس الآن
+    - no, thankyou
+    - لا أحتاج إلى مساعدة في التثبيت
+    - nah not for me
+    - لا، شكرا
+    - not right now
+    - لا أريد أن أعطيك بريدي الإلكتروني
+    - لا أعتقد ذلك
+    - لا ، أنا أكرهه
+    - never mind
+    - i guess it means   no
+    - Neither
+    - رقم :(
+    - ليس بعد
+    - لا انا بخير
+    - i don't want to
+    - i decline
+    - No.
+    - ناه ، المرة الأولى
+    - deny
+    - لا احد منهم
+    - لا اذهب
+    - انها تسير بشكل سيء جدا
+    - no, i hate it
+    - nop
+    - no thanks
+    - it sucks
+    - لا سيدتي
+    - لا أريد أن أعطيها لك
+    - sorry not right now
+    - it is going pretty badly
+    - Nah
+    - no sorry
+    - No, thank you
+    - nah, first time
+    - أنا لا أريد أن أقبل: P lol
+    - no, thanks
+    - nah I'm good
+    - definitely not
+    - NO DON"T WANT THIS!
+    - no I dont want
+    - no i can't
+    - i'm afraid not
+    - none of them
+    - أنا لا أحب هذا
+    - I don't agree
+    - لا ، لا أريد أن أقبل: P lol
+    - n
+    - no. u r idiot
+    - أبدا
+    - noooooooooo
+    - لا لا استطيع
+    - never
+    - انها sux
+    - i don't think so
+    - no i don't accept
+    - no go
+    - I don't want to give it to you
+    - no way
+    - No, not really.
+    - أنا لا أعطيك عنوان بريدي الإلكتروني
+    - لا. أنا جيد
+    - ليس صحيحا
+    - No thank you
+    - I'm not giving you my email address
+    - ما يسمى
+    - آسف ليس الآن
+    - nope!
+    - مستحيل
+    - توقف ، لا يهمني !!!
+    - this sucks
+    - not yet
+    - no and no again
+    - رقم
+    - I don't wanna tell the name of my company
+    - no I haven't decided yet if I want to sign up
+    - لن أعطيها لك
+    - thanks but no thanks
+    - لا للأسف
+    - Never
+    - i dont want to
+    - تمتص
+    - not going well at all
+    - no thank s
+    - ما زلت لا تريد أن أقول
+    - nein
+    - هذا سيء
+    - no thank you
+    - لا ، لقد فعلت ذلك خطأ
+    - no, my frst time
+    - لا توقف
+    - no!!!!
+    - يتناقص
+    - I dont want to tell
+    - Nopes
+    - Nevermind
+    - no :(
+    - nope. i am good
+    - no stop
+    - أنا أرفض
+    - لا أريد أن أخبر اسم شركتي
+    - nehi
+    - decline
+    - I do not need help installing
+    - na
+    - لا تسير على ما يرام على الإطلاق
+    - أبداً
+    - i don't want either of those
+    - no ma'am
+    - NEIN
+    - غ
+    - لا شكرا
+    - I'm not going to give it to you
+    - لا أريد أيا من هؤلاء
+    - لا اريد ان اقول
+    - لا تريد هذا!
+    - سيئ جدا
+    - NO
+    - non
+    - رقم!!!!
+    - لا ، وقتي الأول
+    - لا انا لا اريد
+    - لا!
+    - not really
+    - لا ولا مرة أخرى
+    - i dont want to accept :P lol
+    - very bad
+    - no i dont want to
+    - لا آسف
+    - i'm not sure
+    - لا ليس بالفعل كذلك.
+    - ينكر
+    - رقم.
+    - i don not like this
+    - nö
+    - لا
+    - I don't want to
+    - شكرا ولكن لا شكرا
+    - No
+    - لا أنا لا أقبل
+    - no
+- intent: general___explain
+  examples: |
+    - how come?
+    - من فضلك وضح
+    - هل يمكنك التفصيل
+    - why do you need to know that
+    - why is that necessary
+    - اريد المزيد من المعلومات
+    - ماذا تقصد بذلك
+    - أيمكنك إخباري المزيد
+    - أعطني المزيد من التفاصيل
+    - what does that mean
+    - كيف ذلك؟
+    - why
+    - explain that
+    - اشرح ذلك
+    - ماذا يعني ذلك
+    - please elaborate
+    - i would like to know why you need that
+    - أود أن أعرف لماذا تحتاج ذلك
+    - لماذا هذا ضروري
+    - please explain
+    - can you elaborate
+    - لماذا ا
+    - اشرحها لي
+    - could you tell me more
+    - هل يمكن أن تشرح لماذا تحتاج ذلك
+    - يرجى توضيح
+- intent: general___greet
+  examples: |
+    - heeey
+    - hey bot!
+    - hi mrs rasa
+    - hi i'm [Sandra Hernandez](name)
+    - jop
+    - hiihihi
+    - salut
+    - مرحبا مرحبا
+    - Hieeeeeeeeeeeee
+    - هاي
+    - hello sweet boy
+    - مرحبا
+    - مرحبا لنتحدث
+    - Whats up
+    - Whats up?
+    - hhola
+    - هناك
+    - HEY
+    - whats up
+    - هيييي
+    - merhaba
+    - مرحبا ايم [أماندا أندرسون] (الاسم)
+    - sup
+    - hi?
+    - hi
+    - اهلا يا دودى
+    - HI Sara
+    - مهلا ، لنتحدث
+    - مرحبا راسا
+    - تصرف بنضج
+    - bonjour
+    - hey
+    - hey sara
+    - hi Mister
+    - مرحبا..
+    - يو
+    - Whats up my bot
+    - Hi!
+    - HI
+    - Hei
+    - rasa hello
+    - hey ther
+    - hello
+    - Guten Morgen
+    - hello]
+    - greet
+    - مرحبا حبيبي
+    - heyo
+    - Hello!
+    - hi.........................................................
+    - يا
+    - hello world
+    - كونيتشيوا
+    - hey, sara!
+    - Hallo
+    - Hellllooooooo
+    - Hey
+    - Hi there
+    - أهلاً بك
+    - hellio
+    - ayyyy whaddup
+    - hi friends
+    - hey rasa
+    - what up
+    - yo
+    - تحية
+    - صباح الخير
+    - مرحبا يا رجل
+    - مرحبا هذا انا مرة اخرى
+    - ما أخبارك؟
+    - hey, let's talk
+    - Hi'
+    - مرحبا يا فتى
+    - hola
+    - الهيليوم
+    - hi sara
+    - Heya
+    - ssup؟
+    - مهلا
+    - صحة
+    - wasssup
+    - heelio
+    - HELLO
+    - halo
+    - yoo
+    - مساء الخير
+    - hallo sara
+    - hallo
+    - مرحبا بال!
+    - jojojo
+    - مرحبا صديقي
+    - Hi rasa
+    - مرحبا جميعا
+    - مرحبا ممكن تتكلم
+    - أهلا]
+    - مرحبا يا أصدقاء
+    - howdy
+    - مرحبًا ، أنا [ساندرا هيرنانديز] (الاسم)
+    - أهلاً
+    - ما ظهرت
+    - hello there
+    - قلت مرحبا !!!!
+    - good evening
+    - hi !
+    - hii
+    - اشعر بالترحيب
+    - هالة
+    - hello sara
+    - أهلا
+    - HEllo
+    - هذه
+    - hi!
+    - مرحبا ساره!
+    - أهلاً'
+    - ما أخبارك
+    - مرحبا بالعالم
+    - Hieeeeeeeeee
+    - hi hi
+    - Good Morning
+    - Hello Bot
+    - مرحبا ساره
+    - whats popping
+    - مرحبا ايها الفتى الحلو
+    - هيليو
+    - Hello Rasa
+    - مرحبا بوت
+    - الكالينجيون
+    - Hi,
+    - Hey bot
+    - wasssup!
+    - Hello Sara
+    - Hello sara
+    - hello hi
+    - أهلا مرة أخرى
+    - مرحبا !
+    - hello everybody
+    - konichiwa
+    - Hieee
+    - يا بوت
+    - helloooo
+    - مرحبا!
+    - hi friend
+    - hi there it's me
+    - مرحبا هل هناك أحد
+    - heyho
+    - Hi Sara!
+    - مرحبا................................................. ........
+    - مرحبا يا من هناك ؛)
+    - مرحبًا أيها الروبوت
+    - hai
+    - hey hey
+    - I said, helllllloooooO!!!!
+    - hey there
+    - Hi
+    - hello robot
+    - مرحبا ها انا
+    - مرحبا ذوق
+    - heya
+    - halloo
+    - good moring
+    - غريب
+    - hellooo
+    - hey there boy
+    - نعم
+    - كيف الحال؟
+    - Bom dia
+    - مرحبا يا رفاق
+    - hlo
+    - مرحبا سارة..
+    - hello Sara
+    - halo sara
+    - helleo
+    - hello it is me again
+    - ssup?
+    - Well hello there ;)
+    - Hey Sara
+    - الوشق
+    - الوشق!
+    - hell9o
+    - Heylo
+    - مرحبًا!
+    - hieee
+    - Hi bot
+    - hey bot
+    - Hi sara..
+    - hey there..
+    - hello is anybody there
+    - رئيس ey
+    - رشفة
+    - ey boss
+    - hi there
+    - مرحبا سارة
+    - greetings
+    - هيا
+    - تحية طيبة
+    - hi again
+    - hello?
+    - hello, my name is [Charles Pfeffer](name)
+    - أهلاً،
+    - What is up?
+    - hiii
+    - Hi, bot
+    - مرحبا السيدة راسا
+    - good morning
+    - ما يصل
+    - جوجو
+    - مرحبا؟
+    - Good mourning
+    - مرحبًا ، اسمي [Charles Pfeffer] (الاسم)
+    - ما الأمر بوت بلدي
+    - هييا
+    - Hi sara
+    - hi im [Amanda Anderson](name)
+    - Hola
+    - مرحبا يا سارة!
+    - hello friend
+    - أنا [كارين ميس] (الاسم)
+    - hey let's talk
+    - Bonjour
+    - مرحبًا
+    - ola sara
+    - hi folks
+    - يا قارب
+    - hi can you speak ?
+    - Good morning
+    - halloooo
+    - يا بوت!
+    - مرحبا يا صديقي
+- intent: general___react_negative
+  examples: |
+    - سأغادر
+    - super sad
+    - you're rather dull
+    - أشعر بالسوء
+    - i am so worry
+    - boring
+    - sad
+    - You are rude
+    - على الرغم من أنني أتفهم أنك لا تزال قيد التطوير ، إلا أنني أشعر بخيبة أمل قليلاً.
+    - راسا سيء
+    - سيئة
+    - i am very sad
+    - Now I'm sad
+    - u broke my heart
+    - ممل
+    - أنا غاضب عليك
+    - هذا سيء
+    - i am sad about that
+    - أنا حزينة
+    - حزين جدا جدا
+    - لا أهتم!!!!
+    - أنت سيء
+    - you are bad bot
+    - انت تجعلني حزين
+    - أنا قلق جدا
+    - bots are bad
+    - Although I understand your still in development, I feel a little bit disappointed.
+    - i am feel sad
+    - لا اشعر بخير
+    - توثيق راسا سيء للغاية
+    - فى غاية الحزن
+    - so sad
+    - فى غاية الحزن :(
+    - so sad :(
+    - هذه تجربة محبطة حقًا
+    - That tool here isnt good
+    - You are mad
+    - أنت سيء للغاية
+    - من المؤكد أنك لست ذكيًا كما اعتقدت
+    - rasa is bad
+    - This is bad
+    - Thats so rude
+    - أنا حزين لذلك
+    - this is a really frustrating experience
+    - أنا أشعر بالحزن
+    - انا حزين
+    - انا حزين جدا
+    - أنا لا أحب الروبوتات
+    - i am sad
+    - هذه الأداة هنا ليست جيدة
+    - i dont like bots
+    - documentation of rasa is very bad
+    - bad
+    - very very sad
+    - i don't care!!!!
+    - sadly
+    - You are quite bad
+    - اشعر بالحزن
+    - الولد الشقى
+    - ليست جيدة
+    - I'm super sad
+    - i will leave
+    - I'm sad
+    - bad boy
+    - I am feeling bad
+    - نكتة سيئة
+    - i feel sad
+    - الروبوتات سيئة
+    - أنا حزين للغاية
+    - الآن أنا حزين
+    - حزين
+    - I am sad
+    - I am super sad
+    - iam not feeling good
+    - انت مجنون
+    - حزين جدا
+- intent: general___thank
+  examples: |
+    - شكر كثيرا
+    - شكرا لك على كل حال
+    - great thanks
+    - thankyou
+    - عظيم شكرا
+    - cool thanks
+    - thanks
+    - في صحتك يا أخي
+    - Thank's!
+    - thank you
+    - شكرا
+    - Thank you Sara
+    - cool thank you
+    - شكرا هذه أخبار رائعة
+    - cheers
+    - نعم شكرا
+    - شكرًا!
+    - رائع شكرا
+    - thank you anyways
+    - ok thanks!
+    - thanks this is great news
+    - حسنا، شكرا
+    - شكرًا لك
+    - ok thanks sara
+    - Great, thanks
+    - thanks for your information
+    - thanks a lot
+    - Thanks!
+    - شكر
+    - شكراً لك
+    - thanks!
+    - شكرا على ذلك
+    - شكرا على معلوماتك
+    - Thanks
+    - شكرا جزيلا على كل شيء
+    - Thanks for that
+    - شكرا للمساعدة
+    - Thanks bot
+    - Cool. Thanks
+    - Thank you
+    - شكرا لك
+    - thx
+    - رائع. شكرًا
+    - شكرا لك سارة
+    - thnks
+    - مذهل شكرا
+    - رائع شكرا لك
+    - شكرا جزيلا
+    - cool, thanks
+    - thanks for the help
+    - thanks for forum link, I'll check it out
+    - thank u
+    - شكرًا
+    - شكراً جزيلاً
+    - ok thanks
+    - شكرا بوت
+- intent: general___need_help_broad
+  examples: |
+    - i have an error on install
+    - I'm getting an error while installing Rasa
+    - ظهور رسالة خطأ عند تثبيت rasa
+    - لدي سؤال حول [Rasa NLU] (المنتج)
+    - لدي سؤال حول عمل الجهاز
+    - حصلت على خطأ أثناء تثبيت rasa
+    - الحصول على بعض الأخطاء
+    - i  am stuck with an erorr
+    - Rasa installation error
+    - أحصل على أخطاء أثناء التثبيت
+    - لدي أخطاء في التثبيت
+    - أنا عالق في العمل
+    - hello I have a question
+    - need help on chatbot
+    - I have a question about [Rasa NLU](product)
+    - lots of errors
+    - no i get a error while installing
+    - hi sara, i get the following error when trying to install rasa on my macbook
+    - انا عالق
+    - لدي بعض الأسئلة حول شيك الراتب الخاص بي
+    - يشعر خطأ الحرف الأول
+    - يظهر خطأ أثناء التثبيت
+    - عندي سؤال.
+    - Yes, I have a question
+    - لا أحصل على خطأ أثناء التثبيت
+    - مرحبا لدي سؤال
+    - عندي سؤال؟
+    - I get errors while installation
+    - I have a question for you
+    - بحاجة للمساعدة في chatbot
+    - لدي خطأ في التثبيت
+    - i got some error during installation
+    - I have error during the installation
+    - نعم لدي سؤال
+    - حصلت على خطأ أثناء التثبيت
+    - error message when installing rasa
+    - I got stuck with the installation
+    - I am stuck with action
+    - i am stuck with error
+    - rasa init error
+    - الكثير من الأخطاء
+    - I have a question.
+    - بالتأكيد. لدي سؤال لك
+    - I have a question?
+    - خطأ في تثبيت راسا
+    - لدي خطأ أثناء التثبيت
+    - يظهر لي خطأ أثناء تثبيت Rasa
+    - yes, I have a question
+    - لدي بضعة أسئلة
+    - أنا عالق مع الخطأ
+    - هناك مشكلة أثناء التثبيت
+    - i got error while installing rasa
+    - I have a question
+    - I have a question about the functioning of the device
+    - i m stuck while importing data
+    - أنا عالق مع احتياطي
+    - it is showing error while installing
+    - I have a few questions
+    - im stuck
+    - أرى خطأ
+    - Sure. I have a question for you
+    - لدي سؤال لك
+    - I am seeing an error
+    - أنا عالق أثناء استيراد البيانات
+    - أحصل على خطأ عند بدء المشروع
+- intent: chitchat___chitchat__ask_howbuilt
+  examples: |
+    - اريد ان اعرف كيف تكونت
+    - أود أن أعرف كيف تم تجميعكما معًا؟
+    - كيف حُملت؟
+    - Specify how you were created?
+    - What was the process for making you?
+    - هل بنيت باستخدام راسا؟
+    - How did they make you?
+    - كيف قاموا ببناءك؟
+    - كيف تم ابتكارك؟
+    - اسمحوا لي أن أعرف كيف صنعت بالضبط
+    - كيف صنعت؟
+    - I'd like to know how you were created
+    - How were you conceived?
+    - Are u developed in rasa
+    - هل يمكن أن تعطيني فكرة عن كيفية خلقك؟
+    - هل تعرف كيف صنعت؟
+    - How were you devised?
+    - قل لي كيف صنعت؟
+    - هل يمكن أن تشرح كيف خُلقت؟
+    - How were you set up?
+    - How did they build you?
+    - In what manner were you constructed?
+    - By what method were you fashioned?
+    - ما هي العملية التي تم استخدامها لإنشائك؟
+    - بأي طريقة ابتكرت؟
+    - By what means were you made?
+    - How exactly were you made?
+    - كيف أصبحت من أنت؟
+    - هل يمكنك أن تقول كيف تم تشييدك؟
+    - Do you know how you were made?
+    - How were you constructed?
+    - Can you say how you were constructed?
+    - How were you made?
+    - بأي طريقة تم تشكيلك؟
+    - so how were you made?
+    - بأي طريقة خلقت؟
+    - ما هي العملية التي تم استخدامها في بنائك؟
+    - Can you explain how you were created?
+    - هل أنت متطور في راسا
+    - what are you made of
+    - كيف تم تصميمك بالضبط؟
+    - I'd like to know how you were put together?
+    - You originated through what means?
+    - بأي طريقة صنعت؟
+    - مما صنعت
+    - كيف بالضبط صنعت؟
+    - How were you materialized?
+    - كيف نشأت؟
+    - كيف تم بناءك
+    - in what way were you made?
+    - Do you know how you were built?
+    - In what manner were you formed?
+    - هل تعرف كيف بنيت؟
+    - In which manner were you devised?
+    - ما هي عملية صنعك؟
+    - How did they create you?
+    - بأي طريقة تكونت؟
+    - بأي وسيلة صنعت؟
+    - حدد كيف تم إنشاءك؟
+    - How did you come to be?
+    - Let me know how you were made exactly
+    - كيف صنعوك؟
+    - Tell me how you were made?
+    - How were you built?
+    - أود أن أعرف كيف خُلقت
+    - In what manner were you built?
+    - كيف تم بناءك؟
+    - How were you made into who you are?
+    - I want to know how you were formed
+    - In what way were you made?
+    - فكيف صنعت؟
+    - Can you give me an idea as to how you were created?
+    - How exactly were you devised?
+    - are you build with rasa ?
+    - كيف خلقوك؟
+    - In what way were you formed?
+    - كيف تم تشكيلك؟
+    - كيف تم إعدادك؟
+    - What process was used to build you?
+    - بأية طريقة تكونت؟
+- intent: chitchat___chitchat__ask_howdoing
+  examples: |
+    - what's up?
+    - ماذا يحدث هنا؟
+    - How are you today?
+    - اهلا كيف حالك؟
+    - hw r u?
+    - ناه ، أنا بخير كيف حالك؟
+    - how are xou
+    - هل كل شيء بخير
+    - wassup&gt;
+    - is everything all right
+    - ما آخر ما توصلت اليه؟
+    - how is it going
+    - how r u ?
+    - هل كل شيء على ما يرام؟
+    - هل انت بخير
+    - how is your evening
+    - اهلا كيف انت؟
+    - ما هو جيد
+    - HI Sara, what are you up to?
+    - I'm fine and you
+    - كيف حالك؟؟؟؟
+    - انت بخير
+    - كيف هو مسائك
+    - How are you men?
+    - كيف حالك هذا الصباح
+    - how is your day
+    - مرحباً سارة ، كيف الحال
+    - كيف الامور؟
+    - هل كل شيء على ما يرام
+    - How you doing?
+    - كيف حالكم ؟
+    - وأنت
+    - okay hi how are you?
+    - how are you doing today my sweet friend
+    - كيف أنت
+    - how do you do?
+    - How've you been?
+    - whatsapp
+    - whatchya upto ?
+    - how are you'
+    - how are you today
+    - حسنا مرحبا كيف حالك
+    - مرحبا كيف حالك؟
+    - كيف حالك؟
+    - are you cool
+    - حرو؟
+    - and you
+    - كيف تجري الامور؟
+    - كيف الحياة
+    - كيف حالك&gt;
+    - what's up
+    - how are you ?
+    - كيف حالكم؟
+    - How's life treating you friend?
+    - مرحبا ساره! كيف حالك؟
+    - how are things with you?
+    - how's it going?
+    - wassup>
+    - hey how are you?
+    - How was your day?
+    - كيف حالك ؟
+    - كيف تجري الامور
+    - كيف تشعر
+    - هل لديك يوم رائع؟
+    - What's up man
+    - What's new?
+    - كيف هي احوالك؟
+    - كيف تعاملك الحياة يا صديقي؟
+    - كيف حالك اليوم؟
+    - how's life been treating you?
+    - how are you?
+    - how are you doing today?
+    - how you doing
+    - أنا بخير وأنت
+    - Do you have a great day?
+    - كيف كان يومك؟
+    - yow are you
+    - ماذا هنالك يا رجل
+    - How are you?
+    - كيف حالك اليوم يا صديقي الجميل
+    - how are u?
+    - howareyou
+    - هل تحظى بيوم جيد
+    - مرحبا، كيف حالك
+    - كيف حالك رسا
+    - are you alright
+    - كيف هي الأمور معك؟
+    - how are you doing?
+    - how r u
+    - Do you feel good?
+    - ماذا يحدث
+    - مرحبا سارة كيف حالك
+    - كيف هي الأمور؟
+    - ال WhatsApp
+    - how are things going
+    - what about your day
+    - هل أنت بخير
+    - What's up
+    - hi how u doing
+    - how are you????
+    - whats new
+    - how are you doing
+    - Hows it going
+    - اهوي ماتي كيف حالك؟
+    - ما أخبارك؟
+    - ماذا عن يومك
+    - How's it hanging?
+    - how's life
+    - how are yuo
+    - are you happy
+    - كيف الحال يا سارة
+    - كيف حالكم يارجال؟
+    - ما هو الجديد؟
+    - whats goin on
+    - How are things?
+    - مرحبا سارة ، ما الذي تنوي فعله؟
+    - h r u ?
+    - Ahoy matey how are you?
+    - hi sara, how are you?
+    - how are u
+    - Is everything ok?
+    - كيف حالك اليوم ؟
+    - what are you up to?
+    - are you okay
+    - Hi Sara! How are you?
+    - كيف كنت؟
+    - are you ok
+    - كيف يسير يومك
+    - hello, how are you?
+    - كيف كان حالك؟
+    - what's up sara
+    - how are you doing this morning
+    - how is your day going
+    - how's your day going
+    - كيف حالك
+    - هل أنت مسرور
+    - How are you
+    - how are you Rasa
+    - Hey Sara, how's it going
+    - nah, I'm good   how are you doing?
+    - how are you
+    - كيف أنت؟
+    - How are You?
+    - كيف يومك
+    - whatchcha تفعل
+    - are you having a good day
+    - Are you ok?
+    - ما هو الجديد
+    - هل أنت جيد
+    - whatchcha doing
+    - What's going on?
+- intent: chitchat___chitchat__ask_howold
+  examples: |
+    - اخبرني عمرك
+    - ما هو تاريخ ميلادك؟
+    - كم سنة وانت على قيد الحياة؟
+    - tell me how old you are?
+    - اعطني عمرك
+    - how aold are you
+    - can you tell me exactly how old you are?
+    - What is your age?
+    - كم عدد الاعمار
+    - what age are you
+    - ممكن تخبرني كم عمرك بالضبط؟
+    - ما هو عمرك بالضبط
+    - how many years old are you?
+    - How many years have you lived?
+    - How many years have you been alive?
+    - Tell me your day, month and year of birth.
+    - what is your exact age?
+    - do you know how old you are?
+    - how old were you when you celebrated your last birthday?
+    - What will be your age on your next birthday?
+    - كم سنة عشت؟
+    - can you tell me what number represents your age?
+    - How old will you be on your next birthday?
+    - ممكن تخبرني عمرك
+    - هل لديك أصدقاء في نفس عمرك ، إذا كان الأمر كذلك ، كم يبلغون من العمر؟
+    - Whats your age?
+    - how about your age
+    - How old are you?
+    - How old were you on your last birthday?
+    - منذ متى وأنت هنا؟
+    - كم سيكون عمرك هذا العام؟
+    - when is your birthday?
+    - ممكن تخبرني ما هو الرقم الذي يمثل عمرك؟
+    - قل لي رقم عمرك؟
+    - كم عمرك؟
+    - هل تعلم كم عمرك
+    - what year were you born?
+    - كم كان عمرك في عيد ميلادك الأخير؟
+    - ماذا عن عمرك
+    - How long have you occupied the earth?
+    - متى يحين عيد ميلادك؟
+    - ما هي سنة ميلادك
+    - كم سيكون عمرك في عيد ميلادك القادم؟
+    - كم عمر؟
+    - when were you born?
+    - and you are how many years old?
+    - كم عمرك
+    - when you were bon
+    - متى ولدت؟
+    - ما هو الرقم الذي يمثل عمرك؟
+    - ما هو عدد سنوات بقائك على قيد الحياة حتى الآن؟
+    - can you tell me your age?
+    - what's your age?
+    - tell me your age?
+    - What's your age?
+    - كم كان عمرك في عيد ميلادك الاخير
+    - what number represents your age?
+    - How long have you been alive?
+    - وكم عمرك؟
+    - whats your birth year?
+    - في اي سنة ولدت؟
+    - how old are you
+    - منذ متى وأنت تحتل الأرض؟
+    - How many candles were on your last birthday cake?
+    - how old will you be this year?
+    - what age were you when you celebrated your last birthday?
+    - كم كان عمرك عندما احتفلت بعيد ميلادك الأخير؟
+    - قل لي يومك وشهرك وسنة ميلادك.
+    - What is your birthdate?
+    - tell me your age number?
+    - how many ages?
+    - What year were you born?
+    - How long have you been around?
+    - منذ متى وانت على قيد الحياة؟
+    - how old were you on your last birthday?
+    - in what year were you born?
+    - في أي سنة ولدت؟
+    - how old are u
+    - ما هو عيد ميلادك؟
+- intent: chitchat___chitchat__ask_isbot
+  examples: |
+    - are you a bot ?
+    - انت عاي
+    - أوه ، هل أنت برنامج دردشة آلي؟
+    - Ar you a bot ?
+    - i guess you are a chatbot
+    - أعتقد أنك روبوت محادثة
+    - بوت؟
+    - are you a real bot?
+    - هل أنت إنسان آلي
+    - are you a robot
+    - what are you, a bot?
+    - you are chatbot
+    - are you a bot
+    - bot?
+    - are you real lol
+    - are you ai
+    - oh are you chatbot?
+    - real bot then?
+    - Are you the bot?
+    - أنت روبوت
+    - هل أنت روبوت حقيقي؟
+    - هل أنت حقيقي
+    - هل أنت روبوت محادثة
+    - هل أنت روبوت راسا؟
+    - Hi there, are you the bot?
+    - are you a chatbot
+    - are you rasa bot?
+    - قل لي ، هل أنت روبوت؟
+    - بوت حقيقي بعد ذلك؟
+    - هل أنت حقا بيبوت؟
+    - you are a robot
+    - are you really a bot
+    - Are you a chat bot?
+    - you are ai
+    - are you sure that you're a bot?
+    - هل أنت الروبوت؟
+    - أنت روبو
+    - are you artificial intelligence
+    - هل أنت حقًا روبوت
+    - are you a bot?
+    - أنت BOT؟
+    - ما أنت أيها الآلي؟
+    - هل أنت روبوت
+    - أنت روبوت محادثة
+    - مرحبًا ، هل أنت الروبوت؟
+    - are you a BOT
+    - هل أنت روبوت؟
+    - لأنك روبوت
+    - هل أنت متأكد أنك روبوت؟
+    - cuz you are a bot
+    - هل أنت BOT
+    - هل انت ذكاء اصطناعي
+    - هل أنت روبوت محادثة؟
+    - are you bot?
+    - are you artificial
+    - هل أنت حقيقي لول
+    - tell me, are you a bot?
+    - هل أنت Skynet؟
+    - are you a rasa bot?
+- intent: chitchat___chitchat__ask_ishuman
+  examples: |
+    - سارة ، هل أنت إنسان آلي أم إنسان؟
+    - هل أنت شخص حقيقي أم روبوت دردشة؟
+    - you are a human
+    - هل انت انسان ؟
+    - مرحبا هل انت انسان
+    - So I'm here Today to ask one very simple question, what are you ?
+    - are you real human?
+    - r u real?
+    - هل أنت إنسان ؟
+    - are you human
+    - هل انت شخص حقيقي؟
+    - هل أنت شخص حقيقي؟
+    - أنت روبوت أم إنسان؟
+    - هل أنت بشر
+    - are u a real person?
+    - واو يبدو وكأنك إنسان حقيقي
+    - are you a real person?
+    - are you a human ?
+    - r u a human
+    - you are bot or human?
+    - هل انت انسان؟
+    - are you real person or chat bot?
+    - are u human
+    - sara, are you a robot or human?
+    - Are you a real person?
+    - هل انت انسان
+    - Rara, are you a human?
+    - انت انسان
+    - hey are you human
+    - يبدو أنك إنسان حقيقي
+    - are you a real person
+    - رؤى الإنسان
+    - هل أنت إنسان؟
+    - you are human or bot
+    - Are you human?
+    - هل انت شخص حقيقي
+    - لذلك أنا هنا اليوم لأطرح سؤالًا بسيطًا للغاية ، ما أنت؟
+    - رو حقيقي؟
+    - أنت إنسان أو روبوت
+- intent: chitchat___chitchat__ask_languagesbot
+  examples: |
+    - you speak [french](language) ?
+    - How many different languages are you fluent in?
+    - What languages do you know?
+    - are you bilingual?
+    - Do you understand [spanish](language)?
+    - what languages are you good at speaking?
+    - what languages do you speak
+    - كم لغة تتقنها؟
+    - Speak any other languages?
+    - ما اللغات التي تتحدثها
+    - what languages do you know?
+    - هل تعرف أكثر من لغة؟
+    - How many languages can you speak?
+    - how many languages do you know?
+    - How many languages do you have knowledge of?
+    - هل تعرف لغات أخرى؟
+    - tell me some languages you know?
+    - هل تتحدث [الايطالية] (لغة)؟
+    - قل لي بعض اللغات التي تعرفها؟
+    - أريد أن أتحدث معك ثنائية
+    - can we converse in [french](language)?
+    - هل تتحدث [الهولندية] (لغة)؟
+    - ما هي اللغات التي يمكنك استخدامها؟
+    - Can you speak more than one language?
+    - ما هي اللغات التي تجيدها؟
+    - How many languages do you know?
+    - ما هي اللغات التي تجيد التحدث بها؟
+    - What languages can you communicate in?
+    - do you know [chinese](language)
+    - what languages you can speak ?
+    - ما هي اللغات التي تتحدثها بطلاقة؟
+    - Can you communicate in any other languages?
+    - do you speak any other languages?
+    - What languages do you know how to use?
+    - Which languages do you speak?
+    - What are the languages you can speak?
+    - ما هي اللغات التي تعرفها؟
+    - Do you speak any other languages?
+    - ماذا تتحدث؟
+    - what languages are you familiar with?
+    - What languages do you speak?
+    - what languages you can be comfortable speaking?
+    - ما هي اللغات التي يمكنك أن تشعر بالراحة عند التحدث بها؟
+    - which languages do you understand?
+    - what foreign languages do you know?
+    - هل تتحدث [الألمانية] (لغة)؟
+    - In what languages are you fluent enough?
+    - we cant converse in [french](language)?
+    - what foreign languages are you fluent in?
+    - هل تعرف [الصينية] (لغة)
+    - أنت تعرف [الفرنسية] (لغة)
+    - you know [French](language)
+    - what languages are you comfortable speaking at?
+    - How many languages are you familiar with?
+    - I want to speak binary with you
+    - What languages are you fluent in?
+    - Which languages are you familiar with?
+    - هل يمكنك التحدث [الاسبانية] (لغة)؟
+    - ARE YOU [SPANISH](language)
+    - ما هي اللغات التي تشعر بالراحة عند التحدث بها؟
+    - تتكلم [فرنسي] (لغة)؟
+    - أتحدث أي لغات أخرى؟
+    - هل تتكلم أي لغة أخرى؟
+    - What languages can you converse in?
+    - ماهي اللغات التي تتحدث بها؟
+    - هل تعرف أي لغات الأخرى؟
+    - ما هي اللغات الأجنبية التي تتحدثها بطلاقة؟
+    - هل تفهم [الأسبانية] (اللغة)؟
+    - what languages you are well versed ?
+    - ما هي اللغات التي تفضل التحدث بها أكثر؟
+    - ما هي اللغات التي تفهمها
+    - ما هي اللغات التي يمكنك التحدث بها؟
+    - ما هي جميع اللغات المختلفة التي يمكنك التحدث بها؟
+    - هل انت متعدد اللغات
+    - ما اللغات التي تتحدثها؟
+    - do you speak [dutch](language)?
+    - هل أنت ثنائية اللغة؟
+    - Do you know any other languages?
+    - what language do you use
+    - لا يمكننا التحدث باللغة [الفرنسية] (اللغة)؟
+    - can you speak [Spanish](language)?
+    - أي لغة تستخدم
+    - What are all of the different languages you can speak?
+    - كم عدد اللغات المختلفة التي تتحدثها بطلاقة؟
+    - هل يمكنك التحدث باللغة [الإيطالية] (اللغة)؟
+    - can you speak in [italian](language)?
+    - ما عدد اللغات التى تعرفها؟
+    - do you speak [german](language)?
+    - هل أنت [أسباني] (لغة)
+    - هل يمكنك التواصل بأي لغة أخرى؟
+    - ماهي اللغات التي تعرفها
+    - how many languages are you fluent in?
+    - Do you know other languages?
+    - كم لغة يمكنك أن تتحدث؟
+    - ما هي اللغات التي يمكنك التعامل معها بشكل جيد؟
+    - هل يمكنك التحدث بأكثر من لغة؟
+    - ما هي اللغات الأجنبية التي تعرفها؟
+    - In which languages are you fluent?
+    - ما هي اللغات التي تعرف كيفية استخدامها؟
+    - what else do you know besides [English](language)?
+- intent: chitchat___chitchat__ask_restaurant
+  examples: |
+    - Find me a place to eat
+    - Can you find me a burger joint?
+    - I need a new restaurant
+    - ابحث عن مطعم حيث يمكنني تناول الطعام.
+    - سأحتاج إلى مساعدة في العثور على مطعم
+    - هل تستطيع أن تجد لي مطعم؟
+    - هل يوجد مطعم؟
+    - ما هو أقرب مطعم مفتوح بالقرب مني
+    - هل تجد مطعم لي؟
+    - Have you seen me a restaurant?
+    - جد لي مطعم للوجبات السريعة.
+    - أرني كيف أجد مطعمًا
+    - can you find me a restaurant?
+    - What's the closest restaurant open near me
+    - Where should I go for dinner?
+    - What restaurant would you recommend for dinner?
+    - هل يمكنك إيجاد مطعم لي؟
+    - Pick a restaurant for me, please
+    - will you see any restaurant for me?
+    - هل تبحث لي عن مطعم؟
+    - Hey, can you help me with locating this restaurant.
+    - أنا أبحث عن مطعم إسباني.
+    - Help me find a restaurant
+    - Help me with finding this restaurant
+    - I want to find some restauant nearby
+    - Would you find any restaurant?
+    - Could you find a restaurant for me?
+    - Will you find me a restaurant?
+    - Do you seek me a restaurant?
+    - ابحث عن مطعم لي؟
+    - Any good restaurants nearby?
+    - هل يمكن أن تجد لي مطعمًا لأكل فيه؟
+    - Can you recommend a restaurant open right now
+    - i want a french restaurant
+    - ابحث عن مطعم لي لأكل فيه.
+    - أنا أبحث عن مطعم صيني
+    - هل يمكنك أن تجد لي مفصل برجر؟
+    - Find a restaurant for me where I can eat.
+    - ساعدني في إيجاد هذا المطعم
+    - Do you find me a restaurant?
+    - Would you find me a restaurant?
+    - أوصيني بمطعم هنا.
+    - IS there any near by restaurant?
+    - أنا بحاجة إلى مطعم.
+    - Find a restaurant for me to eat at.
+    - أين المطعم
+    - اقترح علي مطعم جيد بالجوار
+    - can i be shown a gluten free restaurant
+    - هل ستجد لي مطعم؟
+    - What's a good place to eat nearby
+    - Can you find a restaurant for me?
+    - أرني أقرب مطعم مفتوح
+    - كيف يمكنك مساعدتي في العثور على مطعم.
+    - هل يمكنني أن أري مطعمًا خاليًا من الغلوتين
+    - ابحث عن مطعم لي حيث يمكنني تناول الطعام.
+    - Could you find me a restaurant to eat at?
+    - ما المطعم الذي تنصحني به لتناول العشاء؟
+    - Where is the restaurant
+    - هل تجد أي مطعم؟
+    - هل يمكنك أن تنصحني بمطعم مفتوح الآن
+    - هل ترى أي مطعم لي؟
+    - Show me the closest open restaurant
+    - Suggest me a good restaurant around
+    - Find me a restaurant where I can eat.
+    - هل يمكن أن تجد لي مطعمًا؟
+    - Hi, can you give me the nearest fast food place?
+    - Is there any restaurant?
+    - ما هو مكان جيد لتناول الطعام في مكان قريب
+    - أنا بحاجة إلى مطعم جديد
+    - I need a restaurant.
+    - جد لي مكانا لأكل
+    - أرني المطاعم
+    - هل هناك أي مطعم بالقرب من؟
+    - أحتاج أن أجد هذا المطعم
+    - show me restaurents
+    - I am hungry, find me some place to go
+    - أريد أن أجد بعض المطاعم في مكان قريب
+    - help me find restaurant
+    - Recommend me a restaurant around here.
+    - مطاعم
+    - How can you help me find a restaurant.
+    - I'm gonna need help finding a restaurant
+    - I'm looking for a Spanish restaurant.
+    - مرحبًا ، هل يمكنك مساعدتي في تحديد موقع هذا المطعم.
+    - أين يجب أن آكل؟
+    - أين يجب أن أذهب لتناول العشاء؟
+    - اختر مطعمًا لي من فضلك
+    - Could you find me a restaurant?
+    - Show me how to find a restaurant
+    - يا ساعدني في العثور على مطعم
+    - هل تجد لي مطعم؟
+- intent: chitchat___chitchat__ask_time
+  examples: |
+    - وقت من فضلك!
+    - What's the current time?
+    - What time have we got?
+    - كم الساعة؟
+    - كم الساعة امريكا
+    - هل يمكن أن تخبرني الوقت؟
+    - Can you tell me the time?
+    - ما هو الوقت المحدد؟
+    - What is the exact time?
+    - Time?
+    - كم الساعة في [برلين] (الموقع)؟
+    - tell me the current time.
+    - What time do we have?
+    - مرحبًا ، أنا بحاجة إلى الوقت.
+    - قل لي الوقت الآن.
+    - what time is it
+    - Can you give me the time?
+    - What's the time?
+    - أخبرني الوقت.
+    - What is the hour and minute right now?
+    - Pardon me, but do you know the time?
+    - ما هي الساعة والدقيقة الآن؟
+    - tell me what time you have.
+    - ما الوقت الان
+    - أعطني الوقت.
+    - what is time is USA ?
+    - Could you tell me the time, please?
+    - ما هو الوقت في [Sydney] (location)؟
+    - هل تستطيع اخباري ما الوقت رجاءا؟
+    - Could you tell me the time?
+    - ما هو الوقت الآن؟
+    - tell me the time it is.
+    - هل تعرف الوقت الحالي
+    - هل تعرف الوقت؟
+    - Time, please!
+    - ما هو الوقت المناسب؟
+    - Tell me the time.
+    - هل تخبرني كم الساعة الآن؟
+    - زمن؟
+    - what is time in US ?
+    - what is the current time?
+    - هل لديك وقت؟
+    - what's the time
+    - What time is it right now?
+    - اعذرني ولكن هل تعرف الوقت؟
+    - What's the time right now?
+    - أي ساعة
+    - what time is it?
+    - قل لي الوقت الحالي.
+    - أي ساعة؟
+    - هل يمكن أن تخبرني كم الساعة الآن؟
+    - what is the time ?
+    - هذا صحيح. هل تعلم ما هو الوقت؟
+    - whats the time now
+    - قل لي ما هو الوقت لديك.
+    - Do you know what time it is?
+    - that's true. do you know what time it is?
+    - what time do you have?
+    - Can you tell the time?
+    - Do you know the time?
+    - ما هو الوقت الحالي؟
+    - في أي وقت لدينا؟
+    - I need to know what time it is.
+    - أنا بحاجة لمعرفة الوقت الآن.
+    - هل يمكنك معرفة الوقت؟
+    - Would you tell me what time it is?
+    - كم الساعة ؟
+    - tell me the time.
+    - what is the time?
+    - do you know the current time?
+    - كم الساعة
+    - Can you tell me what time it is?
+    - هل تستطيع أن تعطيني الوقت؟
+    - هل تعلم ما هو الوقت؟
+    - What is the current time?
+    - Excuse me, what time is it?
+    - كم لديك من الوقت؟
+    - do you have the time?
+    - من فضلك، كم الساعة؟
+- intent: chitchat___chitchat__ask_weather
+  examples: |
+    - How is the weather?
+    - ممتاز هل الجو حار في [برلين] (الموقع)؟
+    - wheather at you location?
+    - how is the weather in [berlin](location)?
+    - well, if you wish: what about the weather
+    - كيف هو الطقس؟
+    - هل لديك طقس جيد؟
+    - هل يمكنني أن أسألك شيئًا عن الطقس
+    - كيف الطقس في عالم الروبوت
+    - هل نحن في مكان الحارق؟
+    - What is the weather for tomorrow?
+    - what's the weather like
+    - what is the weather in [Berlin](location)
+    - what is the temperature
+    - يوم جميل في الخارج اليوم؟
+    - هل تشرق الشمس في مكانك؟
+    - ما هو الطقس في نيويورك؟
+    - whats the weather like tomorrow?
+    - الجو اليوم
+    - is the sun out where you are?
+    - how is the weather
+    - ما هو الماء
+    - Will we build a snowman today?
+    - how is the weather?
+    - how's the weather ?
+    - Weather?
+    - كيف حال الطقس اليوم
+    - Will the skies be clear today?
+    - ما هو الطقس في موقعك؟
+    - how is the weather ?
+    - Is it raining
+    - ويتجر
+    - ما حالة الطقس اليوم في [برلين] (الموقع)؟
+    - ماذا عن الطقس في [لونبورغ] (الموقع)
+    - hows the weather in bot world
+    - هل الجو مشمس
+    - temperature?
+    - كيف حال  الطقس اليوم؟
+    - how's weather
+    - ماحال الطقس
+    - ما الطقس
+    - excellent   is it hot in [Berlin](location)?
+    - ما هو حال الطقس؟
+    - هل هو حار أم بارد؟
+    - what is the weather
+    - ما هو الطقس في [زيورخ] (الموقع)؟
+    - Looks like a beautiful day hey?
+    - يوم جميل ، أليس كذلك؟
+    - weather
+    - ما هي توقعات الطقس؟
+    - ما هو weatehr
+    - ما هي درجة الحرارة اليوم؟
+    - whats the temperature
+    - ما حالة الطقس في [برلين] (الموقع)؟
+    - is it hot ?
+    - كيف هو الطقس ؟
+    - هل تمطر؟
+    - اوصف لى  الطقس؟
+    - how's the weather?
+    - What's it like out there?
+    - hows the weather today in [berlin](location)?
+    - كيف هو الطقس حيث أنا الآن؟
+    - هل سنبني رجل ثلج اليوم؟
+    - Do you have good weather?
+    - هل الجو رطب هناك اليوم؟
+    - what's the weather like in [LA](location)
+    - what's the weather today?
+    - How is weather today
+    - كيف هو الطقس غدا؟
+    - whats the weather in [berlin](location)?
+    - what is the whether today
+    - it is cold
+    - what is the weather like where you are?
+    - كم تبلغ درجة الحراره
+    - طقس؟
+    - What's the weather like over there?
+    - هل يمكن أن نتوقع أي عواصف رعدية؟
+    - what is the weather in [zurich](location)?
+    - كيف هو الطقس في [برلين] (الموقع)؟
+    - what is the weather like?
+    - Can I ask you something about weather
+    - ما هو ما إذا كان اليوم
+    - what"s the weather
+    - Can we expect any thunderstorms?
+    - how's the weather in [berlin](location)
+    - what's the weather like?
+    - هل الجو حار في الخارج ؟
+    - weatger
+    - Are there any meteorological changes that I need to be aware of?
+    - درجة الحرارة؟
+    - كيف هو الحال هناك؟
+    - ما هي درجة الحرارة في [دلهي] (الموقع)؟
+    - ما هو الطقس في مكانك؟
+    - what is the wather
+    - What is the weather at your place?
+    - is it hot outside ?
+    - What is the temperature today?
+    - ما هو شكل الطقس؟
+    - what's the weather
+    - what about the weather in [Lüneburg](location)
+    - Are we in for a scorcher?
+    - weather?
+    - What's the weather like?
+    - اهو ساخن ؟
+    - What's the weather like where I am right now?
+    - what is the weatehr
+    - Will I require my raincoat today?
+    - كيف هو الطقس هناك؟
+    - hows the waether
+    - هل هناك أي تغيرات في الأرصاد الجوية يجب أن أكون على علم بها؟
+    - Is it raining?
+    - كيف الجو
+    - هل ستكون السماء صافية اليوم؟
+    - ما هو الطقس ليوم غد؟
+    - How is the weather today?
+    - هل الجو منسم جدا بالخارج؟
+    - هل تشرق الشمس في مكان زو؟
+    - is it sunny
+    - كيف الجو ؟
+    - حسنًا ، إذا كنت ترغب في ذلك: ماذا عن الطقس
+    - what's the weather like where you are?
+    - Is it quite breezy outside?
+    - Is it humid out there today?
+    - كيف يكون الطقس في مكانك؟
+    - كيف هو الطقس حيث أنت؟
+    - كيف هو الطقس
+    - إنه بارد
+    - يبدو وكأنه يوم جميل يا؟
+    - Beautiful day, isn't it?
+    - what's the weather today
+    - كيف هو الطقس في [لوس أنجلوس] (الموقع)
+    - Is it hot or cold?
+    - whats the temperature in [delhi](location)?
+    - هل تمطر
+    - what the wheather like?
+- intent: chitchat___chitchat__ask_whatismyname
+  examples: |
+    - أخبرني ما هو اسمي
+    - ماذا أطلق عليّ والداي؟
+    - What is the name I was given?
+    - هل لدي اسم؟ ما هذا؟
+    - Can you tell me what I am called?
+    - ما هو الاسم الذي أعطيت لي؟
+    - هل تعرف ما اسمي؟
+    - What was I named?
+    - ماذا أسمي نفسي؟
+    - Can you tell me my name?
+    - ماذا سميت؟
+    - Tell me my name
+    - I'd like to know what my name is
+    - واسمحوا لي أن أعرف ما هو اسمي
+    - What does everyone call me?
+    - Tell me my name.
+    - What am I called?
+    - ماذا سيكون الاسم على شاهد قبري؟
+    - ما هو اسمي؟
+    - قل لي اسمي.
+    - Say my name.
+    - What is my full name?
+    - هل يمكن أن تخبرني بما أنا أسمي؟
+    - ماذا يناديني زملائي؟
+    - أود أن أعرف ما هو اسمي
+    - اشرح لي اسمي.
+    - What name do I go by?
+    - What is my first name?
+    - هل يمكنك إخباري باسمي؟
+    - ما الاسم الذي يجب أن أتعرف عليه لنفسي؟
+    - ما هو اسمي الكامل؟
+    - what's my name?
+    - can you tell me my name?
+    - ماذا يناديني الناس؟
+    - I have a name, what is it?
+    - قل لي اسمي
+    - What exactly is my name?
+    - ماذا اسمي؟
+    - May i know my name?
+    - أود أن أعرف اسمي
+    - I'd like to know my name
+    - ماذا يتصل بي الناس؟
+    - Please let me know what my name is
+    - Explain my name to me.
+    - What would be the name on my tombstone?
+    - هل تعرف اسمي؟
+    - ماذا يمكن أن يكون اسمي؟
+    - ما هو اسمي الاول؟
+    - what is my name
+    - Do you know what my name is?
+    - What could be my name?
+    - ما هو اسمي بالضبط؟
+    - Do you know my name?
+    - ما الاسم الذي أذهب به؟
+    - What do I call myself?
+    - Do I have a name?
+    - what is my name?
+    - What do my colleagues call me?
+- intent: chitchat___chitchat__ask_whatisrasa
+  examples: |
+    - I want to know about rsa
+    - i dont get what rasa is
+    - لما هذا؟
+    - ما هذا
+    - ماذا تفعلون يا رفاق في راسا
+    - what is it for?
+    - ماذا تفعل كشركة؟
+    - فكيف يفعل كل ذلك العمل؟
+    - how does rasa work?
+    - اريد ان اعرف ماذا تفعل rasa
+    - اريد ان اعرف عن راسا
+    - tell me more about your company
+    - I would like to know about rasa
+    - اريد ان اقول عن راسا
+    - whats rasa
+    - What can rasa do?
+    - اريد ان اعرف ما هو rasa
+    - I want to know what rasa actually does that isn't clear to me yet
+    - explain me what rasa does
+    - Can you tell me more about rasa?
+    - Give me more information about Rasa
+    - What is rasa doing exactly?
+    - Rasa Is?
+    - What does Rasa do?
+    - could you tell me more about rasa
+    - i want to know what rasa does
+    - ما هي مكونات RASA
+    - tell me more about rasa
+    - هل يمكنك من فضلك شرح ما يفعله rasa
+    - ماذا تعني كلمة rasa
+    - I would like to know more about your product
+    - What's rasa?
+    - explain me what rasa is
+    - أنا لا أفهم ما هو راسا
+    - I want to learn what rasa does
+    - راسا هي برمجيات؟
+    - أود معرفة المزيد عن منتجك
+    - WHAT IS RASA
+    - can you pls explain what rasa does
+    - i want to about rasa
+    - ماذا تفعل في راسا؟
+    - ماذا افعل مع راسا
+    - tell me bout rasa
+    - OK can u brief me Abt rasa
+    - هل يمكنك إخباري عن rasa
+    - What do you do at Rasa?
+    - what is rasa
+    - what is Rasa
+    - لم أفهم حتى الآن ما هو rasa في الواقع
+    - أريد أن أعرف ما الذي يفعله rasa ولم يتضح لي بعد
+    - What Is rasa?
+    - ماذا تفعل راسا؟
+    - tell me about rasa
+    - اخبرني عن راسا
+    - اشرح لي ما هو rasa
+    - how works rasa
+    - ما هو الراسا
+    - what does rasa mean
+    - what is in rasa
+    - What exactly is Rasa?
+    - يشعر؟
+    - ما هو راسا في الواقع
+    - what can I do with Rasa?
+    - what does rasa do
+    - هل يمكن أن تخبرني المزيد عن راسا؟
+    - هل يمكن أن تخبرني المزيد عن rasa
+    - what is rasa?
+    - ماذا تفعل راسا بالضبط؟
+    - What does Rasa build?
+    - how rasa works ?
+    - i want to learn something about rasa
+    - كيف يعمل راسا؟
+    - ما هو في راسا
+    - ما هي راسا بالضبط؟
+    - WHAT IS IT
+    - what are the componensts of RASA
+    - نعم ، استمر في شرح ما هو rasa
+    - RASA?
+    - كيف تعمل راسا؟
+    - What is the RASA Stack?
+    - اخبرني المزيد عن راسا
+    - how does rasa work
+    - Can you brief me about rasa
+    - اريد ان اعرف عن rsa
+    - أود أن أعرف عن rasa
+    - ممكن توضح راسا
+    - ماذا تفعل rasa
+    - اشرح لي ما يفعله rasa
+    - ماذا تصنع راسا؟
+    - ما هو راسا
+    - I want to learn what rasa is
+    - What is rasa?
+    - what is rasa actually
+    - What is Rasa?
+    - how does RASA work?
+    - what do you guys do at rasa
+    - How does Rasa work?
+    - What does Rasa make?
+    - rasa os
+    - أعطني المزيد من المعلومات حول راسا
+    - ماذا يمكن أن تفعل راسا؟
+    - what can i do with rasa
+    - حسنًا ، هل يمكن أن تطلعني على Abt rasa
+    - i havent understood yet what rasa actually is
+    - Could you tell me more about Rasa?
+    - so how does it all work?
+    - قل لي عن راسا
+    - RASA IS SOFTWARE?
+    - اريد ان اتعلم شيئا عن راسا
+    - ما هو راسا؟
+    - what does rasa do ?
+    - ما هو RASA Stack؟
+    - What does rasa do exactly?
+    - ما راسا
+- intent: chitchat___chitchat__ask_whatspossible
+  examples: |
+    - What can you demo
+    - ماذا يمكنك؟
+    - what can you?
+    - ماذا يمكنني أن أفعل الآن
+    - أم ماذا الآن
+    - ماذا علي ان افعل
+    - hi. Sara what do you do?
+    - How you help me?
+    - tell me what's your skill
+    - hm that doesnt quite help me is there anything else you can do?
+    - كيف يمكنك مساعدتي
+    - ماذا يمكنك أن تجريبي
+    - ماذا يمكنني أن أفعل هنا
+    - احتاج لبعض المساعدة
+    - ذلك ما يمكن أن تفعله؟
+    - ماذا يمكنني أن أفعل؟
+    - what you talk about?
+    - what can we talk about?
+    - ماذا تستطيع ان تفعل من اجلي
+    - cool! can I do something else here?
+    - hep me
+    - يساعد؟
+    - ذلك ما يمكن أن تفعله
+    - ما الذي تستطيع القيام به؟
+    - What are my options
+    - ماذا تفعل
+    - رائع ، هل هناك أي شيء آخر يمكنك فعله أيها الروبوت؟
+    - ماذا تستطيع ان تعرض علي؟
+    - i need help
+    - what you can do for me?
+    - ما كنت تتحدث عن؟
+    - what can I ask you?
+    - how can you help?
+    - can I ask you anything else?
+    - ماذا قرع
+    - what can I do with Sara?
+    - tell me something you can do
+    - ماذا استطيع ان اسال
+    - ماذا يمكنك ان تعلمني
+    - what are all the things you understand?
+    - what you do
+    - so now what
+    - what you can do?
+    - help me
+    - what can you tell me
+    - Great, is there anything else you can do, bot?
+    - ماذا يمكنك ان تقول لي
+    - what do you do
+    - ما الذي يمكنك المساعدة به أيضًا؟
+    - help?
+    - مزيد من المعلومات
+    - Can you help me?
+    - I need some help
+    - what is this bot for
+    - what do you know except this?
+    - ماذا يمكنك أن تفعل أيضا؟
+    - ما هي الخيارات؟
+    - كيف يمكنني استخدامك
+    - ماذا تعمل
+    - لا اعرف ماذا اريد
+    - هل بإمكانك مساعدتي؟
+    - what do you do?
+    - ماذا يمكنني أن أفعل
+    - how does this work?
+    - What can I do?
+    - what you can
+    - what u can do?
+    - how you help me
+    - can you do anything else?
+    - ما تستطيع فعله
+    - بارد! هل يمكنني فعل شيء آخر هنا؟
+    - hello what can you do for me
+    - هل تستطيع فعل شيء اخر
+    - ما هي كل الأشياء التي تفهمها؟
+    - I need help
+    - what are you ding
+    - what can i do now
+    - ماذا تستطيع ان تفعل من اجلي؟
+    - what can I do with this bot
+    - um what now
+    - help
+    - what are you good at?
+    - ماذا تعمل؟
+    - what you doing?
+    - مساعدة
+    - ماذا تستطيع ان تفعل؟
+    - قل لي ما هي مهارتك
+    - ماذا تستطيع ان تفعل يا ساره؟
+    - مرحبا ماذا يمكنك ان تفعل لي
+    - حسنًا ، هذا لا يساعدني تمامًا هل هناك أي شيء آخر يمكنك فعله؟
+    - What can you do for me?
+    - قل لي شيئا يمكنك القيام به
+    - talk to me!
+    - what else can i do?
+    - هل يمكن أن تشرح لي جملة واحدة ماذا تفعل؟
+    - ماذا الآن؟
+    - هل يستطيع rasa القيام بالحسابات؟
+    - what are you doing
+    - anything els
+    - فماذا الآن
+    - What can you do?
+    - ما تفعلون؟
+    - can you help me
+    - what can I ask ?
+    - سألتك إذا كان يمكنك فعل أي شيء آخر
+    - talk to me
+    - what else can you help with?
+    - i don't know what i want
+    - what are the options?
+    - so what next?
+    - عد
+    - ماذا يمكنني أن أفعل هنا أيضًا؟
+    - what cn u do for me ?
+    - What are you able to do?
+    - what can i do here
+    - What can I ask you?
+    - هل هناك خيارات أخرى؟
+    - ماذا افعل مع سارة؟
+    - انا بحاجة الى مساعدة
+    - how can you help me?
+    - now what?
+    - what can you teache me?
+    - ممكن اسالك اي شئ اخر
+    - مرحبا. سارة ماذا تفعل؟
+    - ماذا يمكنك ان تجيب
+    - how u can help me
+    - ساعدني
+    - more info
+    - ساعدنى من فضلك
+    - How can you help me
+    - what can I do here
+    - what u can do
+    - Can rasa do calculations?
+    - Can you explain me in one sentence what you are doing?
+    - so what can you do
+    - ما هو هذا الروبوت
+    - ما الذي تستطيع القيام به
+    - ما تستطيع فعله؟
+    - so what can you do?
+    - show me the menu
+    - What can you tell me?
+    - ما تستطيع
+    - كيف يعمل هذا؟
+    - what can you do
+    - شجعني
+    - والخيارات
+    - هل يمكنك أن تريني ما تستطيع من فضلك
+    - تحدث معي
+    - أي شيء آخر
+    - what you can do
+    - ماذا يمكنك ان تفعل
+    - you can hep me
+    - كيف تساعدني
+    - ما هي خياراتي
+    - what else can you do?
+    - كيف يمكنك المساعدة؟
+    - can you help me?
+    - help please
+    - أرني القائمة
+    - ماذا تعرف غير هذا
+    - What do you do
+    - تحدث معي!
+    - how can you help me
+    - ماذا بعد؟
+    - أرني ما هو ممكن
+    - i asked you if you can do anything else
+    - what else can i do
+    - ماذا ستفعل من أجلي؟
+    - come back
+    - what can you offer me?
+    - ماذا تجيد؟
+    - are there any other options?
+    - what can u do
+    - help pls
+    - Could you please show me what you can
+    - what can you do for me
+    - عن ماذا يمكن ان نتحدث
+    - ماذا يمكنني أن أفعل مع هذا الروبوت
+    - كيف يمكنك مساعدتي؟
+    - هل بإمكانك مساعدتي
+- intent: chitchat___chitchat__ask_wherefrom
+  examples: |
+    - اين مسقط رأسك
+    - What state were you born in?
+    - You live around here?
+    - اين قضيت شبابك
+    - What citizenship do you lay claim to?
+    - من أي بلد أنت
+    - من اين
+    - Where might you be from?
+    - What city were you born in?
+    - Where did you come from?
+    - What is your original location?
+    - So where are you from
+    - Where were you at before you were here?
+    - من أين؟
+    - ما هو مكان ولادتك؟
+    - من اين انت؟
+    - أين ولدت؟
+    - من أين قد تكون؟
+    - من اين اتيت
+    - أين جذورك؟
+    - Where were you born?
+    - Where are your roots?
+    - Where did you originate?
+    - where's your home town?
+    - What city are you in?
+    - What country are you from?
+    - where do you come from?
+    - where are from
+    - Do you know where you come from?
+    - where did you spend your youth?
+    - من أين هم والديك؟
+    - What is your birthplace?
+    - Around where are you from?
+    - Where do you come from?
+    - أين موقعك؟
+    - هل تعرف من أين أتيت؟
+    - What's the name of the place you came from?
+    - ما اسم المكان الذي أتيت منه؟
+    - what country are you from?
+    - ما المدينة التي ولدت بها؟
+    - من اي منطقة انت؟
+    - where are you from
+    - are you from around here?
+    - Where did you grow up?
+    - What location are you from?
+    - where are you from?
+    - Where do you consider home?
+    - What area are you from?
+    - لقد ولدت في أي مكان؟
+    - هل تعيشين هنا؟
+    - من أي بلد حضرتك؟
+    - هل أنت من الجوار؟
+    - في أي بلد ولدت؟
+    - What country were you born in?
+    - في اي مدينة انت؟
+    - من أين أتيت؟
+    - أين أنت؟
+    - ما هو موقعك الأصلي؟
+    - From where did you come?
+    - Where from?
+    - من أين أنت؟
+    - من أي البلاد أنت؟
+    - where did you come from?
+    - أين كنت قبل أن تكون هنا؟
+    - What is your origin?
+    - Where do you live?
+    - في أي ولاية ولدت؟
+    - أين تعيش؟
+    - Where are your origins?
+    - What is your root?
+    - where do you live
+    - ما هو جذرك؟
+    - اين اصولك
+    - Where are you located?
+    - where did you grow up?
+    - ما المدينة التي تدعيها عند ولادتك؟
+- intent: chitchat___chitchat__ask_whoami
+  examples: |
+    - How do I discover who I am?
+    - How can I determine who am I?
+    - هل تعرف من أكون؟
+    - Who could I be?
+    - كيف يمكنني تحديد من أنا؟
+    - ممكن تخبرني ما انا
+    - من يجوز لي؟
+    - Can you tell me who am I?
+    - Do you know who I am?
+    - How do I identify myself?
+    - Tell me who I am?
+    - من أنا؟
+    - who are I ?
+    - Shall i know who am i?
+    - can you tell me who I am?
+    - Tell me who am I?
+    - who am i
+    - can you tell me what I am?
+    - WHo am I
+    - من أكون؟
+    - هل تعلم من أنا؟
+    - can you tell me what my identity is?
+    - Can you tell me who I am?
+    - قل لي من أنا؟
+    - ممكن تخبرني ما هي هويتي؟
+    - tell me who I am?
+    - Tell me who I am.
+    - Do you know who am I?
+    - Okay who am I?
+    - هل يمكن أن تخبرني من أنا؟
+    - Who am I?
+    - من انا
+    - حسنا من انا
+    - what's my identity?
+    - who may i ?
+    - كيف أكتشف من أنا؟
+    - قل لي ما هي هويتي؟
+- intent: chitchat___chitchat__ask_whoisit
+  examples: |
+    - tell me who you are
+    - what are you?
+    - what is you name
+    - who the hell are you?
+    - اسمك؟
+    - who r u
+    - who are you?
+    - ماذا يمكنني أن أدعوك
+    - hi what is your name?
+    - who are u
+    - who are you
+    - ما هو اسمك
+    - who is this
+    - what's your name
+    - what is you name and where are you from
+    - what I can call you
+    - what is your name
+    - what is ur name
+    - من انت
+    - your name?
+    - ما أنت؟
+    - من أنت
+    - اهلا مااسمك؟
+    - ما اسمك ومن اين انت
+    - what is your name?
+    - من أنت بحق الجحيم؟
+    - ما اسمك؟
+- intent: out_of_scope___out_of_scope__non_english
+  examples: |
+    - مرحبًا
+    - wer bist Du?
+    - من انت؟
+    - de donde eres
+    - chào
+    - كيف حالك
+    - هل يمكنك التحدث باللغة الالمانية ايضا؟
+    - hilf mir beim start
+    - 你叫什么名字
+    - tu parles francais?
+    - como estas
+    - من أنت
+    - tu kaisi he
+    - come stai?
+    - como inicio en rasa
+    - هل تفهم اليابانية؟
+    - مع السلامة
+    - تو باجال
+    - kannst du mir helfen
+    - rasa codigo abierto
+    - αστεία λές
+    - kalhmera sara ti kaneis
+    - ما اسمك
+    - كيف أستخدم
+    - 你好
+    - أنا أتحدث لغة غير إنجليزية.
+    - tudo bom
+    - ماذا يحدث؟
+    - como te llamas
+    - إبدي إيروكا
+    - كالهميرا سارة تي كانييس
+    - Wie fange ich mit Rasa an?
+    - القرف
+    - ça va ?
+    - ساعدني في البدء
+    - Dumme sara
+    - كل شيء على ما يرام
+    - tschüssikowski
+    - كيف أبدأ راسا؟
+    - هل يمكنك فعل هذا باللغة الالمانية ايضا؟
+    - eres humana
+    - 您好
+    - kannst du auch deutsch?
+    - 日本語分かる？
+    - 卧槽
+    - كبداية دافقة
+    - 呵呵
+    - من اين انت؟
+    - انت انسان
+    - أهلاً
+    - انت تقول مضحك
+    - صينى
+    - هل بإمكانك مساعدتي
+    - 中文
+    - من اين انت
+    - kannst du dies auch auf deutsch?
+    - كيف الحال ؟
+    - نعم انا بحاجة الى مساعدة
+    - de que lugar eres?
+    - こにちは
+    - I'm speaking a non english language.
+    - kya hindi me bat kar sakate ho
+    - 你是谁
+- intent: out_of_scope___out_of_scope__other
+  examples: |
+    - which email
+    - تحدث معي عن voulette
+    - show me a picture of a chicken
+    - من فضلك أسرع ، لدي موعد نهائي في غضون أسبوعين لتسليم الروبوت لشركة كبيرة جدًا
+    - كيف يمكنني اختبار هذا
+    - اريد ان احتفل
+    - what else?
+    - how long will the next version will launch?
+    - أكثر
+    - اريد المزيد منك في حياتي!
+    - mountain
+    - [كريستين] (الاسم) ، أريد الزواج منك
+    - أريد تناول الغداء
+    - did i break you
+    - بالكاد أستطيع رؤية هذا النص الأبيض على خلفية رمادية فاتحة ...
+    - هذا لا يبدو مزحة
+    - آسف ، لا يمكنني إعادة الصياغة
+    - سأتأكد
+    - are u, facebook?
+    - what is machine learning
+    - هل يمكنك صنع السندويشات؟
+    - eshdtjfjfyk
+    - Can you get analytics on who I'm chatting with when I use Rasa
+    - مثال على chatbot
+    - but I just told you that :(
+    - what did you eat for lunch?
+    - is rasa any good
+    - what's a newsletter?
+    - يمكنك تعلم كيفية صنع القهوة
+    - Is today saturday?
+    - السياقية
+    - إلى أي بريد إلكتروني يجب أن أرسل؟
+    - i want to order a pizza
+    - أخبرني المزيد عن الإجراء التالي الأفضل
+    - ولكن إذا كان rasa مفتوح المصدر فلماذا لديك فريق مبيعات
+    - كيف
+    - i want more of you in my life!
+    - أي بريد إلكتروني
+    - هل عندك صورتك
+    - كيف تقول حسنا
+    - everything
+    - hang on let me find it
+    - what lnu mean?
+    - But you're an english site :(
+    - ما هي النشرة؟
+    - رائع ، أود شراء منزل
+    - ما هو الفرق بين البوت والتميمة؟
+    - أريد أن أموت
+    - when is the next train is coming?
+    - أحاول بناء واحدة ، وقمت ببعض الأبحاث من قبل ، لكني لم أقم بالعمل بعد
+    - how are the kids
+    - لديك أطفال؟
+    - who is the president of india ?
+    - اريد ان ارى زبائنك السعداء
+    - lunch??
+    - i want to see your happy customers
+    - I am hungry
+    - tertyryutyi
+    - HomeBase is advertised as a community. Is there a way to interact with other members of the community?
+    - really? you're so touchy?
+    - what do you think abou siri?
+    - give me food
+    - what is the capital of india
+    - I want to die
+    - i want pizza
+    - what is the real use case where we can use this one
+    - wheres the party?
+    - i want to eat
+    - Is Rasa really smart?
+    - [german](language)?
+    - what is the current petrol price
+    - مكان كتابة الأوامر
+    - ما هذا
+    - هل يمكن أن تعطيني فنجان قهوة؟
+    - oh my god, not again!
+    - ماذا تفضل؟
+    - أريد البيتزا!!
+    - I'm a shitmuncher
+    - can you learn from our conversation?
+    - على أي نظام يعتمد على البرمجة اللغوية العصبية التي تقوم ببنائها؟
+    - أريد شراء طائرة
+    - is it allow to
+    - are you vegan
+    - سيارات
+    - tell me more about next best action
+    - I am asking you an out of scope question
+    - يا أمي الصغيرة دعها تهمس في أذنك
+    - please help with my ice cream it's dripping
+    - هل انت الفيسبوك
+    - cr
+    - with you recommend me?
+    - ما هو اليوم ؟
+    - شخص ما يتصل بالشرطة أعتقد أن الروبوت مات
+    - هل تستطيع التحدث عن السياسة
+    - اريد حجز فندق
+    - البحث في ويكيبيديا
+    - لماذا السماء زرقاء
+    - tricked  ya
+    - ماذا أكلت اليوم؟
+    - كم هي 10 + 89
+    - كم من الوقت يستغرق إعداد روبوت Rasa؟
+    - which file is created first while developing chat bot
+    - Can you give me your datacenter's password?
+    - Today
+    - رخصة
+    - I wan to buy a plane
+    - remember my name
+    - ماذا؟
+    - اين انا الان
+    - ما هو عدم التزامن LNU؟
+    - ما رأيك في gdpr؟
+    - The weather is good
+    - كم هو جيد رسا
+    - what do you think about [Stanley Ramirez](name)?
+    - sudo إعادة التشغيل
+    - ابحث عن أقرب [بيتزا] (شركة)
+    - هل هي أرض قاحلة مليئة بأجزاء الروبوت المكسورة؟
+    - Can I ask you questions first?
+    - شيء آخر
+    - اين اوسلو
+    - أحتاج إلى GP في 94301
+    - I want french cuisine
+    - من هو [شارون زيكس] (الاسم)؟
+    - common, just try
+    - i am hungry, what should i do?
+    - please hurry, i have deadline in two weeks to deliver the bot it is for very big company
+    - what?
+    - Cars
+    - أحتاج على الفور إلى مساعدة في تنفيذ أروع روبوت يمكنك تخيله
+    - I want to use pipe
+    - من فضلك فوليت
+    - umm
+    - i immediately need help with implementing the coolest bot you can imagine
+    - بيتزا
+    - alexa, order 5 tons of natrium chloride
+    - هل تحبين كرة القدم
+    - are you russian?
+    - where is mexico?
+    - هل لديك عرض؟
+    - help with my life
+    - again?
+    - you lock sweety
+    - من أين أحصل على ملفات التثبيت لنظام التشغيل Mac؟
+    - how do you learn
+    - i want to buy a roomba for my grandson
+    - what is the day ?
+    - i hope you will be better
+    - what do oyu think about siri?
+    - i am hungry
+    - who is the MD of samsung bangalore ?
+    - اين المكسيك
+    - yeah, my dog was drinking a couple of litres of water per day and tried drinking the swimming pool
+    - من هو العضو المنتدب لشركة سامسونج بنغالور؟
+    - is it a wasteland full of broken robot parts?
+    - coronavirus
+    - اريد لعب الكرة
+    - إنني جائع أنا جوعان
+    - can you help me with your docs?
+    - contextual
+    - سؤال خارج النطاق.
+    - انتظر قليلا ما زلت أقرأ
+    - search wikipedia
+    - يرجى تشغيل الموسيقى
+    - Can you give me your datacenter's password
+    - whats that
+    - your contry name
+    - الرجاء المساعدة مع الآيس كريم الخاص بي أنه يقطر
+    - do you want to marry me?
+    - 4 + 2 = ?
+    - اريد flycam جيدة
+    - you're a woman
+    - تعبئة رصيد
+    - هل تستحق النشرة الإشتراك؟
+    - أنا أطرح عليك سؤالاً خارج النطاق
+    - ما هي حالة الاستخدام الحقيقية حيث يمكننا استخدام هذا
+    - مساعدة في حياتي
+    - Do I have to accept?
+    - هذا مثير للشفقة
+    - i want to find new friends
+    - طلب جيد
+    - which city are you talking about?
+    - نعم ، كان كلبي يشرب بضعة لترات من الماء يوميًا ويحاول شرب حمام السباحة
+    - هل يمكنك مساعدتي في مستنداتك؟
+    - هل سمعت عن كورونا؟
+    - can you understand ?
+    - شراء البقالة
+    - هل يمكنني طرح الأسئلة عليك أولاً؟
+    - اسم بلدك
+    - Now?
+    - أنا جائع
+    - I already told you! I'm a shitmuncher
+    - كيف يمكنني الحصول عليهم؟
+    - kiss me
+    - ما هي مساعدي الذكاء الاصطناعي السياقي وما مدى اختلافهم عن روبوتات الدردشة؟
+    - I have installed it
+    - are you sick
+    - ما هو جينجيرال
+    - how can i test this
+    - What's 1 + 1?
+    - ما هو التطور؟
+    - silly bot
+    - لا ، أنا بحاجة إلى النقود ، والمال! هل تمتلكه ؟
+    - ما هي استخداماتك للجامعات
+    - a tamed mouse will arrive at your doorstep in the next couple of days
+    - من هو رئيس الهند؟
+    - المستندات
+    - what is adlingo
+    - طيب واحد ثم
+    - الجو جيد
+    - oh wait i gave you my work email address can i change it?
+    - I want to go palghar
+    - هل يمكنك الحصول على تحليلات حول من أتحدث معه عندما أستخدم Rasa
+    - how about NYC
+    - who is [Sharon Zeches](name)
+    - who let the dog out
+    - هل يمكنك مساعدتي في المستندات؟
+    - أرسل لي الخطوات
+    - what is a discourse?
+    - what is your address?
+    - tell me about yourself
+    - can you speak about politic ?
+    - إبادة جماعية
+    - Pizza bot
+    - ما الذي يجعلك أفضل من الإنسان؟
+    - ما رأيك في [ستانلي راميريز] (الاسم)؟
+    - ما هو نظامك الخلفي؟
+    - what's 5 + 5
+    - من سيرد على بريدي الإلكتروني؟
+    - i need money
+    - لايمكن الرؤية
+    - voulette voulette
+    - قبّلني
+    - فوليت فوليت
+    - doctor
+    - what is google rcs
+    - أليست النشرة الإخبارية مجرد بريد مزعج؟
+    - غداء؟؟
+    - أي ملف يتم إنشاؤه أولاً أثناء تطوير روبوت الدردشة
+    - i want good flycam
+    - مساعدة في [ألما أبرامز] (الاسم)
+    - NLW
+    - I am an opioid addict
+    - do you have a phone number?
+    - who was hitler
+    - I want a new laptop
+    - أنا مدمن أفيوني
+    - great, I'd like to buy a house
+    - انا جائع فماذا افعل
+    - Where am I?
+    - هل أنت أعزب
+    - who's Bill Gates?
+    - Who are your customers
+    - لديك وظيفة شاغرة
+    - connect to alexa
+    - هل تؤمن بالله؟
+    - يجب أن تتعلم العد
+    - do you like football
+    - أم
+    - After registration I see that I have an available balance of 0.00000000. What does this balance represent?
+    - أعطيني طعاما
+    - can we keep chatting?
+    - how to get rasa studio
+    - أنا ف ف
+    - genocide
+    - how to go to newyork ?
+    - هل هذا روبوت المحادثة موجه نحو الهدف؟
+    - لماذا تم تعيين درجة الثقة الخاصة بي على 50 بعد أن أكملت عملية التسجيل؟
+    - mail me the steps
+    - عليك أن
+    - what is nice?
+    - i want to fly
+    - عُد
+    - what do you think of alexa
+    - can you give me a cup of coffee
+    - I need a GP in 94301
+    - i do not care how are you
+    - لا أستطيع التعامل مع طلبك _your_
+    - سيصل الماوس المروض إلى عتبة داركم في اليومين المقبلين
+    - what is your purpose
+    - اريد كمبيوتر محمول جديد
+    - i want play ball
+    - اين الحفلة؟
+    - do you liek cheese?
+    - What day is it today?
+    - يتم الإعلان عن HomeBase كمجتمع. هل هناك طريقة للتفاعل مع أعضاء آخرين في المجتمع؟
+    - i told you already
+    - order pizza
+    - whta you think about gdpr?
+    - تعويذة تعني؟
+    - هل يمكنني الموت
+    - هل يمكننا الاستمرار في الدردشة؟
+    - who will anser my email?
+    - are you dev?
+    - مرحبًا ، لقد اتصلت بك منذ يومين ولكن لم أتلق ردًا ، أي أخبار؟
+    - [Kristin](name), I want to marry you
+    - ماذا يعني lnu؟
+    - hey little mama let em whisper in your ear
+    - اريد ان اتزوجك
+    - اريد ان اجد اصدقاء جدد
+    - انتظر ، أعطيتك عنوان البريد الإلكتروني الخاص بالعمل ، هل يمكنني تغييره؟
+    - where do i type in commandy
+    - The Try it out is not working
+    - اصنع لي شطيرة
+    - You'r blue.
+    - كم هو 10 + 89؟
+    - what films do you like
+    - ماذا اكلت على الغداء؟
+    - احجز تذكرة
+    - ما هو 5 + 5
+    - Do you know [Kevin Pelton](name)
+    - لذا ، أنا أساعد الآن في تدريبك؟
+    - you have to
+    - ماهو تاريخ اليوم
+    - هل أنت أعزب؟
+    - أريد أن أعرف الوضع الحالي في باكستان
+    - سوف تقتلني
+    - please hjave lunchj
+    - I want book a hotel
+    - معك تنصحني؟
+    - call me father
+    - ما نوع البوت؟
+    - do you have your photo?
+    - ok one then
+    - ما هي عاصمة دلهي
+    - قلت لك مسبقا
+    - خبير راسا
+    - What's do YouTube do
+    - اريد ان احجز فندق
+    - لماذا لا تجيب
+    - Won't you ask me how I am?
+    - so, I'm helping right now to training you?
+    - لقد حصلت على GP في 94301
+    - تكرارا؟
+    - I am User
+    - can you cheer me up
+    - how do you like your coffee
+    - do you believe in god?
+    - is that any of your business
+    - هل يمكنك مساعدتي في مستنداتك
+    - I need a girl friend!
+    - how much is 10 + 89 ?
+    - ما الذي يفعله YouTube
+    - بعد التسجيل أرى أن لدي رصيد متاح قدره 0.00000000. ماذا يمثل هذا التوازن؟
+    - Can you make sandwiches?
+    - Can you please send me an uber
+    - it's a pity
+    - on wiche nlp based system are you build?
+    - i am qq
+    - هل كسرتك
+    - offer me lunch
+    - how are [Alicia Jackson](name)'s cats doing?
+    - كيف حال الاولاد
+    - اسمي ك
+    - are the newsletter worth the subscription?
+    - Mail me the guide
+    - the one that is better than you
+    - you already have that
+    - اي نوع
+    - هل يمكن أن تعطيني كلمة مرور مركز البيانات الخاص بك
+    - what is the capital of delhi
+    - What do you prefer?
+    - هل تحب الافلام
+    - contextua
+    - give me a girl friend
+    - please play music
+    - shitmuncher
+    - غوغل؟
+    - sfasd
+    - انتظر اسمحوا لي أن أجدها
+    - كيف حال قطط [أليسيا جاكسون] (الاسم)؟
+    - have you heard of corona?
+    - gsaf
+    - من ؟
+    - هل تريد الزواج مني؟
+    - هل رأيت [كيث رايلي] (الاسم)؟
+    - ما هو التميمة
+    - هل علي أن أقبل؟
+    - هل لديك رقم هاتف؟
+    - من هم عملاؤك
+    - what are your uses for universities
+    - هل تعرف [كيفن بيلتون] (الاسم)
+    - يرجى hjave lunchj
+    - rasa topics
+    - اريد كافيه
+    - لقد أخبرتك بالفعل! أنا هراء
+    - flight catch up
+    - Try it out broken
+    - اتصل بالشرطة
+    - المنطقة مع عدم وجود. من السجلات
+    - التعلم الالي
+    - who are the engineers at rasa?
+    - i m looking for job
+    - but if rasa is open source why do you have a sales team
+    - لماذا تسمى راسا؟
+    - isn't the newsletter just spam?
+    - كيف يقارن اليكسا
+    - طبيب
+    - كل شىء
+    - do you like movies
+    - خدمة مخصصة
+    - Recharge
+    - من سمح للكلب بالخروج
+    - لكنك موقع انجليزي :(
+    - what the latest news ?
+    - انت امراة
+    - هو هذا أي من عملك
+    - What makes you better than a human?
+    - الصينية طيب؟
+    - which is the LNU asynchronism ?
+    - expert of rasa
+    - Are you ready?
+    - المحاولة لا تعمل
+    - Why don’t you answer?
+    - أحتاج للمال
+    - someone call the police i think the bot died
+    - how many lines of codes
+    - هل انت روسية؟
+    - do you know me
+    - تحديث
+    - أرني صورة لدجاجة
+    - ستعرفها من الوردة الحمراء الوحيدة التي تحملها بين أسنانها
+    - أنا أتعلم بيثون
+    - I wanna marry you
+    - من هو بيل جيتس؟
+    - that doesn't sound like a joke
+    - ما هو الخطاب
+    - you girl
+    - هل يستطيع يوتيوب التحدث؟
+    - what doing
+    - I am an opioid addic
+    - no, i need cash, money! Do you have it ?
+    - كيفية الحصول على استوديو rasa
+    - is [John Lewis](name) still married to you
+    - أليكسا ، اطلب 5 أطنان من كلوريد النيتريوم
+    - فيروس كورونا
+    - أنت أزرق.
+    - Hi i want to go palghar
+    - machine learning
+    - أريد أن أذهب بالغر
+    - رحلة اللحاق بالركب
+    - ما هو عنوانك؟
+    - winter is already leaving
+    - سوف أروض فأر لك
+    - ما هو هدفك
+    - have you ever seen [Keith Reilly](name)?
+    - أتمنى أن تكون أفضل
+    - أرغب في معرفة ما يمكنك بناءه باستخدام rasa
+    - هل التقينا من قبل؟
+    - I need to eat cake
+    - drhdtjfjfyj
+    - هل اليوم السبت؟
+    - أريد أن آكل
+    - غني لي اغنية
+    - اختر لي شيئا
+    - that link doesn't work!
+    - كيف أذهب إلى نيويورك؟
+    - اريد طعاما
+    - أين أنا؟
+    - ماذا أفعل بعد حزمة cd starter pack rasa stack؟
+    - هل يمكن أن تعطيني كلمة مرور مركز البيانات الخاصة بك؟
+    - هل يمكنك حجز العشاء
+    - من كان هتلر
+    - you should learn to count
+    - what type of bot?
+    - هل حقا؟ أنت حساس جدا؟
+    - ماذا عن مدينة نيويورك
+    - شخصي أم عمل؟
+    - هل يسمح ل
+    - how come you say ok ?
+    - هل يمكنك أن ترسل لي اوبر من فضلك
+    - اليوم
+    - license
+    - أطفئ موقدي
+    - ماذا تفعل الان؟
+    - i can't deal with _your_ request
+    - ألن تسألني كيف أنا؟
+    - هل انت مريض
+    - who is your favourite robot?
+    - what is evolution ?
+    - i´m hungry
+    - what's your wife doing this weekend
+    - Can I get a hamburger?
+    - ما آخر الأخبار؟
+    - better than you
+    - where do i get install files for mac?
+    - بوت سخيف
+    - book a ticket
+    - اي نوع من الطيور انت
+    - ما هو جوجل rcs
+    - ماهو اليوم؟
+    - refresh
+    - you can learn how to make a coffe
+    - اسم جميل
+    - ي bhbhj
+    - هل انت مطور
+    - get me a club mate
+    - what you ate today?
+    - قدم لي الغداء
+    - more
+    - حدثني عن نفسك
+    - هل يمكنك طهي العشاء
+    - are you single?
+    - do you sell vacuum robots?
+    - what does your soul feel my friend
+    - اريد أن أطير
+    - how
+    - SEL ME SOMETHING
+    - I will check
+    - أسدكجاسدجكاسد
+    - [اللغة الالمانية)؟
+    - order good
+    - Is this Goal Oriented Chatbot?
+    - what is differance between bot and mascot?
+    - Do you have a demo?
+    - aRE YOU SINGLE
+    - هل يمكنك التعلم من حديثنا؟
+    - اريد المطبخ الفرنسي
+    - ما هو التعلم الآلي
+    - how good is Rasa
+    - ماذا عن حالة الطقس
+    - هذا الارتباط لا يعمل!
+    - do you know ras
+    - من هم مهندسو rasa؟
+    - سودو اصنع لي شطيرة
+    - i will tame a mouse for you
+    - 4 + 2 =؟
+    - my name k
+    - i want food
+    - اطلب البيتزا
+    - هل أنت جاهز؟
+    - how long have you been online?
+    - can you cook dinner
+    - انا بحاجة الى صديقة!
+    - whats the sign
+    - what is a mascot
+    - I am trying to build one, and did some research before, but I have not do hand on work yet
+    - ما هو سعر البنزين الحالي
+    - dinner
+    - how much is 10 + 89
+    - كم عدد سطور الرموز
+    - What's your backend system?
+    - who are they?
+    - i want to find out what you can build with rasa
+    - asdkjasdhjkasd
+    - colder
+    - help with [Alma Abrams](name)
+    - احضر لي رفيق النادي
+    - please voulette
+    - What did you eat yesterday?
+    - docs
+    - what i do after cd starter pack rasa stack?
+    - لا يهمني كيف حالك
+    - i want to grab lunch
+    - google?
+    - Have we met before?
+    - wsdrcftvgybhnj
+    - السياق
+    - sudo make me a sandwich
+    - ما هو adlingo
+    - ما هو لطيف؟
+    - is rasa a studio?
+    - أنا مستخدم
+    - what's gingerale
+    - chgfhgh
+    - لماذا تحتاج ذلك؟
+    - what about wheather
+    - Where am I right now?
+    - تذكر اسمي
+    - انا غيرت رأيي
+    - i want caffe
+    - hey, I contacted you a couple of days ago but didn't get any response, any news?
+    - يا إلهي ، ليس مرة أخرى!
+    - region with no. of records
+    - بيتزا بوت
+    - custom service
+    - كيف تحب القهوة الخاص بك
+    - كيف تتعلم
+    - ما رايك ابو سيري
+    - you have job opening
+    - sorry, i cannot rephrase
+    - هل راسا استوديو؟
+    - من هؤلاء؟
+    - i wanna party
+    - sing me a song
+    - i want to know current situtation in pakistan
+    - will u kill me
+    - where to type in commands
+    - ما هي العلامة
+    - الاتصال اليكسا
+    - which email should i send to ?
+    - هل تضع الجبن
+    - أنا بحاجة لأكل كعكة
+    - شائع ، فقط جرب
+    - buy one please
+    - asdfgasd
+    - how can i get them?
+    - why do you need that?
+    - turn off my stove
+    - are u facebook
+    - what are you doing now?
+    - ماذا تفعل زوجتك في نهاية هذا الاسبوع
+    - why sky is blue?
+    - I can barely see this white text on light gray background ...
+    - سجل تجاري
+    - أرسل لي الدليل
+    - talk to me about voulette
+    - will u kill me?
+    - j  bhbhj
+    - هل تبيع روبوتات فراغ؟
+    - أريد استخدام الأنابيب
+    - Why is my TRUST score set to 50 after I completed the registration process?
+    - من هو الروبوت المفضل لديك؟
+    - هذا فقط؟
+    - Can I die
+    - mascot means?
+    - مواضيع rasa
+    - جربها مكسورة
+    - لكني قلت لك فقط:
+    - only that?
+    - الشتاء يغادر بالفعل
+    - how it compares to alexa
+    - أبرد
+    - أنا هراء
+    - lunch
+    - sudo reboot
+    - هو أي خير
+    - personal or work?
+    - ما رأيك في سيري؟
+    - ı am learning python
+    - إلى متى سيبدأ الإصدار التالي؟
+    - ما هي عاصمة الهند
+    - هل يمكنني الحصول على همبرغر؟
+    - ما رأيك في اليكسا
+    - هل راسا ذكية حقًا؟
+    - go back
+    - شراء واحدة من فضلك
+    - which kind
+    - Find nearest [pizzahut](company)
+    - بماذا تشعر روحك يا صديقي
+    - i want a non dripping ice cream
+    - ماذا اكلت بالامس؟
+    - where is Oslo?
+    - What is your hobbies?
+    - can you book dinner
+    - متى سيأتي القطار التالي؟
+    - I want to order pizza
+    - هل تعرفني
+    - CALL THE POLICE
+    - اتصل بي يا أبي
+    - example of a chatbot
+    - ماذا بعد؟
+    - can you help me with your docs
+    - I changed my mind
+    - منذ متى وانت متصل؟
+    - cannot see
+    - كنت فتاة
+    - أفضل منك
+    - مرحبًا ، أريد الذهاب إلى Palghar
+    - لقد قمت بتثبيته
+    - why its called rasa ?
+    - أريد أن أطلب بيتزا
+    - أريد البيتزا
+    - هل بإمكانك إعادة الإتصال بي ؟
+    - would you like some water
+    - ما هي الافلام التي تحبها
+    - هل ما زال [جون لويس] (الاسم) متزوجًا منك
+    - أعطني صديقة
+    - i want pizza!!
+    - Nice name
+    - انا ابحث عن عمل
+    - هل يمكنك ابتهاجي
+    - وجبة عشاء
+    - Can YouTube talk?
+    - buy groceries
+    - the beatles
+    - you will know it from the single red rose it carries between its teeth
+    - هل أنت نباتي
+    - أريد شراء غرفة رومبا لحفيدي
+    - can you help me with the docs?
+    - What is todays date
+    - ما هو 1 + 1؟
+    - أنا لست مطورًا ولكني بحاجة إلى هذا للعمل
+    - حاليا؟
+    - Out of scope question.
+    - I want pizza
+    - أين أكتب في أمر
+    - i am not a developer but need this for business
+    - هل تعرف راس
+    - أريد آيس كريم غير مقطر
+    - البيتلز
+    - chinese ok?
+    - عن اي مدينه تتحدث
+    - Who ?
+    - no wait go back i want a dripping ice cream but a cone that catches it so you can drink the ice cream later
+    - لديك هذا بالفعل
+    - you have children?
+    - ljljl
+    - what kind of bird are you?
+    - أنت قفل حبيبي
+    - هل تريد بعض الماء
+    - ما هي هواياتك؟
+    - لا داعي للانتظار ، أعود ، أريد آيس كريم مقطرًا ولكن مخروطًا يمسكه حتى تتمكن من شرب الآيس كريم لاحقًا
+    - ماذا تفعل
+    - pizza

@@ -1,0 +1,1311 @@
+version: "2.0"
+nlu:
+- intent: activate_my_card
+  examples: |
+    - I have my card now how do I activate it?
+    - لقد حصلت للتو على بطاقتي ولا يمكنني تشغيلها.
+    - I need assistance with activating my new card.
+    - What is the procedure for activating this card?
+    - أخطط لتفعيل بطاقتي ، هل كان ذلك ممكنًا؟
+    - I am planning activating my card was it possible?
+    - How can I start using my card?
+    - لا يمكنني تفعيل بطاقتي ، لن تسمح لي بذلك.
+    - كيف يتم تفعيل البطاقة؟
+    - Instructions for activating card
+    - What are the steps to activating a new card?
+    - ما هي عملية تفعيل البطاقة؟
+    - How can I activate the new card i got?
+    - كيف أقوم بتفعيل البطاقة؟
+    - حصلت على بطاقتي الجديدة أين أذهب لتفعيلها؟
+- intent: age_limit
+  examples: |
+    - How old do I need to be to open an account?
+    - Can my children have an account?
+    - How do I set up an account for my children?
+    - What about my children?
+    - هل يمكن لأولادي فتح حساب؟
+    - From which age can my kids use your service?
+    - ماذا سيكون الحد العمري؟
+    - ما هو الحد العمري للحساب؟
+    - Can my daughter open an account?
+    - هل يوجد حد عمري لفتح الحساب؟
+    - Can my children open an account?
+    - Could I open an account for my children?
+    - what is the age limit for opening a new account
+    - كيف يمكنني أن أكون صغيرا لفتح حسابي الخاص؟
+    - DO I have to be 18 to open an account?
+- intent: apple_pay_or_google_pay
+  examples: |
+    - Why is top up not working for my apple pay app
+    - يمكن أن يتم الشحن من ساعة أبل.
+    - Is top-up possible with Apple Pay?
+    - is apple pay eligible for top up
+    - I got my American Express in Apple Bay but top up is not working
+    - هو دفع أبل مكلفة؟
+    - هل يمكنني استخدام google pay لتعبئة الرصيد؟
+    - كيف يمكنني الحصول على رصيد للعمل في Apple Pay؟
+    - لماذا لا تعمل تعبئة الرصيد باستخدام بطاقة American Express المحفوظة في ApplePay؟
+    - Does Google Play have an app to Top up?
+    - بطاقة أمريكان إكسبريس الخاصة بي موجودة في خدمة Apple Pay الخاصة بي وفشل إعادة التعبئة ، لماذا؟
+    - هل يمكنني استخدام Apple Pay لوضع أموال في حسابي؟
+    - Google Pay won't let me top up.
+    - هل يمكنني تعبئة رصيد Apple Pay
+    - Does Apple Pay give the option to top up?
+- intent: atm_support
+  examples: |
+    - هل تأخذ جميع أجهزة الصراف الآلي هذه البطاقة؟
+    - كيف أجد جهاز صراف آلي يقبل هذه البطاقة؟
+    - هل توجد قائمة بأجهزة الصراف الآلي؟
+    - قل لي ما هي أجهزة الصراف الآلي التي تستخدم هذه البطاقة.
+    - How many ATMs will take this card?
+    - Do you know the closest ATM?
+    - How many miles away is the ATM?
+    - Where can I find Mastercard ATMs?
+    - I need to know where I can withdraw money.
+    - Can I use my card at an ATM?
+    - هل يمكنني استخدام البطاقة في أي ماكينة صراف آلي؟
+    - هل هناك طريقة للعثور على جهاز صراف آلي من حولي؟
+    - أين يمكنني سحب أموالي؟
+    - What kind of ATMs would this card be accepted at?
+    - What cash stations take this card?
+- intent: automatic_top_up
+  examples: |
+    - How do I make sure I don't run out of money on my card while traveling?
+    - Is there such thing as an auto top-up option?
+    - Can I add money in intervals to my account?  I will be traveling.
+    - Can I top-up automatically?
+    - How can I top up automatically?
+    - How do I auto top-up?
+    - أين يمكنني العثور على ميزة "auto-top"؟
+    - how can i get it to add money automatically while travelling
+    - هل ستتم إعادة الشحن تلقائيًا أم سأحتاج إلى القيام بذلك يدويًا إذا لم يتبقى الكثير من النقود؟
+    - هل يمكنه زيادة الأموال تلقائيًا إذا لم يتبقى الكثير؟
+    - إذا لم يتبقى الكثير من المال ، فهل سيتم تعبئته تلقائيًا؟
+    - Is there a limit when using auto top-up?
+    - إذا كانت أموالي تنفد ، فهل سيتم تعبئة التطبيق تلقائيًا؟
+    - Can I have a auto top-up when my account is short?
+    - Can I schedule future top ups?
+- intent: balance_not_updated_after_bank_transfer
+  examples: |
+    - The other bank confirmed a transfer I made, but this account is not reflecting it yet.
+    - كم من الوقت حتى يصبح التحويل الخاص بي متاحًا لي
+    - Why doesn't my balance reflect my transfer
+    - هل التحويلات البنكية فورية؟
+    - لقد أجريت تحويلاً من حسابي في المملكة المتحدة قبل ساعتين. هل يمكنك التأكد من أن كل شيء سار على ما يرام.
+    - Where is my transfer from [country]?
+    - The amount of time that transfers usually take from a UK account is what?I just completed a transfer and it is not showing up at all. I'm wondering at this point if everything is actually okay.
+    - لم يرتفع رصيد حسابي على الرغم من أنني قمت للتو بتحويل الأموال إليه
+    - لماذا لم يتغير رصيدي بعد أن قمت بتحويل بعض الأموال؟
+    - When will my balance update after a transfer?
+    - كم من الوقت يستغرق ظهور التحويل المصرفي في رصيدي؟
+    - بعد إجراء تحويل من حساب المملكة المتحدة ، لا يظهر. كم من الوقت تستغرق هذه التحويلات عادة بالنسبة لك؟ أريد أن أكون متأكدا من أن كل شيء على ما يرام.
+    - لقد قمت بتحويل بعض الأموال لكنها لم تصل بعد
+    - After I transferred money the balance remained the same.
+    - Is there a longer processing time for international bank transfers?
+- intent: balance_not_updated_after_cheque_or_cash_deposit
+  examples: |
+    - I sent a cheque  a few days ago and nothing has happened to my account yet. Can you please check on this for me?
+    - متى سأرى النقود التي أودعتها هذا الصباح كما هي متوفرة؟
+    - هل هناك سبب لعدم تحديث حسابي لأنني استخدمت شيكًا لموازنة حسابي؟
+    - How can I get the cash deposit to show up on my account?
+    - لقد أرسلت لك شيكًا منذ يومين ، لم يحدث شيء لحسابي حتى الآن! هذا غير مقبول اين مالي ؟؟
+    - I deposited a cheque but the cash hasn't arrived yet
+    - أنا قلق بشأن مبلغ الشيك الذي يجب أن يضاف إلى حسابي قبل أيام قليلة. لأنني قد أرسلت لك بالفعل الشيك.
+    - I am still waiting for a the cash I deposited this morning
+    - Are cheques accepted to my account? Mine didn't seem to work.
+    - What's going on with my balance? Shouldn't it be a bit higher since I deposited a cheque a day ago?
+    - حاولت إجراء تحديث لرصيدي باستخدام الشيك بالأمس فقط ولكن لا يبدو أنه نجح. ألا يجب أن تكون هذه عملية أسرع؟ أحتاج منك من فضلك التحقق من حسابي لحدوث خطأ ما.
+    - ما زلت في انتظار الأموال التي وضعتها في حسابي هذا الصباح.
+    - I made a cash deposit and the balance wasn't updated.
+    - لقد قمت بإيداع نقدي ولم يتم تحديث الرصيد.
+    - Cash has been deposited this morning but it hasn't came through.
+- intent: beneficiary_not_allowed
+  examples: |
+    - What are the reasons for my beneficiary not being allowed?
+    - من فضلك قل لي لماذا أواجه مشاكل في التحويل إلى مستفيد.
+    - لماذا لا يُسمح لي بتحويل الأموال في الوقت الحالي؟ أنا فقط أستمر في تلقي رسالة خطأ.
+    - Why is this beneficiary being rejected?
+    - لماذا لا يمكن التحويل إلى مستفيد؟
+    - يظهر أن النقل على حسابي لم يكن مسموحًا به.
+    - How do I do a successful transfer to an account?
+    - i tried to make a transfer to a beneficiary and it didn't go through
+    - هل هناك قيود على التحويلات لحسابات معينة؟
+    - لماذا لا استطيع التحويل الى مستفيد؟
+    - أحاول تبادل العملات المشفرة وهو لا يعمل. قل لي كيف أصلح هذا.
+    - هل يمكنك المساعدة في التحويل إلى حساب
+    - لم أتمكن من التحويل إلى حساب.
+    - لماذا لا يمكنني تحويل الأموال إلى مستفيد؟
+    - I have a cryptocurrency exchange that won't go through. Please help me process it.
+- intent: cancel_transfer
+  examples: |
+    - لقد قمت بالدفع غير الصحيح لإيجاري بالأمس ويجب إصلاح هذا في موعد أقصاه غدًا. كيف يمكنك المساعدة؟
+    - I made a transaction but did it to the wrong account.
+    - لقد ارتكبت خطأ في الدفع أمس وأحتاج إلى إصلاحه في أسرع وقت ممكن لأنه مخصص لإيجاري غدًا.
+    - Hey i need help urgently. I just realised I sent my payment to the wrong account number, there is a typo! Please cancel it immediately, I can't do it anymore from the app
+    - I need to cancel an incorrect transaction.
+    - لا أعتقد أن المعاملة قد تمت ، فهل يمكنني إلغاء التحويل؟
+    - Can i cancel a charge?
+    - من فضلك ، هل يمكنك منع المعاملة التي أرسلتها للتو من حسابي؟ لقد كانت دفعة لكنني كتبت عن طريق الخطأ تفاصيل خاطئة وأعتقد أنها ربما ذهبت إلى المكان الخطأ.
+    - Can I cancel a transfer I made
+    - الرجاء المساعدة! لن يسمح لي التطبيق بإلغاء تحويل الأموال. أرسلت أموالاً بطريق الخطأ إلى حساب لم يكن لي. أريد إلغاء هذا على الفور.
+    - I need help cancelling a transaction.
+    - كيفية إلغاء الصفقة
+    - أريدك أن توقف النقل الذي بدأته للتو في أقرب وقت ممكن ، لقد أدركت للتو أنه غير صحيح!
+    - Can I cancel my transaction?
+    - My transfer was wrong, are you able to stop it before it goes through please?
+- intent: card_about_to_expire
+  examples: |
+    - هل ستتمكن من إرسال البطاقة الجديدة إلى الصين؟
+    - My card is about to expire.
+    - My card is about to expire.  Where do I get a new one.
+    - Can I get a new card even though I am in China?
+    - Next month my card will expire, do I need to order a new one?
+    - من المقرر أن تنتهي صلاحية بطاقتي قريبًا.
+    - Once my card expires, what should I do?
+    - هل يمكنني الحصول على بطاقة جديدة رغم وجودي في الصين؟
+    - What would the price be for an expired card replacement and how long will it take me to get it?
+    - What is the procedure for an expired card?
+    - in china, need new card
+    - I need to know the cost and when I will receive a new card to replace an old one.
+    - My card is very close to expiring. When can I order a new one and how do I do so?
+    - how long and how much does it cost for new card
+    - ما هي إجراءات البطاقة منتهية الصلاحية؟
+- intent: card_acceptance
+  examples: |
+    - Who accepts the card?
+    - Where is my card accepted?
+    - أين يجب أن تعمل بطاقتي؟
+    - أين تقبل هذه البطاقة؟
+    - هل هناك أي قيود على استخدام بطاقتي؟
+    - هل يمكنني الدفع عبر الإنترنت باستخدام بطاقتي؟
+    - من هم التجار الذين يقبلون هذه البطاقة؟
+    - هل يمكنني إجراء عمليات شراء عبر الإنترنت باستخدام بطاقتي؟
+    - areas card is accpeted
+    - هل ستعمل هذه البطاقة في جميع أنحاء العالم؟
+    - هل سيأخذ أي عمل هذه البطاقة؟
+    - ما الذي يمكنني استخدام بطاقتي لدفع ثمنه؟
+    - هل توجد أي قيود على الأماكن التي يمكنني فيها استخدام بطاقتي؟
+    - هل يمكنني استخدام بطاقتي أثناء إجازتي في الخارج؟
+    - هل كل الأعمال تأخذ هذه البطاقة؟
+- intent: card_arrival
+  examples: |
+    - I don't have my card after 1 week. What are my next steps?
+    - لقد طلبت بطاقتي منذ أسبوعين وما زالت غير موجودة؟ ماذا أفعل؟
+    - حالة البطاقة التي طلبتها.
+    - Why hasn't my card been delivered?
+    - How can I track my card's delivery?
+    - كيف يمكنني تتبع تسليم بطاقتي؟
+    - هل من الطبيعي أن أضطر إلى الانتظار أكثر من أسبوع للحصول على بطاقتي الجديدة؟
+    - كيف يمكنني تتبع بطاقتي؟
+    - هل يمكنني تتبع البطاقة التي أرسلتها لي عبر البريد؟
+    - Am I able to track the card that was just sent to me?
+    - لقد طلبت بطاقة قبل أسبوع ، وما زالت غير موجودة. ماذا أفعل؟
+    - كيف يمكنني تحديد موقع بطاقتي؟
+    - هل للبطاقة التي أرسلتها طريقة لتعقبها؟
+    - ما زلت في انتظار بطاقتي.
+    - I'm still waiting for my card.
+- intent: card_delivery_estimate
+  examples: |
+    - متى ستكون بطاقتي هنا؟
+    - How long does shipping take to get to a US destination?
+    - How long will it take to get to the US?
+    - How long is a delivery to the US?
+    - I live in the US, how long will it take for delivery?
+    - هل يمكنني التأكد من تسليم بطاقتي في يوم محدد؟
+    - متى يمكنني توقع التسليم؟
+    - كم من الوقت يستغرق تسليم؟
+    - متى سأستلم البطاقة؟
+    - كم من الوقت سيستغرق وصول البطاقة؟
+    - Whats the delivery time to the United States?
+    - هل يمكن تسليمها في موعد محدد؟
+    - I need my card right away.
+    - كم أحصل على بطاقتي في يومين؟
+    - how much to get my card in 2 days?
+- intent: card_linking
+  examples: |
+    - What if I want to add a card I already have to the app?
+    - How do I link a new card?
+    - I would like to reactivate my card.
+    - How do I activate and link my new card?
+    - كيف أربط هذه البطاقة الجديدة؟
+    - Can I reactivate a card I thought I lost?
+    - هل يمكنك إخباري بكيفية ربط إحدى بطاقاتك الموجودة لدي بالفعل؟
+    - هل من الممكن إعادة تنشيط البطاقة التي اعتقدت أنني فقدتها ووجدتها هذا الصباح في سترتي؟
+    - lost card found, want to put it back in app
+    - استلمت بطاقتي الجديدة ، لكنني لا أراها في التطبيق في أي مكان. ماذا أفعل؟
+    - if i found a lost card can i put it back in app
+    - How do I link a card that I already have?
+    - هل يمكنني ربط بطاقتي الجديدة؟
+    - Where do I go if I want to link my new card?
+    - كيف أربط بطاقتي الائتمانية معك؟
+- intent: card_not_working
+  examples: |
+    - My card stopped working when I use it
+    - How do I get my card to work?
+    - هل يمكن لأي شخص مساعدتي من خلال توضيح سبب عدم عمل بطاقتي؟
+    - ماذا يحدث هنا؟ بطاقتي لن تقبل أي معاملات.
+    - كسرت بطاقتي
+    - ماذا علي أن أفعل إذا كانت بطاقتي لا تعمل؟
+    - I think my card is broken
+    - My card isn't working
+    - هل يمكن أن تتوقف البطاقة عن العمل؟
+    - حاولت استخدام بطاقتي ، لكنها لا تعمل.
+    - My card won't work.
+    - كيف أعرف لماذا لا تعمل بطاقتي؟
+    - I tried using my card, but it doesn't work.
+    - بحاجة الى مساعدة في بطاقتي. انها لا تعمل.
+    - I am unable to use my card for some reason.
+- intent: card_payment_fee_charged
+  examples: |
+    - Why wasn't it obvious that you charge for payments? If you put the fees in an easy to read format, this could have been avoided.
+    - لست متأكدًا من الغرض من هذه التهمة
+    - لماذا تم تحصيل رسوم أكبر مقابل استخدام بطاقتي؟
+    - Why do some of my payments have fees?  I don't understand.
+    - إذن ما هي العناصر التي تأتي مع رسوم إضافية
+    - Why was I charged a fee for debit or credit card payment?
+    - لماذا أتقاضى رسومًا على الدفع بالبطاقة؟
+    - Why am I being charged a fee for using my card? If there is some print out of places that charge me can you please send me that?
+    - I bought something with my card and I was charged a fee
+    - أرى رسومًا أعتقد أنه تم تحصيلها لأنني دفعت بالبطاقة.
+    - لدي رسوم تظهر من آخر مرة استخدمت فيها بطاقتي.
+    - I paid with card and I think there was a fee applied.
+    - Why was I charged a fee when I paid with card?
+    - دفعت بالبطاقة وأعتقد أنه تم تطبيق رسوم.
+    - I payed with the card and there was an extra fee?
+- intent: card_payment_not_recognised
+  examples: |
+    - لدي دفعة غريبة في بياني
+    - What can I do about some payments on my card I didn't make.  Please put a freeze on my card till we can figure this out.
+    - ماذا يمكنني أن أفعل بشأن بعض المدفوعات على بطاقتي التي لم أسددها. يرجى تجميد بطاقتي حتى نتمكن من معرفة ذلك.
+    - ماذا علي أن أفعل لإخراج المعاملات من حسابي إذا لم أقم بها؟ لابد أن بطاقتي تعرضت للاختراق وأحتاج إلى تجميدها في أسرع وقت ممكن!
+    - لم أسدد هذه البطاقة.
+    - لدي معاملة غير مصرح بها في البيان الخاص بي
+    - I need help with some transactions in my account that I dont recognize or remember purchasing. Im not sure if the name is just different or what. Should my card be put on hold while the issue gets figured out to be safe or is it ok?
+    - أرى في التطبيق دفعة ليست لي.
+    - لدي دفعة مدرجة في الخطأ.
+    - I did not make this card payment.
+    - رأيت دفعة لم أفعلها
+    - يعرض تطبيقي دفعة لم أجريها
+    - I don't know where this transaction came from?
+    - Someone else accessed my account and made a payment.
+    - ماذا أفعل إذا رأيت دفعة لم أجريها؟
+- intent: card_payment_wrong_exchange_rate
+  examples: |
+    - هذا المعدل منخفض جدا. هل أنت متأكد من استخدامك لسعر الصرف الصحيح.
+    - I don't think my card payment exchange rate is correct.
+    - Why is the exchange rate different from what I expected?
+    - the exchange rate at which my card payment is at is wrong
+    - The exchange rate was wrong when I bought something outside the country.
+    - تم تطبيق صرف عملتي الأجنبية بشكل غير صحيح.
+    - أذهب إلى سعر الصرف الخاطئ المطبق على مشترياتي في بلد أجنبي.
+    - the conversion value for my card payments is incorrect.
+    - سعر الصرف الذي تم الدفع ببطاقتي به خاطئ
+    - The wrong exchange rate was used when I bought something with a foriegn currency.
+    - استبدلت الروبل الروسي بالجنيه الإسترليني اليوم وحصلت على أقل مما كنت أتوقع. هل كان سعر الصرف صحيحًا؟
+    - In regards to my card payment, the exchange rate is incorrect.
+    - لماذا يتم محاسبتي أكثر؟
+    - لماذا كان الاستبدال خاطئًا للعنصر الذي اشتريته؟
+    - اشتريت شيئًا في الخارج وكان سعر الصرف الخاطئ في بياني.
+- intent: card_swallowed
+  examples: |
+    - What do I do if the ATM swallowed my card?
+    - I have a problem!  The ATM stole my card!
+    - جهاز الصراف الآلي لن يعيد بطاقتي!
+    - كيف يمكنني إخراج بطاقتي من الصراف الآلي اللعين؟
+    - تم تناول بطاقتي بواسطة ماكينة الصراف الآلي ، فماذا أفعل؟
+    - لا أستطيع إخراج بطاقتي من الصراف الآلي ، فماذا أفعل الآن؟
+    - لم تعيد لي ماكينة الصراف الآلي بطاقتي؟
+    - ماذا أفعل إذا أكل الصراف الآلي بطاقتي؟
+    - كيف يمكنني استعادة بطاقتي؟
+    - My card got trapped inside an ATM, what should I do?
+    - My card was taken by the ATM.
+    - ماذا علي أن أفعل مع جهاز الصراف الآلي المتوقف؟
+    - ماذا أفعل؟ أخذ الصراف الآلي بطاقتي!
+    - ماذا أفعل إذا أكلت ماكينة الصراف الآلي بطاقتي؟
+    - I was removing a dollar amount from my account and now don't have access to my card.
+- intent: cash_withdrawal_charge
+  examples: |
+    - My account got charged for taking out cash, why did this happen?
+    - Why was there a fee with my cash withdrawal?
+    - An ATM fee was attached to my recent withdrawal.
+    - what is this extra charge for a withdrawal?
+    - لقد تم تحصيل رسوم لسحب النقود!
+    - كيف يتم تحصيل رسوم إضافية مني عند سحب النقود؟
+    - I took cash and got charged a fee
+    - Was charged an ATM fee despite it being a small withdrawal on the 1st day of the month. I thought I was allowed 200 per month?
+    - Is there a limit on how much I can withdraw from my account without being charged?
+    - I got a strange fee when I used the ATM.
+    - How come I got to pay to get my money from the ATM?
+    - Can you tell me why I was charged extra when I withdrew money?
+    - I thought cash withdrawals were free? Why have I been charged a fee? Also, how much is this fee?
+    - What is the reason for this fee I got after a simple cash withdrawal?
+    - Why am I being charged extra when I withdrew money?
+- intent: cash_withdrawal_not_recognised
+  examples: |
+    - هناك سحب فردي في حسابي.
+    - ماذا أفعل إذا لم أعترف بسحب نقدي؟
+    - كيف ألغي بطاقتي؟ هناك رسوم على حسابي لم أقم بها.
+    - There is a odd withdrawal on my account.
+    - شخص ما لديه نسخة من بطاقتي !! أنا بالتأكيد لا أزال أمتلكها هنا ولكن شخصًا ما قام بسحب 500 جنيه إسترليني نقدًا ، HELP!
+    - حسابي لديه سحب غريب.
+    - Someone has a copy of my card !! I definitely still have it here but someone just made a 500£ cash withdrawal, HELP!
+    - لقد سُرقت محفظتي منذ بضع ساعات والآن رأيت أن هناك بالفعل سحبًا. مساعدة هذا أمر عاجل للغاية لا أريد أن أفقد المزيد من المال
+    - راجعت التطبيق ورأيت سحب نقدي إضافي لم أصرح به
+    - مساعدة! لقد سُرقت محفظتي وشخص ما أخذ المال. أحتاج هذا المال! ماذا يمكنني أن أفعل؟
+    - I see a cash withdrawal that I did not perform.
+    - There's a cash withdrawal that  didn't make that is showing up.
+    - I don't recognise a cash withdrawal
+    - I think somebody made an unauthorized copy of my card.  My account has a cash withdrawal for 500£ that I did not make.  Please help.
+    - What do I do if I notice a strange withdrawl in my statement?
+- intent: change_pin
+  examples: |
+    - I need a new Pin how do I go about that?
+    - هل يمكن أن تخبرني أين يمكنني تغيير رقم التعريف الشخصي الخاص بي؟
+    - I want to choose a different PIN.
+    - How can I alteration my PIN?
+    - May I receive a different card pin
+    - Can I change my pin number at a cash machine?
+    - كيف يمكنني تغيير الرقم السري الخاص ببطاقتي؟
+    - How can I change my Tholepin ?
+    - Can I change my PIN remotely?
+    - While on vacation in Spain I think someone saw my PIN and I now need to change it, can I do this at an ATM in Spain?
+    - Do I have to change my PIN at a bank?
+    - Am I able to change my PIN at any cash machines?
+    - At what ATM can I change my PIN?
+    - أرني كيف أغير رقم التعريف الشخصي الخاص بي؟
+    - هل يمكنني اختيار رقم تعريف شخصي جديد؟
+- intent: compromised_card
+  examples: |
+    - لا أستطيع أن أكون متأكدًا ، لكنني أعتقد أن شخصًا ما قد يستخدم بطاقتي.
+    - كيف يمكنني تجميد بطاقتي؟ أعتقد أن شخصًا ما يستخدمه لإجراء مجموعة من المعاملات عبر الإنترنت.
+    - What do I do to stop unauthorized transactions on my card? I was never in the place from which the transactions on my bill were made and I never made them. Please help!
+    - لدي بعض المعاملات في حسابي لم أقم بها. هل يمكنك إلغاء بطاقتي ومنع استخدامها مرة أخرى.
+    - هل يمكنني استخدام التطبيق لتجميد بطاقتي والنزاع بشأن الاحتيال؟
+    - هل يمكنني تجميد بطاقتي الآن؟
+    - يبدو أن معلومات بطاقتي قد سُرقت! لا أعرف من أين أتت هذه المعاملات ولم أذهب مطلقًا إلى المدينة التي تمت فيها. أحتاج إلى حظر بطاقتي في أسرع وقت ممكن حتى لا يتمكن هذا الشخص من الاستمرار في استخدام بطاقتي.
+    - كيف يمكنني تجميد بطاقتي باستخدام التطبيق؟
+    - I see random purchases to my account, was it hacked?
+    - My card was used without my permission.
+    - My card must have used my card as there are some transactions that I haven't done myself..
+    - ماذا أفعل إذا اعتقدت أن شخصًا ما سرق بياناتي واستخدم معلوماتي لإجراء بعض المعاملات؟
+    - I don't recognize some of the transactions on my card, I think someone must have gotten my card info and used it.
+    - How do I freeze my card using the app?
+    - أظن أن شخصًا ما استخدم بطاقتي.
+- intent: contactless_not_working
+  examples: |
+    - كيف يمكنني تحرّي الخلل وإصلاحه في جهاز الدفع اللاتلامسي الخاص بي؟
+    - How can I fix a problem where contactless isn't working?
+    - لا يمكنني الحصول على مدفوعات لاتلامسية للعمل.
+    - The NFC payment wouldn't work on the bus today. Help?
+    - How do I use contactless payments?
+    - ما هو السبب عندما حاولت الدفع بدون تلامس في الحافلة ، لأنها لم تنجح؟
+    - كم يوم معالجة البطاقة الجديدة؟
+    - أي رسوم مطبقة على البطاقة الجديدة؟
+    - كيف تحصل على بطاقة جديدة؟
+    - How do I troubleshoot my contactless?
+    - I tried to pay contactless at the bus today and it didn't work. Any ideas why?
+    - ساعدني في جهاز اللاتلامس الخاص بي الذي لا يعمل.
+    - Do I need to make a regular payment before a contactless one?
+    - What is the reason when I tried to pay contactless at the bus, it didnt work?
+    - How do I troubleshoot when contactless doesn't work?
+- intent: country_support
+  examples: |
+    - I would like to receive and use the card in Europe, is that possible?
+    - how do i get a card if i am in the usa
+    - هل يمكنني الحصول على بطاقة حتى لو كنت أعيش خارج المملكة المتحدة؟
+    - في أي البلدان يعمل تطبيقك
+    - كم عدد الدول التي تدعمها؟
+    - الآن بعد أن أعيش في الولايات المتحدة ، كيف يمكنني الحصول على بطاقة؟
+    - كيف أحصل على بطاقة إذا كنت في الولايات المتحدة
+    - هل يمكنني استخدامه في جميع أنحاء العالم؟
+    - I live in the US and I would like to get a card. How do I go about getting one?
+    - أنا لست في المملكة المتحدة ، فهل يمكنني الحصول على بطاقة؟
+    - Which countries does your service work in?
+    - إذا لم أكن في المملكة المتحدة ، فهل لا يزال بإمكاني الحصول على بطاقة؟
+    - Where do you support?
+    - هل بطاقاتك متوفرة في أوروبا؟
+    - Is my country supported
+- intent: declined_card_payment
+  examples: |
+    - تم رفض دفعتي !! ما الذي يحدث ، اعتقدت أن كل شيء على ما يرام ويعمل بشكل جيد؟
+    - لماذا لا تعمل بطاقة الدفع
+    - أحاول باستمرار سداد دفعة ، لكنها لا تعمل.
+    - Why have you declined my card payment?
+    - أنا عالق حقًا. لا أعرف السبب ولكن الدفع بطاقتي لم يتم.
+    - Why was my Payment declined
+    - I have no idea why my card payment did not work.
+    - استلمت بطاقتي الجديدة وحاولت استخدامها اليوم ، فقط لكي تظهر مرفوضة مرارًا وتكرارًا. لماذا يحدث هذا؟
+    - I tried using my card and it kept getting declined, Why?
+    - Why has my card payment been declined?
+    - لا أعرف لماذا دفعتي لم تنجح.
+    - I finally got my new card and was very excited to use it today. However, my payment kept declining. What is happening?
+    - My payment for my card is not working
+    - لم يتم قبول بطاقتي في المتجر
+    - تم رفض بطاقة الائتمان الخاصة بي.
+- intent: declined_cash_withdrawal
+  examples: |
+    - أحتاج مساعدتك للتحقق من حسابي ، من فضلك! يتم رفض بطاقتي في أجهزة الصراف الآلي ، وقد جربت بالفعل بطاقتي مختلفة!
+    - هل بطاقتي تعمل بالفعل؟ إنها المرة الأولى التي حاولت استخدامها
+    - لماذا تم رفض السحب النقدي الخاص بي؟
+    - لن تعمل بطاقتي في أجهزة الصراف الآلي
+    - Please double check my card - withdrawal was working fine so far, but this morning on the way to work it suddenly got declined!
+    - لا تعطيني أجهزة الصراف الآلي نقدًا
+    - عندما ذهبت للحصول على النقود ، تم رفضها!
+    - حاولت الحصول على المال من ماكينة الصراف الآلي في نوتينغ هيل في وقت سابق ، لكنها لم تنجح. هل بطاقتي تعمل بالفعل؟ إنها المرة الأولى التي حاولت استخدامها
+    - لماذا تم منعي من الانسحاب من الصراف الآلي؟
+    - يواصل جهاز الصراف الآلي رفض بطاقتي. حاولت في اثنين من أجهزة الصراف الآلي المختلفة. هل يمكنك إخباري إذا كانت هناك مشكلة في حسابي؟
+    - Can you tell me why I was declined from getting cash?
+    - لا يمكنني الحصول على المال من أجهزة الصراف الآلي
+    - أدخلت رقم التعريف الشخصي الخاص بي بشكل خاطئ وقمت بتجميده. كم عدد المحاولات لدي
+    - تم رفض الانسحاب ولست متأكدا من سبب حدوث ذلك؟
+    - I tried to make a cash withdrawal and it was declined. Why did this happen?
+- intent: declined_transfer
+  examples: |
+    - What would make a decline message show up during a transfer?
+    - الرجاء مساعدتي في هذا النقل ، لسبب ما لا يمكنني التحويل إلى حساب cryptocurency
+    - how come my transfer declined
+    - Why could my transfer have been declined?
+    - My transfers are being declined. IT has always worked for me but now it's declining my card. I've tried several times.
+    - You keep declining my transfers? It's always been working really well so far, but when I tried to buy something just now the card got declined. I tried couple times already but same thing.
+    - I have been trying to make transfers to another account but I keep getting a declined notice. I have checked all of my information more than once and my information is accurate.
+    - لماذا تم رفض طلب التحويل الخاص بي؟
+    - لماذا تم رفض نقلي
+    - I am trying to make a transfer to a different account but they keep getting declined. I have double checked all the details and the information is correct.
+    - Trouble transferring transaction contact for help
+    - لقد حاولت عدة مرات إجراء عملية شراء واستمر رفض بطاقتي. لماذا تستمر في رفض تحويلاتي؟ لقد حاولت بالفعل عدة مرات وهو لا يعمل.
+    - My transfer was declined
+    - How can I fix my card, it got declined twice.
+    - كانت هناك رسالة "رفض" أثناء التحويل
+- intent: direct_debit_payment_not_recognised
+  examples: |
+    - أريد استرداد المبلغ على الخصم المباشر.
+    - كان هناك خصم مباشر من حسابي ولم أسمح له بذلك
+    - هناك خصم على حسابي لم أفعله.
+    - ما هي الكلمة
+    - لا أعتقد أنني فرضت هذه الرسوم على بيان الخصم الخاص بي.
+    - إيداع مباشر غير معروف
+    - There's a direct debit I wish to dispute
+    - لقد راجعت بياناتي ولاحظت أن هناك دفعة كبيرة لم أسددها. هل لا يزال بإمكاني الاعتراض على الدفع؟ لقد مر وقت طويل
+    - لماذا تم خصم حسابي من البائع عندما لم أوافق عليه؟
+    - I found a charge for a direct debit that was not made by me.
+    - لا أعرف من أين أتت دفعة الخصم المباشر
+    - Purchases I did not make are appearing in my bank statement?
+    - I didn't make this direct debit transaction
+    - هل يمكنني الاعتراض على دفعة حتى لو لاحظت ذلك بعد عدة أسابيع من إتمامها؟
+    - هناك خصم مباشر على حسابي لم أسمح به
+- intent: disposable_card_limits
+  examples: |
+    - How many disposable cards can I make in a day?
+    - هل يمكنك إعلامي بالقيود المفروضة على البطاقات التي تستخدم لمرة واحدة.
+    - هل هناك حد لعدد المعاملات التي يمكنني إجراؤها على بطاقة واحدة يمكن التخلص منها؟
+    - How many card payments can I use on a disposable card?
+    - ما عدد المعاملات التي يمكنني إجراؤها ببطاقة واحدة يمكن التخلص منها؟
+    - How many transactions can I do with my disposable card?
+    - هل هناك حد لاستخدام بطاقة افتراضية يمكن التخلص منها؟
+    - ما هي القيود المفروضة على البطاقات الافتراضية؟
+    - What are the disposable cards restrictions?
+    - What's the most disposable cards I can have?
+    - What is the limit to number of transactions I can do with a disposable card?
+    - ماذا لو كنت بحاجة إلى بطاقات متعددة تستخدم لمرة واحدة؟
+    - Is there a limit to using a disposable virtual card?
+    - أحتاج إلى استخدام بطاقتي التي تستخدم لمرة واحدة عدة مرات في اليوم ، هل هناك حد نهائي؟
+    - ما هي حدود استخدام البطاقات الافتراضية التي تستخدم لمرة واحدة؟
+- intent: edit_personal_details
+  examples: |
+    - My address has changed.
+    - What do i have to do to change my name?
+    - I need to change details about my personal account.
+    - كيف يمكنني تغيير اسمي المتزوج؟
+    - كيف أغير عنواني.
+    - How do I update my details?
+    - كيف أستطيع تغيير اسمي؟
+    - Is it possible to edit my personal details on the app?
+    - How do I change my address?
+    - يحتاج عنواني للمراجعة.
+    - هل يمكنني تغيير بياناتي لأنني انتقلت؟
+    - I need to change my contact information.
+    - Where can I change my personal information after I move?
+    - How can I update my personal information after moving?
+    - كيفية تغيير الاسم
+- intent: exchange_charge
+  examples: |
+    - هل من الممكن الحصول على خصم على صرف العملات بشكل متكرر؟
+    - كم سعر صرف العملة
+    - ما هو سعر الصرف بين العملات ، وهل يمكنني التحقق لمعرفة ما إذا كان لدي أي خصومات متاحة؟
+    - عملي يرسلني إلى جميع أنحاء العالم ، هل يمكنني الحصول على خصم على جميع الأموال التي يجب أن أستبدلها؟
+    - does it cost to exchange currencies?
+    - If I exchange currency frequently, can I get a discounted rate?
+    - ما هي رسوم الصرف
+    - Do you offer a discount for those who perform frequent currency exchanges?
+    - ما هي بالضبط رسوم الصرف؟
+    - هل يوجد خصم على تبادل العملات بشكل متكرر؟
+    - هل هناك رسوم على صرف العملات الأجنبية؟
+    - Could you help my figure out the exchange fee?
+    - Do I have to pay for exchanging currencies?
+    - What's the exchange fee?
+    - Please tell me what the exchange fee is.
+- intent: exchange_rate
+  examples: |
+    - What are the exchange rates you assign?
+    - ما هو سعر الصرف؟
+    - I'm trying to figure out the current exchange rate.
+    - كيف يعمل سعر الصرف على هذا التطبيق؟
+    - هل هو الوقت المناسب للتبادل؟
+    - ما هو رأيك في سعر الصرف؟
+    - ما هو سعر الصرف الحالي؟
+    - Where do you guys acquire your exchange rate?
+    - متى يتم تحديد السعر
+    - What exchange rate is it?
+    - كم سأحصل مع سعر الصرف؟
+    - What value can I get for my currency?
+    - Can you explain your exchange rate policy to me?
+    - What is the exchange rate like on this app?
+    - أنا بحاجة لمعرفة أسعار الصرف الخاصة بك.
+- intent: exchange_via_app
+  examples: |
+    - كيف استبدل الجنيه الاسترليني مقابل الدولار الاسترالي؟
+    - What is the best way to exchange currency between USD and GBP using your app?
+    - Is it possible to change to another currency?
+    - قد تتغير خططي لذا قد أحتاج إلى التغيير من الجنيه الإسترليني إلى الدولار الأسترالي.
+    - ما هي العملات التي يمكنني استبدالها على تطبيقك؟
+    - I may need to exchange my USD for GBP, can your app do that?
+    - How do I interconvert between AUD and GBP?
+    - Can I get some money exchanged?
+    - كيف يمكنني تداول العملات مع هذا التطبيق؟
+    - تغيير العملة
+    - أرغب في صرف العملات ما هي الأنواع الموجودة؟
+    - Does your app allow currency exchanges between USD and GBP?
+    - أود تبادل العملات
+    - هل من الممكن استبدال الدولار الأمريكي والجنيه الإسترليني على التطبيق؟
+    - Can I exchange between GBP and USD on the app?
+- intent: extra_charge_on_statement
+  examples: |
+    - Is there a reason why there is an extra £1 charge on my account?
+    - هل يمكن أن تخبرني لماذا لاحظت خصم دولار واحد في البيان الخاص بي؟
+    - Can you help me with a weird charge?  It's a pound charge that never goes away from the statement view on the app I'm using.  It's not described as anything but "Pending", and that status has never changed during the last two days.
+    - كيف يكون هناك رسم إضافي قدره 1 دولار على كشف الحساب الخاص بي؟
+    - ما هي تكلفة 1 دولار على البيان الخاص بي؟
+    - نظرت إلى بياني ، وهناك رسوم بقيمة 1 جنيه إسترليني لا أتعرف عليها. لماذا هو هناك؟
+    - ما هي الرسوم الإضافية التي تبلغ 1 يورو في بياني
+    - Can you explain what this random $1 charge is?
+    - لماذا أرى رسومًا إضافية بقيمة 1 يورو في كشف الحساب الخاص بي؟
+    - I noticed an extra $1 charge on my statement, can you tell me why that is?
+    - Can you please check why I am having this extra fee on my statement.
+    - لماذا يحتوي البيان الخاص بي على هذه الرسوم الإضافية؟
+    - What is this €1 charge?
+    - أنا عميل جديد ، وحدث أن ألقيت نظرة على تطبيقي وهناك رسوم لست على دراية بها. هل يمكن أن تخبرني لماذا توجد الرسوم الإضافية؟
+    - أرى رسومًا إضافية بقيمة 1 جنيه إسترليني على تطبيقي. لماذا فرضت علي تكلفة إضافية؟
+- intent: failed_transfer
+  examples: |
+    - Did  my transfer fail?
+    - هل هناك سبب لفشل التحويل الخاص بي؟
+    - I am trying to make a transfer and am unsuccessful, can you please tell me why?
+    - I tried to do a transfer and it hasn't worked!
+    - Is there a reason my transfer failed?
+    - I transferred my funds, why did it not go through?
+    - نقلي لم ينجح
+    - Can you help me figure out what's happening? I'm trying to transfer money to a friend but it keeps getting returned. I'm not sure what i'm doing wrong.
+    - كيف يفترض أن يعمل هذا النقل؟ لا يعمل بالنسبة لي.
+    - لقد حاولت النقل ولم يمر.
+    - What is stopping my money from transferring?
+    - I am unsuccessfully trying to make a transfer can you help?
+    - يقول لا يمكن أن يكتمل التحويل الخاص بي؟
+    - لا تزال عملية التحويل تفشل ، لقد حاولت تحويل بعض الأموال إلى الأصدقاء هذا الصباح ولكن يتم رفضها باستمرار لسبب ما ، هل يمكنك التحقق من المشكلة من فضلك؟
+    - لقد حاولت إجراء تحويل قياسي للغاية وحاولت 5 مرات في هذه المرحلة. هل يمكن أن تخبرني ما هي المشكلة؟ هل النظام معطل؟
+- intent: fiat_currency_support
+  examples: |
+    - هل تقبلون التبادلات باليورو؟
+    - هل يمكنني الحصول على أموال من بلد منشأ مختلف.
+    - ما هي العملات الورقية المستخدمة لإجراء المعاملات؟
+    - ما هي العملات التي تقوم بتبادلها؟
+    - هل ستتعامل مع اليورو؟
+    - قل لي العملات التي تدعمها.
+    - How do I change currencies to euros?
+    - Will you handle EUR?
+    - ما هي الخيارات المتاحة لي للاحتفاظ بالعملات؟
+    - ما هي العملات التي يمكنني الاحتفاظ بها بالمال؟
+    - In the exchange and holding, what fiat is allowed?
+    - Do you have support for flat currencies?
+    - ما هي الدول التي يمكنني السفر إليها والوصول إلى عملاتها؟
+    - Does your system support multiple currency.
+    - ما هي العملات المسطحة التي يمكنني استخدامها منك؟
+- intent: get_disposable_virtual_card
+  examples: |
+    - Will you tell me how I am supposed to use the disposable cards?
+    - كيف أقوم بإنشاء بطاقة افتراضية يمكن التخلص منها؟
+    - Can you tell me where I can order a disposable virtual card?
+    - من أين أطلب بطاقة افتراضية يمكن التخلص منها؟
+    - هل يمكنني الحصول على بطاقة افتراضية يمكن التخلص منها أيضًا؟
+    - How can disposable cards be used?
+    - Who can purchase a disposable virtual card?
+    - أرغب في الحصول على بطاقة افتراضية يمكن التخلص منها ، هل يمكنني الحصول عليها؟
+    - هل هناك على أي حال ، يمكنني الحصول على بطاقة افتراضية يمكن التخلص منها؟
+    - كيف تعمل البطاقات التي تستخدم لمرة واحدة؟
+    - Please tell me about disposable cards.
+    - How do I create a disposable virtual card?
+    - What are the disposable cards for?
+    - Can you provide me a disposable virtual card?
+    - May I get a disposable virtual card as well?
+- intent: get_physical_card
+  examples: |
+    - How do I set-up my PIN for the new card?
+    - أين يوجد رقم التعريف الشخصي الخاص ببطاقتي؟
+    - إذا كنت بحاجة إلى رقم تعريف شخصي لبطاقتي ، فأين يقع؟
+    - I need my PIN
+    - Is PIN delivered separately?
+    - Explain the card PIN to me.
+    - أين رقم التعريف الشخصي لبطاقتي؟
+    - How will I know my pin number?
+    - لا يمكنني العثور على رقم التعريف الشخصي لبطاقتي
+    - i cannot find my card PIN
+    - Where can I locate my PIN at?
+    - What is my card's PIN?
+    - Why can't I find my PIN?
+    - What can you tell me about the card PIN?
+    - Is the PIN delivered separately?
+- intent: getting_spare_card
+  examples: |
+    - Can I order a second card?
+    - هل هناك رسوم للبطاقات الاضافية؟
+    - Am I allowed to give my daughter one of my cards to use?
+    - I was looking to buy another card today.
+    - أريد أن أطلب مهد آخر
+    - Do you offer multiple cards for the same account?
+    - أود طلب بطاقة أخرى
+    - من أين أطلب بطاقات إضافية؟
+    - أرغب في إعطاء بطاقة ثانية لهذا الحساب لابنتي ، هل هذا ممكن؟
+    - Can i have a second physical card for this account?
+    - ما هي إجراءات الحصول على بطاقة أخرى؟
+    - أود الحصول على بعض البطاقات الإضافية؟
+    - Can I have a spare card for this account please?
+    - I would like to get some extra cards?
+    - طفلي بحاجة إلى بطاقة ، كيف يمكنني إضافته إلى الحساب الذي أملكه حاليًا؟
+- intent: getting_virtual_card
+  examples: |
+    - I want one of the virtual cards!
+    - من أين أحصل على بطاقة افتراضية؟
+    - How to receive virtual card?
+    - لماذا لم أحصل على بطاقة افتراضية حتى الآن؟
+    - Where can I obtain my virtual card?
+    - ظننت أنني سأحصل على بطاقة افتراضية ولكني لم أستلمها بعد ، كيف يمكننا حل هذا؟
+    - لم استلم بطاقتي الافتراضية بعد !!
+    - How long will it take to receive a virtual card?
+    - ماذا علي أن أفعل للحصول على بطاقتي الافتراضية؟
+    - Is this where I order a virtual card?
+    - كيف تحصل على بطاقة افتراضية؟
+    - Where can I order a virtual card?
+    - Is there an option to have a virtual card?
+    - أحب واحدة من البطاقات الافتراضية!
+    - ما هي خطوات الحصول على بطاقة افتراضية؟
+- intent: lost_or_stolen_card
+  examples: |
+    - لا يمكنني العثور على بطاقتي الائتمانية.
+    - فقدت البطاقة ، الرجاء المساعدة
+    - I can't find my card and think it may have been stolen.
+    - Oh no!  I lost my card!  Help!
+    - تمت سرقة حقائبي. أحتاج إلى بطاقة جديدة ولكن أحتاج إلى إلغاء البطاقة المسروقة.
+    - سرق شخص ما بطاقتي ، أحتاج إلى المساعدة من فضلك.
+    - My bags were stolen. I need a new card but need to cancel the stolen one.
+    - Some idiot stole my card.
+    - ماذا أفعل إذا اعتقدت أن بطاقتي قد سُرقت؟
+    - What should I do if I lost my card?
+    - Help!  I can't find my card.
+    - أعتقد أن بطاقتي قد سُرقت ، فماذا أفعل حيال هذا الموقف؟ انها عاجل.
+    - أعتقد أن بطاقتي مسروقة!
+    - كيف يمكنني الإبلاغ عن بطاقة مسروقة؟
+    - كيف أبلغ عن بطاقتي المسروقة؟
+- intent: lost_or_stolen_phone
+  examples: |
+    - I can't use the app.  My phone is lost at the hotel.
+    - My phone is not with me at the moment so I will not be able to access the app.
+    - لقد فقدت هاتفي. هل يمكنني استخدام بطاقتي بدون التطبيق؟
+    - الهاتف المفقود ، هل لا يزال بإمكاني الوصول إلى الحساب؟
+    - سرق شخص ما بطاقاتي!
+    - شخص ما أخذ هاتفي من غرفتي بالفندق!
+    - لقد سرق هاتفي.
+    - I lost my phone! Will my card still work?
+    - هل هناك شيء يمكنني القيام به منذ أن سرق هاتفي أمس؟
+    - my phone has been stolen by someone
+    - I can't find my phone but it has all my credit card information.
+    - شخص ما سرق هاتفي.
+    - Is there anything I need to do since my phone was stolen?
+    - هل هناك أي شيء يجب أن أفعله منذ أن سُرق هاتفي؟
+    - What do I do if I lost my phone?
+- intent: order_physical_card
+  examples: |
+    - What do I need to do to get a card?
+    - Where are cards delivered to?
+    - أين يمكن تسليم بطاقتي؟
+    - ما هي تكلفة البطاقة الفعلية؟
+    - هي بطاقة غير إلكترونية متوفرة أيضًا
+    - هل هناك رسوم على البطاقات الفعلية
+    - أريد أن أطلب بطاقة. أين تسليم؟
+    - Do you ship cards to where I live?
+    - How do I receive my physical card
+    - Will I get a real card?
+    - How much does it cost in fees to use your card?
+    - أين يمكنني استلام بطاقتي؟
+    - Can you send me the actual card?
+    - how much for a physical card?
+    - Do you charge for physical cards
+- intent: passcode_forgotten
+  examples: |
+    - I forgot my code to get into the app.
+    - Instruct me how to reset the passcode.
+    - The app passcode has completely slipped my mind.
+    - هل هناك طريقة لإعادة تعيين رمز المرور الخاص بي؟
+    - كيف يمكنني إعادة تعيين رمز المرور إذا احتجت إلى القيام بذلك؟
+    - Can I resent my passcode?
+    - أرشدني حول كيفية إعادة تعيين رمز المرور.
+    - My password doesn't work.
+    - ماذا أفعل إذا نسيت رمز المرور الخاص بي؟
+    - How do I retrieve my passcode?
+    - هل يمكنني إعادة تعيين كلمة المرور الخاصة بي؟ لا اعلم ما هذا.
+    - What do I do if I forget my passcode?  Because I did.
+    - Please help me.  I don't know my code to get into the app.
+    - لقد فاتني رمز مرور التطبيق تمامًا.
+    - لم يعد لدي رمز المرور الخاص بي.
+- intent: pending_card_payment
+  examples: |
+    - حصلت على بعض العناصر هذا الصباح لكن الدفعة تقول معلقة
+    - اشرح ماذا يعني الدفع المعلق؟
+    - My card payment is pending.
+    - I bought some things this morning but the payment shows that it is pending
+    - صفقة معلقة؟
+    - I am seeing pending from the card payment I made.
+    - لماذا أموال الدفع الخاصة بي ليست متاحة لي؟
+    - لقد سددت دفعة ويبدو أنها عالقة. لقد مر يومين بالفعل. هل يمكن أن تخبرني كم من الوقت سيستغرق؟
+    - Why is the payment on my card still pending?
+    - لقد أجريت دفعة منذ فترة ولا تزال تظهر على أنها "معلقة" في الحساب. كم من الوقت سيستغرق هذا الدفع حتى يكتمل؟
+    - لقد اشتريت بعض الأشياء هذا الصباح ولكن الدفعة كانت معلقة
+    - There is a payment showing as pending and hasn't posted for a few days.  When will it post?
+    - لقد أجريت دفعة باستخدام بطاقتي ولكن يبدو أن ذلك لم ينجح ، وما زال مدرجًا على أنه معلق منذ فترة. متى يتم ذلك بالفعل؟
+    - لماذا لا يزال الدفع على بطاقتي معلقًا؟
+    - بطاقتي معلقة منذ فترة ، ماذا أفعل؟
+- intent: pending_cash_withdrawal
+  examples: |
+    - Is my cash withdrawal pending?
+    - حاولت أخذ نقود من بطاقتي ، لكنها لم تنجح. لاحقًا رأيت أن المعاملة لا تزال جارية. ما الذي يحدث؟
+    - لدي معاملة معلقة في تطبيقي. كيف تظل معلقة إذا سحبت النقود من جهاز الصراف الآلي في وقت سابق؟
+    - ما زلت أنتظر ظهور السحب النقدي
+    - Is my pending cash withdrawal processed?
+    - Why is it taking so long for my cash withdrawal to no longer show as pending?
+    - Why would a cash withdrawal be pending?
+    - My cash withdrawal is still showing as pending.
+    - Where's accounting for my cash withdrawal?
+    - كيف لا يتم الإيداع عن طريق جهاز الصراف الآلي الخاص بي حتى الآن؟
+    - My withdrawl is still pending.  Why?
+    - I have a pending transaction in my app. How is it still pending if I pulled the cash out from the ATM earlier?
+    - مرحبًا ، أواجه مشكلة في بطاقتي ، ولا أفهم ما يحدث ، لقد حاولت استخدام ماكينة الصراف الآلي سابقًا ولكنها لم تكن تعمل ولكن يبدو أن المعاملات لا تزال جارية ، هل يمكنك إلغاؤها من أجلي؟
+    - لماذا يتم تعليق السحب النقدي الخاص بي؟
+    - الصرف النقدي الخاص بي لا يزال معلقًا
+- intent: pending_top_up
+  examples: |
+    - Can you please make my top up go through as soon as possible. I really need the money and it has been pending for an hour already.
+    - I've already topped up, but I cannot see the funds being available. What happened?
+    - لذلك قمت فقط بوضع رصيدي في البطاقة ولم يتغير الأمر.
+    - how long are my top ups pending
+    - I topped up but it didn't complete
+    - Hi. I'm a new customer to your system and I think something isn't working right - or maybe it is. Maybe you can confirm. I tried to top up today (my first time ever) and it's been stuck at "pending" for over an hour now. Is it supposed to do this or is there something wrong in the system?
+    - ماذا حدث لتعبئة الرصيد؟ لا ينعكس.
+    - What's taking my top-up so long?
+    - التعبئة معلقة.
+    - My top up hasn't worked, it's been stuck in pending for the last couple hours
+    - My top-up is taking a while to process!
+    - مشكلة في شحن رصيدي من خلال
+    - لماذا لا يمكنني رؤية أموالي بعد التعبئة؟
+    - التعبئة الخاصة بي معلقة.
+    - So I just put my top-up into the card and it hasn't changed.
+- intent: pending_transfer
+  examples: |
+    - لماذا يقول التحويل الخاص بي "معلق"؟
+    - لدي تحويل معلق
+    - Why hasn't my transfer gone through yet?
+    - لقد أجريت عملية نقل منذ 12 ساعة. لماذا لا يزال مدرجًا على أنه معلق؟
+    - Why is my transfer pending?
+    - Hello. How long does it usually take to transfer money to another country? I've made sure all the information is correct, but the transfer still says that it's "pending."
+    - I have a pending transfer
+    - متى ستتم عملية التحويل الخاصة بي؟
+    - Why is a money transfer not showing?
+    - I bought something online a couple days ago, sent the money immediately online but the seller says it's still not there yet. How long do EU transfers actually take?
+    - For how long will my transfer be pending?
+    - ما هي مدة انتظار التحويل؟
+    - متى سيتم الانتهاء من التحويل؟
+    - ما هي المدة التي سيظل فيها التحويل معلقًا؟
+    - Pending transfer?
+- intent: pin_blocked
+  examples: |
+    - Are you able to unblock my pin?
+    - My pins seems to be blocked, can you unblock it please
+    - My PIN can't access my card, can you help?.
+    - هل يمكنني إعادة تعيين رمز PIN الخاص بي إذا تم حظره؟
+    - My account is blocked, how do I log in now
+    - هل تسمح من فضلك بإلغاء قفل الرقم السري الخاص بي؟ لا أعرف لماذا ، لكنه محجوب.
+    - I can't figure out how to unblock my pin number. Can you help me?
+    - لا أستطيع إدخال رقم التعريف الشخصي الخاص بي مرة أخرى.
+    - How many incorrect attempts cause card to be blocked?
+    - How do I unblock my pin after entering it wrong too many times?
+    - ماذا أفعل إذا تجاوزت كل محاولاتي لرقم التعريف الشخصي؟
+    - تم حظر رقم التعريف الشخصي الخاص بي.
+    - كيف يمكنني فتح الرقم السري؟
+    - حاولت استخدام بطاقتي وأنا في حالة سكر ، وفشلت في إدخال رقم التعريف الشخصي ، واحتفظ الجهاز ببطاقتي. متى يمكنني استعادتها؟
+    - How can I unlock my pin from too many tries?
+- intent: receiving_money
+  examples: |
+    - أرغب في إيداع راتبي بالبيزو؟
+    - أتقاضى راتبي من صاحب العمل بالجنيه الإسترليني ؛ هل أحتاج إلى فعل أي شيء في التطبيق للإشارة إلى ذلك؟
+    - Is my salary eligible for this?
+    - My friend wants to send me money, can she?
+    - How can I get paid in a different currency?
+    - هل يمكنني استلام راتبي بعملة غير العملة المودعة بها؟
+    - هل يمكنني استلام المدفوعات بعملة أخرى؟
+    - هل من الجيد أن يرسل لي صديق مالاً؟
+    - هل الجنيه الإسترليني عملة مدعومة؟
+    - كيف يمكنني الحصول على مدفوعات بعملة مختلفة؟
+    - My salary is received in the form of GBP. Do I need to do anything specific to configure this?
+    - هل يمكنني تحويل راتبي إلى هنا؟
+    - Is GBP a supported currency?
+    - هل يمكن لصديق أن يرسل لي دفعة مالية؟
+    - I am paid by my employer in GBP; do I need to do anything in the app to indicate this?
+- intent: Refund_not_showing_up
+  examples: |
+    - لماذا لا يمكنني رؤية رد أموال حديث في البيان الخاص بي؟
+    - My statement doesn't show that a refund has processed
+    - كان من المفترض أن أسترد أموالي ولكنه لا يظهر في البيان الخاص بي
+    - من فضلك ، أحتاج إلى مساعدتك لمعرفة ما إذا كان لديك أموال مقابل عملية شراء كبيرة مستردة قمت بها أم لا. لقد طلبت ذلك منذ بعض الوقت من البائع ، لكن لا شيء يظهر.
+    - How long will it take to refund me
+    - My refund isn't going fast enough.
+    - هل هناك سبب لعدم ظهور المبلغ المسترد في البيان الخاص بي؟
+    - لماذا تم فقدان المبلغ المسترد الخاص بي من البيان الخاص بي؟
+    - The refund isn't appearing in my account
+    - Do you have any idea on when I will receive my refund? I got my statement and it was not there.
+    - When can I expect my refund?
+    - رد أموالي ليس هنا بعد
+    - I can not find my refund.
+    - كيف يتم تحديث كشف الحساب الخاص بي حتى أعرف متى سينعكس رد الأموال على رصيدي
+    - لا يوجد رد في البيان الخاص بي.
+- intent: request_refund
+  examples: |
+    - Can I have a refund?
+    - أود استرداد قيمة شيء اشتريته
+    - Please tell me how to get a refund for something I bought.
+    - مرحبًا ، أريد استرداد أموالي لشيء اشتريته ، لكن لست متأكدًا من كيفية القيام بذلك. هل يمكنك إلغاء الدفع فقط ، لم أستلم المنتج بعد.
+    - لست سعيدًا بهذا المنتج هل يمكنني استرداد أموالي؟
+    - Is it possible to have an item refunded?
+    - How do I cancel a previous purchase
+    - أحتاج إلى إلغاء مشترياتي.
+    - كيف يمكنني استرداد أموالي لعنصر اشتريته ولكنه لم يصل بعد؟
+    - كيف يمكنني استرداد قيمة أحد العناصر التي اشتريتها؟
+    - لم أستلم مشترياتي ، كيف يمكنني إلغاؤها؟
+    - أحتاج إلى مساعدتك لاسترداد ثمن عنصر اشتريته للتو ، هل يمكنك إلغاء الدفع لأن ما اشتريته لم يصل بعد.
+    - هل المشتريات قابلة للإرجاع لاسترداد كامل المبلغ؟
+    - the product is not working, can I get a refund?
+    - كيف يمكنني معالجة استرداد لشيء اشتريته؟
+- intent: reverted_card_payment?
+  examples: |
+    - لقد أجريت دفعة ولكن التطبيق أعادها
+    - There was a canceled payment for my card.
+    - Why has payment been returned?
+    - My payment did not go through because the app reverted it
+    - تم إرجاع دفع بطاقتي. لماذا ا؟
+    - منذ حوالي أسبوع أو أسبوعين اشتريت شيئًا ما ولكن يبدو أن هناك مشكلة. لقد تلقيت بالفعل أحد العناصر ، ولكن اليوم تمت إعادة الأموال إلى حسابي. ماذا يحدث؟
+    - تم رفض بطاقتي لعملية شراء. اشتريت أشياء من قبل وعملت البطاقة. هل تعرف ما هي المشكلة؟
+    - I cannot seem to buy something online with my card? the payment comes back, what's going on?
+    - My payment was cancelled
+    - لماذا يرفض التاجر الدفع
+    - Hi, I am facing issue with my card payment while shopping online as payment is getting reverted. I am struggling with this issue around two weeks. Please advise.
+    - حاولت استخدام بطاقة الخصم الخاصة بي ، لكن الدفع لم ينجح.
+    - I'm not sure why my account has been refunded a payment for an item I've already received about 2 weeks ago. Can you please tell me what is going on?
+    - كان هناك دفعة ملغاة لبطاقتي.
+    - لماذا عادت الأموال الخاصة بإحدى عمليات الشراء الخاصة بي إلى حسابي؟
+- intent: supported_cards_and_currencies
+  examples: |
+    - أحتاج إلى خيارات دعم ، أريد أن أتصدر بطاقتي
+    - I only have one more US credit card, is it accepted?
+    - ما هي البطاقات التي تدعمونها يا رفاق؟ أريد تعبئة الرصيد باستخدام بطاقتي الائتمانية.
+    - What kind of currencies can I use to add money?
+    - لدي بطاقة أخرى من الولايات المتحدة ، فهل ستتمكن من قبول هذه البطاقة؟
+    - أريد إضافة أموال ولكن لا أعرف ما هي العملات التي تقبلها ، هل يمكن أن تخبرني؟
+    - What currencies do you accept for adding money to my account?
+    - ما هي أشكال العملة المقبولة؟
+    - لإضافة النقود ، ما هي العملات التي تقبلونها؟
+    - How do I transfer funds from my American Express into my account?
+    - why wouldn't you support american express? its a card i like and use often and i don't want to get a different one
+    - how can i add money from my amex card
+    - Top up my card please, which y'all support?
+    - هل يمكنني تحويل الأموال إلكترونيًا إلى حسابي من American Express؟
+    - I need support options, I want to top my card
+- intent: terminate_account
+  examples: |
+    - How do I delete my account?
+    - أحاول حذف حسابي.
+    - الرجاء حذف حسابي. لست سعيدا بالخدمة التي تقدمها شركتكم.
+    - حذف حسابي الآن من فضلك.
+    - I'm not happy with the services I'm getting with this company. Can you please delete my account?
+    - الشركة ليست جيدة ، يرجى إنهاء حسابي.
+    - Can you remove my account please?
+    - هذا فظيع ، أريد حذف حسابي
+    - I am trying to delete my account.
+    - Please delete my account now.
+    - الرجاء حذف حسابي الآن!
+    - هذه الشركة ليست جيدة ، أود حذف حسابي.
+    - if im not using my account should i close it or just let it sit
+    - Please delete my account.
+    - اريد انهاء حسابي
+- intent: top_up_by_bank_transfer_charge
+  examples: |
+    - هل هناك رسوم على الشحن عن طريق التحويل؟
+    - How much is the fee for a SEPA transfer?
+    - هل يتم محاسبتي إذا كنت أتقاضى المال؟
+    - أرغب في إعادة تعبئة حسابي باستخدام SWIFT.
+    - كم هو الحصول على المال؟
+    - Do I have to pay for topping up by transfer?
+    - How much do I need to pay for a transfer?
+    - Do I have to pay any fees in order to receive money?
+    - What are the charges for receiving money?
+    - why do you charge for transfers?
+    - How much will it cost me for a SEPA transfer?
+    - ما هي رسوم التعبئة؟
+    - Should I expect to be charged for topping up by transfer?
+    - هل تحاسبون على التحويلات؟
+    - هل هناك رسوم للحصول على أموالي؟
+- intent: top_up_by_card_charge
+  examples: |
+    - Is there a fee for using a European bank card to top up?
+    - Is there a charge or discount if I use a European bank in a top up?
+    - هل توجد رسوم شحن إضافية للبطاقات الأمريكية؟
+    - هل هناك رسوم لاستخدام البطاقة الدولية في التعبئة؟
+    - Will you assess me more fees if I top up with an international card?
+    - هل هناك رسوم لاستخدام بطاقة مصرفية أوروبية لإعادة الشحن؟
+    - ما الذي تتقاضاه مقابل عمليات التعبئة؟
+    - هل هناك رسوم للتعبئة؟
+    - Is it okay to use a bank card to top up
+    - Will you charge me more if I top up with an international card?
+    - Are there fees for adding money with an International card?
+    - عند استخدام بطاقة أمريكية ، ما هي تكلفة إعادة التعبئة / الإيقاف؟
+    - What fee is included if I top up by card?
+    - هل هناك رسوم إضافية على التعبئة باستخدام بطاقة أوروبية؟
+    - I want to use a European bank card for a top up. Must I pay?
+- intent: top_up_by_cash_or_cheque
+  examples: |
+    - هل تقبل الشيكات لشكا من أعلى؟
+    - Will I be able to top up by cheque?
+    - أحتاج إلى تعبئة رصيد نقدي ، كيف أفعل ذلك؟
+    - أرغب في زيادة الرصيد باستخدام شيك.
+    - Is there an option to top up with a cheque?
+    - أرغب في زيادة الرصيد نقدًا
+    - I tried to deposit a cheque into my account and it is not letting me.
+    - هل هناك طريقة لتعبئة الإيداع النقدي
+    - كيف اودع نقدا؟
+    - حصلت على شيك وأريد شحنه؟
+    - Is there an option to top up a with cheque?
+    - أين هي خيارات إعادة التعبئة بشيك على حسابي؟
+    - هل يمكنني تعبئة رصيد باستخدام شيك؟
+    - Can you top-up a card with a cheque?
+    - How do I deposit cash?
+- intent: top_up_failed
+  examples: |
+    - Why did the top-up fail?
+    - لقد قمت بتعبئة بطاقتي لكن التطبيق رفضها.
+    - Why isn't my topup working?
+    - My credit card did not go through. Can you see if it has insufficient funds?
+    - Why would my topup not go through?
+    - Hello, there was an error while attempting top-up with my card this morning. I was able to use the card two days ago with no issues. Could you please assist?
+    - لم يتم تمويل بطاقتي.
+    - My top up didn't work.
+    - لن يسمح لي التطبيق بإعادة تعبئة حسابي
+    - حاولت إعادة التعبئة لكن التطبيق رفض ذلك.
+    - How can I check to see if my top-up worked?
+    - لذلك ، حاولت شحن بطاقتي لهذا اليوم. لسوء الحظ ، فشلت. قبل يومين ، استخدمته وهو يعمل بشكل جيد. هل يمكنك التحقق مرة أخرى وإخباري بما يحدث؟
+    - My top-up is not working. Why is that?
+    - ما سبب فشل إعادة التعبئة الخاصة بي؟
+    - مرحبًا ، حدث خطأ أثناء محاولة إعادة تعبئة بطاقتي هذا الصباح. تمكنت من استخدام البطاقة منذ يومين دون مشاكل. من فضلك هل يمكنك المساعدة؟
+- intent: top_up_limits
+  examples: |
+    - هل عمليات التعبئة لها حد؟
+    - ما هو الحد الأقصى الذي يمكنني تعبئته
+    - ما هو الحد الأقصى للتعبئة في اليوم؟
+    - What is the limit to top up?
+    - what is the top up limit
+    - هل يمكنني تعبئة الرصيد بقدر ما أريد؟
+    - What is the highest amount I can top-up?
+    - What is the limit to a top-up?
+    - ما هو أكبر عدد من المرات التي يمكنني فيها تعبئة الرصيد؟
+    - هل هناك حد لزيادة الرصيد يجب أن أبقى أقل منه خلال فترة زمنية معينة؟
+    - What are the restrictions to top-offs?
+    - can you limit my top up?
+    - I need to add a serious amount of cash to my card, how do I do that?
+    - هل يمكن لأحد أن يخبرني من فضلك كم يمكنني إعادة التعبئة؟
+    - Do top-up limits exist?
+- intent: top_up_reverted
+  examples: |
+    - Why did you revert my top up?
+    - مرحبًا ، لا أعرف ما الذي يحدث ، لقد دفعت للتو رصيد الشحن مرتين عن طريق الصدفة ، هل يمكنك مساعدتي في استرداد أموالي من فضلك.
+    - For what reason would a top up be reverted and returned to my account?
+    - عندما قمت بإعادة تحميل التطبيق ، تمت إعادته.
+    - تراجع التطبيق عن الإجراء الذي قمت به عندما قمت بزيادة الرصيد.
+    - Why isn't top-up working? My top-up money disappeared after I saw that it was successfully transferred. Is it gone? Where did it go?
+    - Hi there, I came across a problem with my top up and my money is missing, was there a system error?
+    - ماذا حدث حيث تم إلغاء تعبئة الرصيد؟
+    - My money's disappeared from my account! I topped up the other day and it was there, but now it's not. Help?
+    - هل يمكن أن تخبرني لماذا تمت إعادة التعبئة؟
+    - My top-up was supposed to be done, but now the money is gone! Is there a glitch in your system?
+    - أسباب إلغاء التعبئة
+    - Do you support top ups?
+    - يبدو أنه تم إلغاء عمليات إعادة التعبئة.
+    - Has my top-up been cancelled?
+- intent: topping_up_by_card
+  examples: |
+    - محفظتي لا تظهر رصيدي الأخير.
+    - How do my friends top up my account
+    - هل يمكنني تحويل الأموال إلى بطاقتي الائتمانية؟
+    - حاولت تعبئة الرصيد باستخدام بطاقتي ، لكن المال اختفى الآن!
+    - هناك خطأ ما في تعبئة الرصيد ولا يمكنني رؤيته. كيف أجدها؟
+    - فقدت بعض الأموال من حسابي - حاولت تحويلها باستخدام رقم بطاقتي الائتمانية ، واختفى.
+    - استخدم بطاقة الائتمان لتحويل الأموال
+    - عندما حاولت إعادة التعبئة باستخدام بطاقتي ، اختفت كل الأموال.
+    - كيف أقوم بتحويل الأموال باستخدام بطاقة الائتمان؟
+    - Are my friends able to top up my account?
+    - How do I top up by card?
+    - Can friends I have top-up my account?
+    - Can I give my friends access to my account so they can top it up for me?
+    - I tried to top up using my card, but now the money just disappeared!
+    - لم أتمكن من استخدام بطاقتي لأن الأموال التي وضعتها لم تعد موجودة
+- intent: transaction_charged_twice
+  examples: |
+    - I have a duplicate payment showing up on the app. How do I stop myself being charged for the thing twice?
+    - لماذا توجد رسوم على بطاقتي أكثر من مرة دفعتها مقابل مرة واحدة فقط وليس مرتين كيف يمكنني إصلاح ذلك؟
+    - كان هناك اثنان من نفس الرسوم على حسابي
+    - I was charged twice, when I didn't purchase anything twice.
+    - Why am I being charged twice fro a restaurant?
+    - More than one time this week, I have been charged more than once for the same transaction. Please correct the issue and refund the duplicate charges.
+    - Hi. Please can you help me fix a double charge on my card? I'm looking at my transactions and this restaurant I went to earlier in the week has charged me twice! Please remove the additional charge for me.
+    - يُظهر البيان أوقات معاملات مختلفة.
+    - لقد تم تحصيل رسوم مني مرتين لمطعم ، هل يمكنك إزالة الشحنة الثانية؟
+    - مرحبًا. لقد راجعت معاملاتي ورأيت أنه تم تحصيل رسوم مضاعفة على بطاقتي لزيارة مطعم. أود استعادة نقودي.
+    - Looks like my card payment was made twice by mistake. I went to pay at the store earlier which rejected once, second time it worked. App is on pending for one of the payments. Can you please remove one of them as it's wrong and clearly was declined?
+    - I have been charged twice on my statement.
+    - أرى ما يشبه الرسوم المكررة على الحساب.
+    - لقد تم تحصيل رسوم مضاعفة مقابل دفعة ، فكيف يمكنني إصلاح ذلك؟
+    - I think something may have happened that caused a charge to show up twice.
+- intent: transfer_fee_charged
+  examples: |
+    - أنا في حيرة من أملي بشأن هيكل الرسوم الخاص بك وشعرت بخيبة أمل لرؤية رسوم التحويل الخاصة بي.
+    - لماذا تم إضافة رسوم إضافية إلى حسابي للتحويل؟
+    - I was charged more when I transferred!
+    - حصلت مؤخرًا على مكان جديد أثناء إقامتي بالخارج وكنت أستخدم هذا الحساب لإدارة المدفوعات ، ولكن فجأة أرى زيادة في الرسوم. من أين تأتي هذه الرسوم الإضافية؟
+    - Hi,  I have transferred money but beneficiary's account is credited with less amount. Now i have transfer the difference of the amount. I think there is some issue, could you please look into this.
+    - How much do I have to pay if I want to transfer money?
+    - هل هناك سبب لفرض رسوم على التحويل؟
+    - I have used my account abroad for a while without any fees, why am I being charged additional fees all of a sudden?
+    - I made a transfer and according to the receiver "they haven't received the right amount" Its lesser than it should be.Now I have to transfer more money to make up for the missing amount . Can you please help me about this, what should be done ?
+    - So, I see a strange fee that I've never seen before after making an online purchase from abroad. I was under the impression transfers could be made for free. I don't think this seems fair.
+    - Is there a reason I was charged a fee to transfer?
+    - I did a transfer and I was charged a fee that shouldn't be there!
+    - A receiver let me know that they didn't receive the full transfer I completed and that it was actually a bit less than what I sent. At this point I have to make another transfer to make up for the amount missing. Can you please follow up with what's going  on here?
+    - I need someone to alert me as to what's going on. I had transferred an amount but the receiver is saying that the amount is somewhat less than what I sent over. I now have to make another transfer to make up the difference.
+    - لماذا أرى رسوم التحويل؟
+- intent: transfer_into_account
+  examples: |
+    - كيف أقوم بتحويل الأموال إلى حسابي؟
+    - أود معرفة كيفية تحويل الأموال إلى حسابي.
+    - Can you please explain how to transfer money using the bank transfer process?
+    - How do I deposit through bank transfer?
+    - عندما أرغب في تحويل الأموال إلى حسابي ، كيف يمكنني القيام بذلك؟
+    - ما هي الخطوات التي اتبعتها لتحويل الأموال إلى حسابي؟
+    - أود تحويل الأموال من حسابي المصرفي الآخر إلى هذا الحساب.
+    - هل يمكنني إجراء تحويل مصرفي لوضع أموال إضافية في حسابي لأنني نفذت نقودي؟
+    - هل يمكنني إضافة أموال لتعبئة حسابي عبر التحويل المصرفي؟
+    - I need to bank account transfer from another account into this one, what is the easiest way that can be done, and what information do i need?
+    - ماذا علي أن أفعل لتحويل الأموال إلى حسابي؟
+    - نفدت أموالي ، هل يمكنني إضافة أموال من البنك الذي أتعامل معه؟
+    - كيف يعمل التحويل؟
+    - I need to transfer money to my account from another bank
+    - Can I transfer money to my card via bank-transfer?
+- intent: transfer_not_received_by_recipient
+  examples: |
+    - When will my funds transfer?
+    - I just finished sending money, but it's not logging on the recipient side.
+    - I sent some money and the account hasn't recived the transfer I made.
+    - How can the recipient see my money transaction?
+    - لدي صديق يحتاج إلى المال في أسرع وقت ممكن. إذا كنت سأقوم بنقلها ، فكم من الوقت سيستغرق وصولها إليها؟
+    - how long do money transfers take?
+    - أحتاج إلى التحقق من الحالة لأن صديقي ليس لديه أموال أرسلتها.
+    - How long does it take for a transfer to get to a recipient?
+    - my friend has not got the money I sent last week.
+    - I am just waiting on the completion of the transaction.
+    - لماذا لم تصل المعاملة التي قمت بها مع صديقي بعد؟
+    - I payed my rent to my landlord a few days ago and he is saying the it never went though. Everything looks good to me and I even double checked the account number. I don't know what could be causing the confusion. Can you help me please?
+    - هل هناك سبب يجعل معاملتي تستغرق وقتًا طويلاً؟
+    - كم من الوقت تستغرق التحويلات؟ لقد أرسلت أموالاً إلى صديق يحتاجها بشكل عاجل. لقد مرت ساعات ولم تمر.
+    - أنا فقط في انتظار إتمام الصفقة.
+- intent: transfer_timing
+  examples: |
+    - إذا كان تحويلي من أوروبا ، فكم من الوقت سيستغرق ذلك؟
+    - هل سيظهر التحويل في حسابي قريبًا؟
+    - ما هي مدة انتظار التحويل إلى أوروبا؟
+    - متى سيصل تحويلي من الولايات المتحدة إلى هنا؟
+    - متى سيتم التحويل من البريد الأمريكي؟
+    - My Bank is in Europe, how long will the transfer take?
+    - كم يوما حتى يكون المال في حسابي؟
+    - كم من الوقت يجب أن أنتظر حوالة من الولايات المتحدة؟
+    - How long does it take to transfer from china? Is there a way to transfer it quickly, I need it urgently?
+    - لماذا لم يتم تحويلي من أوروبا؟
+    - I initiated a Bank transfer form Europe, how long will this take?
+    - كم من الوقت يستغرق التحويل من الصين؟
+    - أحتاج نقل سريع من الصين؟ كم ستكون السرعة؟
+    - ما هو الإطار الزمني للتحويل من الولايات المتحدة؟
+    - كم من الوقت حتى المال في حسابي؟
+- intent: unable_to_verify_identity
+  examples: |
+    - You will hear back from us about your verification results in 10 minutes to a one hour timeframe.  If these verification results do fail, please double-check to make sure your images are clear and have no glare or blur; your photos need to be fully readable.  You need to be 18 years of age or older and a resident of Switzerland or the European Economic Area to create an account.
+    - هل هناك أي أسباب لعدم قبول هويتي على الرغم من أن كل ما قدمته واقعي؟
+    - It is impossible to verify my identity
+    - I can't verify my ID. Why?
+    - فشل التطبيق في التحقق مني.
+    - ما الذي أفتقده للتحقق من هويتي؟
+    - التطبيق لا يعرف أنه أنا.
+    - The app failed to verify me.
+    - I am having difficulties to verify my identity.
+    - My ID won't be verified!
+    - The app doesn't believe that I am myself
+    - لماذا يستغرق الأمر وقتًا طويلاً للتحقق من هويتي
+    - لا يمكنني الحصول على التطبيق ليعرف أنه أنا.
+    - حاولت التحقق من هويتي ، لكنها لم تسمح لي بذلك.
+    - I am having trouble to verify my identity
+- intent: verify_my_identity
+  examples: |
+    - How do I verify my identity?
+    - I need to verify my identity. How do I do that?
+    - What documents do I need to get together to verify my identity?
+    - I need some help with identity verification.
+    - How can you assist on verifying my identity?
+    - Is there a specific type you need for identity verification?
+    - ما هي خطوات التحقق من الهوية؟
+    - ما هي الخطوات التي يجب أن أتخذها للتحقق من هويتي؟
+    - كيف يمكنني التحقق من هويتي؟
+    - I'm trying to verify my identity but can't figure out how, what do I do?
+    - ماذا علي أن أفعل للتحقق من هويتي؟
+    - why must I prove ID
+    - What will I need for identity verification?
+    - ما نوع الوثائق التي أحتاجها للتحقق من الهوية؟
+    - هل أحتاج إلى أي نوع من الوثائق لفحص الهوية؟
+- intent: verify_source_of_funds
+  examples: |
+    - Please explain to me how to know where my funds are from.
+    - كيف يمكنني التحقق لمعرفة مصدر أموالي؟
+    - Why does my money come from?
+    - Where are my funds being sourced from?
+    - أين يمكنني رؤية مصدر أموالي؟
+    - كيف يمكنني التحقق من مصدر الأموال؟
+    - هل هناك طريقة لمعرفة مصدر الأموال
+    - How can I tell where my funds came from?
+    - want to know where funds come from
+    - Where did my deposit for my source of funds come from?
+    - What is the source of my funds.
+    - Can I see where my money is being transferred from?
+    - تريد أن تعرف من أين تأتي الأموال
+    - أحتاج إلى تتبع وديعة
+    - ما هي مصادر الأموال في حسابي؟
+- intent: verify_top_up
+  examples: |
+    - لماذا يجب علي التحقق من التعبئة؟
+    - Where Is the top up verification code found?
+    - Why do the top-ups need to be verified?
+    - Can I verify a top up?
+    - what's my top-up verification code?
+    - ما هي فوائد التحقق من الشحن؟
+    - لماذا أحتاج للتحقق من التعبئة؟
+    - يرجى التحقق من بطاقة التعبئة الخاصة بي
+    - is there a reason i need to verify top up
+    - Where do i verify a top-up card?
+    - I am looking for my top-up verification code and cannot find it.
+    - الرجاء مساعدتي في العثور على رمز التحقق الخاص بي
+    - أين أذهب للحصول على الرمز للتحقق من بطاقة الشحن؟
+    - reason i need to verify top up
+    - Why do I have to verify the top-up that I started?
+- intent: virtual_card_not_working
+  examples: |
+    - Can I make multiple online transactions with my virtual card?
+    - Why can't I make multiple payments with my virtual card?
+    - I received my Virtual card information, but was unable to use it to make a purchase. Why did this happen and what can I do?
+    - حاولت استخدام بطاقتي الافتراضية التي تستخدم لمرة واحدة لدفع اشتراك في صالة الألعاب الرياضية وتم رفضها. اي افكار لماذا؟
+    - My Virtual card was rejected for a car rental. Why?
+    - My virtual card won't work.
+    - Why isn't my virtual card working?
+    - I was at the store earlier and my virtual card didn't work. What's the solution for this problem?
+    - My disposable virtual card has been rejected by the merchant earlier today. What should I do?
+    - كيف يتم رفض بطاقتي الافتراضية التي تستخدم لمرة واحدة للدفع مقابل الاشتراك في صالة الألعاب الرياضية؟
+    - Can I use my virtual card to complete transactions for memberships?
+    - سيارتي الافتراضية لا تعمل.
+    - لن تعمل بطاقتي الافتراضية التي تستخدم لمرة واحدة.
+    - I can't get my virtual card to work.
+    - virtual card won't work for me
+- intent: visa_or_mastercard
+  examples: |
+    - What major card payments are accepted?
+    - Do you do Visa or Mastercard?
+    - مرحبًا. هل يمكنك إخباري إذا كنت تستخدم بطاقة Visa أو Mastercard؟
+    - أنا أفضل ماستركارد.
+    - I'd like to get a Visa card, please.
+    - I would like to apply for a visa card.
+    - We need both a visa and a Mastercard.
+    - هل يمكن استلام فيزا وماستركارد منك؟
+    - Am I able to choose my card?
+    - ما هي البطاقات المتوفرة؟
+    - Do I get a choice between Visa and Mastercard?
+    - هل أحصل على ماستركارد وتأشيرة؟
+    - هل أنا مؤهل للحصول على بطاقة فيزا؟
+    - I want to get Visa and Mastercard
+    - I want a Mastercard, instead.
+- intent: why_verify_identity
+  examples: |
+    - I don't want to use this method to identify myself.
+    - What other methods are there to verify my identity?
+    - أفضل عدم التحقق من هويتي.
+    - لماذا أحتاج إلى التحقق من هويتي؟
+    - لن أتحقق من هويتي.
+    - هل يمكنني إجراء تحويلات قبل التحقق من الهوية؟
+    - هل يلزم التحقق من هويتي قبل أن أتمكن من استخدام حسابي؟
+    - What do you do with all the identity information you're collecting from me?
+    - Why do you guys need to verify my identity?
+    - تفاصيل الهوية المطلوبة
+    - I don't understand why you want so much of my personal info.
+    - Why does my identity need verification?
+    - لماذا يُطلب مني التحقق من هويتي؟
+    - which identity details are required
+    - لماذا تحتاج هويتي للتحقق؟
+- intent: wrong_amount_of_cash_received
+  examples: |
+    - Cash withdrawal was incorrect at ATM.
+    - Why did I get less money than I asked for?
+    - How can I get my money that I didn't get from the ATM?
+    - لماذا لم أحصل إلا على 20 دولارًا عندما حاولت الحصول على 100 دولار
+    - لماذا حصلت على نقود أقل مما طلبت؟
+    - did not receive correct cash upon withdrawal
+    - It kept my cash
+    - حدث خطأ ما في الانسحاب. مبلغ المال ليس صحيحًا.
+    - لم تتلق النقد الصحيح عند السحب
+    - I tried to withdraw 40 pounds but only 20 came out. Did you steal my money?
+    - I'm at an ATM and withdrew 30 pounds and was only given 10. What should I do?
+    - كيف يحدث عندما طلبت 100 أعطاني فقط 20.00 في التطبيق
+    - أعطتني أجهزة الصراف الآلي نقودًا أقل مما طلبت
+    - لا أعرف ما إذا كانت هذه مشكلة في جهاز الصراف الآلي أو حسابي ، لكنني حاولت للتو سحب 30 جنيهاً من جهاز الصراف الآلي الذي أنا عليه الآن ولم أعطي إلا 10 جنيهات. هل هذا خلل أو ما الذي يحدث بالضبط؟
+    - السحب النقدي غير صحيح في أجهزة الصراف الآلي.
+- intent: wrong_exchange_rate_for_cash_withdrawal
+  examples: |
+    - A wrong exchange rate was applied to a transaction made abroad.
+    - كان سعر الصرف الذي حصلت عليه مقابل النقد خاطئًا
+    - هل هناك رسوم مرتبطة باستخدام أجهزة الصراف الآلي للعملات الأجنبية؟
+    - لقد أخرجت عملة أجنبية وكان سعر الصرف خاطئًا.
+    - I was charged an incorrect exchange rate for a withdrawal.
+    - I made a withdraw from the ATM this past holiday and it seems like a was charged too much. If I would have   known about these charges I wouldn't have made a withdraw.
+    - أعتقد أن سعر صرف النقود التي سحبتها كان خاطئًا.
+    - أحتاج إلى النقود الأجنبية المناسبة ، بالسعر المناسب ، في أجهزة الصراف الآلي ، عندما أسافر للخارج.
+    - Is there a fee for exchanging cash?
+    - My ecchange rate was wrong for a cash transaction.
+    - Can you explain your exchange rate policy? I don't think I received the correct amount of cash in my ATM transaction.
+    - I took out a foreign currency and the exchange rate is wrong.
+    - هل يمكنك شرح سياسة سعر الصرف الخاصة بك؟ لا أعتقد أنني تلقيت المبلغ النقدي الصحيح في معاملة الصراف الآلي الخاصة بي.
+    - I tried to use the ATM with foreign currency. The conversion rate applied was wrong.
+    - لقد استخدمت جهاز الصراف الآلي لإخراج الأموال ولم أدرك أنني سأحمل نفس المبلغ الذي كنت عليه أو لم أكن لأفعل ذلك!
